@@ -247,6 +247,9 @@ img.failed {
   line-height: var(--leading-h5);
   letter-spacing: var(--tracking-h4);
 }
+.brand img {
+  border-radius: 8px;
+}
 .nav-links {
   display: flex;
   gap: 36px;
