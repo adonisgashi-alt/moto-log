@@ -167,6 +167,9 @@ h6 {
   .br-wide {
     display: inline;
   }
+  .nowrap-wide {
+    white-space: nowrap;
+  }
 }
 h1 {
   font-size: var(--text-5xl);
