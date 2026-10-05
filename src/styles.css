@@ -160,6 +160,14 @@ h6 {
 .nowrap {
   white-space: nowrap;
 }
+.br-wide {
+  display: none;
+}
+@media (min-width: 761px) {
+  .br-wide {
+    display: inline;
+  }
+}
 h1 {
   font-size: var(--text-5xl);
   line-height: var(--leading-h1);
@@ -1108,7 +1116,8 @@ summary:focus-visible {
   .float-card {
     left: 20px;
     right: 20px;
-    bottom: 20px;
+    top: 20px;
+    bottom: auto;
     min-width: 0;
   }
   .marquee {
