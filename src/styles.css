@@ -28,7 +28,8 @@
   --grey-4: #5c5c5a;
   --line: rgb(10 10 10 / 0.12);
   --line-dark: rgb(255 255 255 / 0.16);
-  --radius: 20px;
+  --radius: 20px; /* every card, panel and photo */
+  --radius-sm: 12px; /* elements inside cards */
   --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   /*
     Typography system (DM Sans). Hierarchy comes from size, spacing, weight and colour.
@@ -37,15 +38,7 @@
     are tuned so they land on the spec values: 48 / 64 / 80px for Display at
     390 / 768 / 1143px wide, and 44-64 (H1), 36-48 (H2), 30-36 (H3), 24-28 (H4).
   */
-  --app-gradient: linear-gradient(
-    180deg,
-    #84b6f4 0%,
-    #aecdf6 25%,
-    #d6e1f8 48%,
-    #c2d3f0 62%,
-    #5a86c4 82%,
-    #12396f 100%
-  );
+  --brand-blue: #12396f;
   --font-sans: "DM Sans", sans-serif;
   --sans: var(--font-sans), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
@@ -359,9 +352,8 @@ img.failed {
   bottom: 36px;
   min-width: 340px;
   padding: 18px 20px 8px;
-  border-radius: 24px;
-  /* white card with a faint blue wash at the top, like the app preview */
-  background: linear-gradient(180deg, #eaf2fe 0%, var(--white) 46%);
+  border-radius: var(--radius);
+  background: var(--white);
   box-shadow:
     0 0 0 8px rgb(255 255 255 / 0.4),
     0 30px 70px rgb(8 30 70 / 0.35);
@@ -372,7 +364,7 @@ img.failed {
   font-weight: 600;
   letter-spacing: var(--tracking-label);
   text-transform: uppercase;
-  color: #3d6fb3;
+  color: var(--brand-blue);
 }
 .float-row {
   display: flex;
@@ -389,14 +381,9 @@ img.failed {
   flex-shrink: 0;
   width: 42px;
   height: 42px;
-  border-radius: 13px;
+  border-radius: var(--radius-sm);
   color: var(--white);
-  background: var(--app-gradient);
-  box-shadow: 0 6px 14px rgb(18 57 111 / 0.3);
-}
-.float-icon svg {
-  stroke-width: 2.2;
-  filter: drop-shadow(0 1px 2px rgb(18 57 111 / 0.7));
+  background: var(--brand-blue);
 }
 .float-text {
   flex: 1;
@@ -420,7 +407,7 @@ img.failed {
   line-height: 1;
   font-weight: 600;
   padding: 8px 12px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   background: #fdf1cc;
   color: #8f6d22;
 }
@@ -556,8 +543,7 @@ img.failed {
   justify-items: center;
   align-content: start;
   overflow: hidden;
-  /* vertical gradient: soft blue at the top, fading to near-white, then down to deep navy */
-  background: var(--app-gradient);
+  background: var(--brand-blue);
   border-radius: var(--radius);
   padding: 64px 24px 0;
 }
@@ -655,7 +641,7 @@ img.failed {
 }
 .mini-stat {
   background: var(--paper);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 9px 10px;
 }
 .mini-stat span {
@@ -678,7 +664,7 @@ img.failed {
   justify-content: space-between;
   gap: 8px;
   border: 1px solid var(--grey-1);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 9px 10px;
 }
 .svc b {
@@ -711,7 +697,7 @@ img.failed {
   gap: 8px;
   height: 92px;
   background: var(--paper);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 12px;
 }
 .mini-bars i {
@@ -1011,6 +997,10 @@ summary:focus-visible {
 }
 
 @media (max-width: 760px) {
+  :root {
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
   .container,
   .band-copy {
     padding: 0 16px;
@@ -1062,7 +1052,6 @@ summary:focus-visible {
   .hero-media {
     height: 480px;
     min-height: 0;
-    border-radius: 16px;
   }
   .float-card {
     left: 20px;
@@ -1098,7 +1087,6 @@ summary:focus-visible {
   }
   .cta-box {
     padding: 44px 24px;
-    border-radius: 16px;
   }
   .footer-top {
     flex-direction: column;
@@ -1160,7 +1148,7 @@ summary:focus-visible {
   padding: 14px 16px;
   margin-bottom: 12px;
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   background: var(--white);
   color: var(--black);
 }
