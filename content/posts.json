@@ -1,0 +1,207 @@
+[
+  {
+    "slug": "how-often-change-motorcycle-oil",
+    "title": "How often should you change your motorcycle's oil?",
+    "category": "Maintenance",
+    "date": "2026-10-05",
+    "read": 5,
+    "image": "card-1",
+    "alt": "A rider working on a motorcycle in a garage with a socket set laid out beside the bike",
+    "excerpt": "Oil is the cheapest insurance your engine has. Here is how to work out the right interval for your bike, and how to stop it slipping past.",
+    "body": [
+      { "p": "Engine oil does more than lubricate. It cools, cleans and protects everything inside the engine, and on most motorcycles it also looks after the clutch and gearbox. Old oil does all of that worse, which is why an oil change is the service most riders will do more often than any other." },
+      { "h": "Start with the manual, then adjust for how you ride" },
+      { "p": "Your owner's manual gives a service interval, usually as a distance, a time, or both, whichever comes first. That second part matters. A bike that only does a few hundred miles a year still needs fresh oil, because oil ages in the sump even when the bike is parked." },
+      { "p": "Then think about how you actually ride. Short trips that never fully warm the engine, stop-start city riding, hot weather, track days and heavy loads are all harder on oil than steady road miles. If that sounds like you, changing earlier than the maximum is a sensible habit." },
+      { "h": "Signs your oil is overdue" },
+      { "ul": [
+        "The oil on the dipstick or in the sight glass looks very dark or gritty.",
+        "The engine feels rougher or noisier than usual.",
+        "The gearbox is notchy or the clutch feels different.",
+        "You cannot remember when you last changed it."
+      ] },
+      { "p": "That last one is the most common. Most missed services are not a decision to skip them. The date and the mileage just fade from memory." },
+      { "h": "Don't forget the filter" },
+      { "p": "Change the oil filter at the same time. A fresh filter holds the contaminants that fresh oil picks up, and the manual usually pairs the two. While the bike is on the stand, it is also a good moment to check the sump plug washer and look over the chain and tyres." },
+      { "h": "Make the next one automatic" },
+      { "p": "The easiest way to stay on schedule is to record each oil change when you do it: the date, the odometer reading and what you used. Then you always know what is coming. In MotoLog you set an interval by distance or time, and the app flags the service as due soon and then overdue, so it never depends on your memory." },
+      { "p": "Check your manual for the interval that applies to your bike, set it once, and let the reminders do the remembering." }
+    ]
+  },
+  {
+    "slug": "motorcycle-chain-maintenance",
+    "title": "Motorcycle chain maintenance: clean, lube and adjust",
+    "category": "Maintenance",
+    "date": "2026-10-04",
+    "read": 5,
+    "image": "card-3",
+    "alt": "A rider on a naturalistic mountain road, bike front on",
+    "excerpt": "A neglected chain wears out sprockets, costs power and can fail at the worst time. A few minutes of regular care keeps it quiet and safe.",
+    "body": [
+      { "p": "On a chain-driven motorcycle, the chain is the last link between the engine and the road. It works hard, it is exposed to water and grit, and it tells you when it is unhappy: noise, rough running or a stiff, rusty look." },
+      { "p": "The good news is that chain care is quick, cheap and easy to do at home. The less good news is that it is also easy to put off." },
+      { "h": "Clean it" },
+      { "p": "Grit mixed with old lube forms a grinding paste that wears the chain and the sprockets. Use a chain brush and a cleaner that is safe for your chain type (check for O-ring or X-ring compatibility), wipe it down, and let it dry before you apply anything new." },
+      { "h": "Lube it" },
+      { "p": "Apply chain lube to the inside run of the chain while you slowly turn the rear wheel, so it gets thrown outwards and works into the rollers. Do it when the chain is warm from a ride, and let it sit before you head out so it does not fling off onto the wheel." },
+      { "h": "Check the slack" },
+      { "p": "A chain that is too loose can jump the sprockets. One that is too tight strains the gearbox and wheel bearings. Your manual gives the correct slack measurement. Check it at the tightest point of the chain, because chains do not wear evenly." },
+      { "h": "How often?" },
+      { "p": "Many riders lube roughly every few hundred miles and after riding in the rain, and clean when the chain looks dirty. Manuals vary, so use the interval for your own bike as a guide and adjust for your conditions: dust, salt and wet roads all call for more attention." },
+      { "ul": [
+        "Lube: little and often.",
+        "Clean: when it is dirty or before a long trip.",
+        "Slack check: regularly, and after any adjustment.",
+        "Replace the chain and sprockets as a set when they are worn."
+      ] },
+      { "h": "Track it like any other service" },
+      { "p": "Chain care is a perfect fit for distance-based reminders. In MotoLog you can set up a recurring chain clean and lube, so you see it flagged as due soon before it becomes overdue, and you can log it in a few seconds when it is done." }
+    ]
+  },
+  {
+    "slug": "why-track-motorcycle-mileage",
+    "title": "Why you should track your motorcycle's mileage",
+    "category": "Mileage",
+    "date": "2026-10-03",
+    "read": 4,
+    "image": "card-2",
+    "alt": "Close-up of a motorcycle ignition and dashboard",
+    "excerpt": "Your odometer is more useful than it looks. Logging it regularly makes servicing, budgeting and resale easier.",
+    "body": [
+      { "p": "Most riders glance at the odometer without thinking much about it. But the number is the backbone of nearly every maintenance decision: when oil is due, when the chain needs attention, when tyres and brake fluid should be looked at. If you do not know your mileage, you cannot know what is due." },
+      { "h": "Mileage drives the service schedule" },
+      { "p": "Service intervals are usually written in distance, time, or both. Without a recent odometer reading you are guessing how far you are from the next one. A short log of readings, even just after rides, turns that guess into a clear number." },
+      { "h": "See how much you really ride" },
+      { "p": "It is surprisingly common to be wrong about how much you ride. Some riders discover they cover far more than they thought, and need to service more often. Others find the bike sits idle, so time-based intervals matter more than distance. Tracking your distance per month and per year shows which one applies to you." },
+      { "ul": [
+        "Plan service and parts costs more accurately.",
+        "Spot a change in usage, like a new commute.",
+        "Know when a warranty or inspection limit is approaching.",
+        "Have an accurate figure ready when you sell."
+      ] },
+      { "h": "Keep it simple" },
+      { "p": "You do not need a spreadsheet. Note the odometer at the end of a ride or whenever you fuel up, and let the numbers build up. The habit matters more than the method." },
+      { "p": "With MotoLog you log your odometer after a ride and see your distance per month and per year. Your service reminders then match how much you actually ride, instead of how much you think you ride." }
+    ]
+  },
+  {
+    "slug": "five-minute-pre-ride-check",
+    "title": "The 5-minute pre-ride check every rider should do",
+    "category": "Safety",
+    "date": "2026-10-02",
+    "read": 4,
+    "image": "card-3",
+    "alt": "A rider in a helmet and jacket approaching on a country road",
+    "excerpt": "A quick walk around the bike before you set off catches most problems while they are still small. Here is a simple routine you can repeat every time.",
+    "body": [
+      { "p": "A motorcycle gives you less margin for error than a car, so a short check before you ride is time well spent. It takes about five minutes once it becomes a habit, and it catches the kind of small problems that turn into big ones at speed." },
+      { "h": "Tyres and wheels" },
+      { "p": "Check tyre pressures with a gauge when the tyres are cold, and compare them to the figures in your manual. Look at the tread and sidewalls for cuts, bulges or embedded objects. Under-inflated tyres affect handling and wear faster." },
+      { "h": "Controls and brakes" },
+      { "p": "Pull the brake and clutch levers and check they move smoothly and return fully. Press the brake pedal. Check that the throttle snaps closed when released. Look for fluid levels in the brake reservoirs and for any leaks around the calipers." },
+      { "h": "Lights and signals" },
+      { "p": "Switch on the ignition and check the headlight, brake light, indicators and horn. A bike that others cannot see or hear is a bike at risk." },
+      { "h": "Chain, fluids and fixings" },
+      { "ul": [
+        "Chain: slack and lubrication, as per your manual.",
+        "Oil and coolant: levels at the correct marks.",
+        "Fuel: enough for the ride, with a margin.",
+        "Bolts and bags: nothing loose, luggage secure."
+      ] },
+      { "h": "Make it a habit, then back it up" },
+      { "p": "The pre-ride check catches what you can see today. The service schedule catches what you cannot: wear that builds up over distance and time. Used together they cover both. MotoLog keeps the second half in order by flagging each service as it comes due, so your walk-around only has to cover the first." },
+      { "p": "A few minutes before every ride is a small price for arriving where you meant to go." }
+    ]
+  },
+  {
+    "slug": "how-to-plan-a-motorcycle-trip",
+    "title": "How to plan a motorcycle trip you will actually enjoy",
+    "category": "Trips",
+    "date": "2026-10-01",
+    "read": 6,
+    "image": "hero",
+    "alt": "A winding road through green mountains with a few riders in the distance",
+    "excerpt": "A good ride starts before you leave the driveway. Plan the route, the stops and the bike, and the trip takes care of itself.",
+    "body": [
+      { "p": "The best motorcycle trips are rarely the most complicated. They are the ones where the route is comfortable, the stops are in the right places and the bike behaves. A little planning is what makes that possible." },
+      { "h": "Choose a route that suits the bike and the riders" },
+      { "p": "Pick a start, a destination and a rough distance you will be happy to cover in a day. Be realistic: curvy roads, weather and photo stops all slow you down. If you ride with others, plan around the least experienced rider, not the fastest." },
+      { "h": "Plan fuel, food and rest" },
+      { "p": "Know roughly how far your bike goes on a tank, and plan fuel stops with a margin, especially in remote areas. Build in a break every couple of hours. Tired riders make mistakes, and breaks make the ride more enjoyable anyway." },
+      { "h": "Check the bike before you go" },
+      { "p": "Before a long trip, look at the things that matter most: tyres, brakes, oil, chain, lights and coolant. Is a service due soon? It is much better to do it a week before the trip than to find out about it two hundred miles from home." },
+      { "ul": [
+        "Check what is due soon or overdue on your bike.",
+        "Look over tyres, brakes, fluids and chain.",
+        "Pack basic tools, a puncture repair kit and a phone charger.",
+        "Tell someone your route and rough timings."
+      ] },
+      { "h": "Keep a record of the trip" },
+      { "p": "Trips are worth remembering, and the distance counts towards your maintenance. In MotoLog you can map out your next ride with a start, a destination, dates and notes, mark it as ridden afterwards, and the distance goes straight into your log. That keeps your mileage accurate and your service reminders in step with what you really rode." },
+      { "p": "Plan the practical parts, then leave plenty of room for the unplanned ones. That is where the best stories come from." }
+    ]
+  },
+  {
+    "slug": "motorcycle-maintenance-schedule",
+    "title": "A simple motorcycle maintenance schedule",
+    "category": "Maintenance",
+    "date": "2026-09-30",
+    "read": 6,
+    "image": "card-1",
+    "alt": "Tools laid out next to a motorcycle in a workshop",
+    "excerpt": "Oil, chain, tyres, brake fluid and more: what to look at, how often, and how to keep it all straight without a notebook.",
+    "body": [
+      { "p": "Motorcycles are not complicated to look after, but there are a lot of small jobs, each with its own interval. Some are measured in distance, others in time, and it is easy to lose track of which is next." },
+      { "p": "Always follow the schedule in your own manual, since it varies by model. As a general guide, these are the areas most riders keep an eye on." },
+      { "h": "Frequent checks" },
+      { "ul": [
+        "Tyre pressure and condition.",
+        "Chain slack and lubrication.",
+        "Oil and coolant levels.",
+        "Lights, brakes and controls."
+      ] },
+      { "h": "Regular services" },
+      { "ul": [
+        "Engine oil and filter, by distance or time.",
+        "Air filter, inspected and replaced when dirty.",
+        "Spark plugs, at the interval your manual gives.",
+        "Brake pads, checked for wear."
+      ] },
+      { "h": "Time-based items" },
+      { "p": "Some things age even if the bike barely moves. Brake fluid absorbs moisture over time, and coolant has a service life too. Manuals typically give these in years rather than miles, which is exactly the kind of thing that is easy to forget." },
+      { "h": "Bigger jobs" },
+      { "p": "Valve clearances, chain and sprocket replacement, fork oil and tyre replacement come around less often, but they are significant. Having a record of the last time you did each one makes the next decision straightforward." },
+      { "h": "One place for all of it" },
+      { "p": "The hard part is not knowing what to do. It is remembering when. In MotoLog you add each service with an interval by distance or time, and the app shows what is due soon and what is overdue. When you do the job, you log it, and the clock starts again." },
+      { "p": "Set up your list once, and it keeps working for you every ride after that." }
+    ]
+  },
+  {
+    "slug": "service-history-motorcycle-resale-value",
+    "title": "How a service history helps your motorcycle sell for more",
+    "category": "Ownership",
+    "date": "2026-09-29",
+    "read": 4,
+    "image": "card-2",
+    "alt": "Close-up of a motorcycle ignition and instrument panel",
+    "excerpt": "Buyers pay more for a bike they can trust. A clear record of services and mileage is one of the easiest ways to show that.",
+    "body": [
+      { "p": "When someone buys a used motorcycle, they are buying the previous owner's habits as much as the machine. They cannot see how it was looked after, so they look for evidence." },
+      { "h": "What buyers want to see" },
+      { "ul": [
+        "Regular oil changes with dates and mileage.",
+        "Evidence of major services done on time.",
+        "A believable odometer history.",
+        "Proof that wear items were replaced when needed."
+      ] },
+      { "p": "A bike with a tidy history is easier to trust, and trust is what turns a hesitant buyer into one who accepts your asking price. A bike with no history raises questions, and buyers tend to answer those questions by offering less." },
+      { "h": "Records beat memory" },
+      { "p": "Receipts get lost and memories blur. A year or two later, you may struggle to say when the chain was last replaced or when the brake fluid was last changed. Recording each job at the time makes it simple to answer, and it makes it simple to show." },
+      { "h": "Good records help you ride, too" },
+      { "p": "A service history is not just for the sale. It is the same information that keeps the bike reliable while you own it. Knowing what was done and when tells you what is coming next, and helps you catch problems earlier." },
+      { "h": "Start now" },
+      { "p": "You do not have to wait for the day you sell. Every service you log today adds to the story. MotoLog keeps your services and mileage in one place on your phone, so when the time comes you have the history ready instead of a drawer of half-remembered receipts." },
+      { "p": "A well-kept bike is easier to enjoy and easier to sell. The records are how you prove it." }
+    ]
+  }
+]
