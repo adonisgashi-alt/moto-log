@@ -512,7 +512,9 @@ img.failed {
 }
 .showcase-visual {
   display: grid;
-  place-items: center;
+  justify-items: center;
+  align-content: start;
+  overflow: hidden;
   /* soft pastel wash: sky blue top, lavender and pink through the middle, peach glow at the bottom */
   background:
     radial-gradient(70% 55% at 12% 8%, #7fb4f0 0%, transparent 70%),
@@ -521,7 +523,7 @@ img.failed {
     radial-gradient(60% 50% at 8% 90%, #f0b8d4 0%, transparent 70%),
     #b9c9f2;
   border-radius: var(--radius);
-  padding: 64px 24px;
+  padding: 64px 24px 0;
 }
 .showcase h2 {
   margin-bottom: 40px;
@@ -558,6 +560,9 @@ img.failed {
 
 /* Phone mockup */
 .phone {
+  zoom: 1.28;
+  /* the bottom of the phone runs off the frame */
+  margin-bottom: -150px;
   width: 290px;
   height: 590px;
   border-radius: 46px;
@@ -1037,9 +1042,11 @@ summary:focus-visible {
     padding-block: 80px;
   }
   .showcase-visual {
-    padding: 40px 12px;
+    padding: 40px 12px 0;
   }
   .phone {
+    zoom: 1.1;
+    margin-bottom: -110px;
     width: 270px;
     height: 550px;
   }
