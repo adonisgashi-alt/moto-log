@@ -37,6 +37,15 @@
     are tuned so they land on the spec values: 48 / 64 / 80px for Display at
     390 / 768 / 1143px wide, and 44-64 (H1), 36-48 (H2), 30-36 (H3), 24-28 (H4).
   */
+  --app-gradient: linear-gradient(
+    180deg,
+    #84b6f4 0%,
+    #aecdf6 25%,
+    #d6e1f8 48%,
+    #c2d3f0 62%,
+    #5a86c4 82%,
+    #12396f 100%
+  );
   --font-sans: "DM Sans", sans-serif;
   --sans: var(--font-sans), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
@@ -382,12 +391,12 @@ img.failed {
   height: 42px;
   border-radius: 13px;
   color: var(--white);
-  background: linear-gradient(180deg, #84b6f4, #3d6fb3);
-  box-shadow: 0 6px 14px rgb(61 111 179 / 0.35);
+  background: var(--app-gradient);
+  box-shadow: 0 6px 14px rgb(18 57 111 / 0.3);
 }
-.float-icon.dark {
-  background: linear-gradient(180deg, #3d6fb3, #12396f);
-  box-shadow: 0 6px 14px rgb(18 57 111 / 0.4);
+.float-icon svg {
+  stroke-width: 2.2;
+  filter: drop-shadow(0 1px 2px rgb(18 57 111 / 0.7));
 }
 .float-text {
   flex: 1;
@@ -410,15 +419,14 @@ img.failed {
   font-size: var(--text-xs);
   line-height: 1;
   font-weight: 600;
-  padding: 7px 11px;
-  border-radius: 999px;
-  border: 1px solid #3d6fb3;
-  color: #3d6fb3;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: #fdf1cc;
+  color: #8f6d22;
 }
 .float-pill.solid {
-  background: #12396f;
-  border-color: #12396f;
-  color: var(--white);
+  background: #f8dcdc;
+  color: #b0322c;
 }
 
 /* Marquee */
@@ -549,15 +557,7 @@ img.failed {
   align-content: start;
   overflow: hidden;
   /* vertical gradient: soft blue at the top, fading to near-white, then down to deep navy */
-  background: linear-gradient(
-    180deg,
-    #84b6f4 0%,
-    #aecdf6 25%,
-    #d6e1f8 48%,
-    #c2d3f0 62%,
-    #5a86c4 82%,
-    #12396f 100%
-  );
+  background: var(--app-gradient);
   border-radius: var(--radius);
   padding: 64px 24px 0;
 }
