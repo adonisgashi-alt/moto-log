@@ -40,3 +40,10 @@ if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: re
 }
 
 document.getElementById("year").textContent = String(new Date().getFullYear());
+
+// If a photo can't load, keep the dark placeholder instead of a broken-image icon
+document.querySelectorAll("main img").forEach((img) => {
+  const hide = () => img.classList.add("failed");
+  if (img.complete && img.naturalWidth === 0) hide();
+  img.addEventListener("error", hide);
+});
