@@ -8,13 +8,63 @@
       name="description"
       content="MotoLog keeps track of your motorcycle's due services, your mileage and your trips, so you spend less time on paperwork and more time riding."
     />
+    <link rel="canonical" href="https://www.moto-log.app/" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content="MotoLog" />
+    <meta property="og:site_name" content="MotoLog" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="MotoLog: service, mileage and trip tracking for riders" />
     <meta property="og:description" content="Every ride logged. Every service on time." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.moto-log.app/" />
+    <meta property="og:image" content="https://www.moto-log.app/images/hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MotoLog: service, mileage and trip tracking for riders" />
+    <meta name="twitter:description" content="Every ride logged. Every service on time." />
+    <meta name="twitter:image" content="https://www.moto-log.app/images/hero.jpg" />
+    <link rel="alternate" type="application/rss+xml" title="MotoLog blog" href="/rss.xml" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.moto-log.app/#organization",
+            "name": "MotoLog",
+            "url": "https://www.moto-log.app/",
+            "logo": "https://www.moto-log.app/motolog-icon.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.moto-log.app/#website",
+            "name": "MotoLog",
+            "url": "https://www.moto-log.app/",
+            "publisher": { "@id": "https://www.moto-log.app/#organization" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "MobileApplication",
+            "name": "MotoLog",
+            "url": "https://www.moto-log.app/",
+            "description": "MotoLog keeps track of a motorcycle's due services, mileage and trips.",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "iOS, Android",
+            "publisher": { "@id": "https://www.moto-log.app/#organization" }
+          }
+        ]
+      }
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/src/styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE1MMLZFS4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RE1MMLZFS4');
+    </script>
   </head>
   <body>
     <!--
@@ -23,18 +73,22 @@
     -->
     <header class="nav" id="top">
       <div class="container nav-inner">
-        <a href="#top" class="brand" aria-label="MotoLog home">
+        <a href="/" class="brand" aria-label="MotoLog home">
           <img src="/motolog-icon.png" alt="" width="32" height="32" />
           <span>MotoLog</span>
         </a>
         <nav class="nav-links" id="nav-links">
-          <a href="#features">Features</a>
-          <a href="#how">How it works</a>
-          <a href="#faq">FAQ</a>
-          <a href="/login.html">Log in</a>
+          <a href="/features">Features</a>
+          <a href="/how-it-works">How it works</a>
+          <a href="/blog">Blog</a>
+          <a href="/faq">FAQ</a>
           <a href="#download" class="btn btn-dark mobile-only">Get the app</a>
+          <a href="/login" class="btn btn-ghost mobile-only">Log in</a>
         </nav>
-        <a href="#download" class="btn btn-dark desktop-only">Get the app</a>
+        <div class="nav-actions desktop-only">
+          <a href="#download" class="btn btn-dark">Get the app</a>
+          <a href="/login" class="btn btn-ghost">Log in</a>
+        </div>
         <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
           <span></span><span></span>
         </button>
@@ -66,19 +120,26 @@
               loading="eager"
             />
             <div class="float-card" aria-hidden="true">
+              <p class="float-title">Next up</p>
               <div class="float-row">
-                <span class="dot"></span>
-                <div>
+                <span class="float-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c3 3.8 5.5 6.6 5.5 10a5.5 5.5 0 0 1-11 0c0-3.4 2.5-6.2 5.5-10Z" /></svg>
+                </span>
+                <div class="float-text">
                   <b>Engine oil &amp; filter</b>
                   <span>Due in 380 km</span>
                 </div>
+                <em class="float-pill">Due soon</em>
               </div>
               <div class="float-row">
-                <span class="dot solid"></span>
-                <div>
+                <span class="float-icon dark">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="9" height="6" rx="3" /><rect x="12" y="9" width="9" height="6" rx="3" /></svg>
+                </span>
+                <div class="float-text">
                   <b>Chain clean &amp; lube</b>
                   <span>80 km overdue</span>
                 </div>
+                <em class="float-pill solid">Overdue</em>
               </div>
             </div>
           </figure>
@@ -97,7 +158,7 @@
       <!-- Statement -->
       <section class="statement">
         <div class="container">
-          <p class="label">(About)</p>
+          <p class="label">About</p>
           <p class="statement-text reveal">
             Oil change was 4,000 km ago? Or was it 6,000? <span>MotoLog is the logbook for riders who'd rather be
             riding. It remembers what your bike needs, so you don't have to.</span>
@@ -109,8 +170,8 @@
       <section class="features" id="features">
         <div class="container">
           <div class="section-head">
-            <p class="label">(Features)</p>
-            <h2>Everything your bike needs, in your pocket</h2>
+            <p class="label">Features</p>
+            <h2>Everything <span class="nowrap-wide">your bike needs,</span> <br class="br-wide" /><span class="nowrap">in your pocket</span></h2>
           </div>
           <div class="feature-grid">
             <article class="feature-card reveal">
@@ -195,7 +256,7 @@
             </div>
           </div>
           <div class="showcase-copy">
-            <p class="label">(The app)</p>
+            <p class="label">The app</p>
             <h2>One glance tells you what your bike needs</h2>
             <ul class="rows">
               <li>
@@ -228,7 +289,7 @@
       <section class="how" id="how">
         <div class="container">
           <div class="section-head">
-            <p class="label">(How it works)</p>
+            <p class="label">How it works</p>
             <h2>Set up in a minute. Useful for years.</h2>
           </div>
           <ol class="steps">
@@ -267,7 +328,7 @@
       <section class="faq" id="faq">
         <div class="container faq-inner">
           <div class="faq-head">
-            <p class="label">(FAQ)</p>
+            <p class="label">FAQ</p>
             <h2>Questions riders ask</h2>
           </div>
           <div class="faq-list">
@@ -296,7 +357,7 @@
         <div class="container">
           <div class="cta-box">
             <div>
-              <p class="label light">(Download)</p>
+              <p class="label light">Download</p>
               <h2>Ride more.<br />Worry less.</h2>
             </div>
             <div class="cta-side">
@@ -321,14 +382,14 @@
       <div class="container">
         <div class="footer-top">
           <nav>
-            <a href="#features">Features</a>
-            <a href="#how">How it works</a>
-            <a href="#faq">FAQ</a>
+            <a href="/features">Features</a>
+            <a href="/how-it-works">How it works</a>
+            <a href="/blog">Blog</a>
+            <a href="/faq">FAQ</a>
             <a href="#download">Download</a>
           </nav>
           <p>© <span id="year">2026</span> MotoLog</p>
         </div>
-        <p class="wordmark" aria-hidden="true">MotoLog</p>
       </div>
     </footer>
 

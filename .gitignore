@@ -2,3 +2,7 @@ node_modules
 dist
 *.tsbuildinfo
 .DS_Store
+/blog/
+/features.html
+/how-it-works.html
+/faq.html

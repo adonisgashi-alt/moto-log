@@ -13,6 +13,17 @@ links.addEventListener("click", (e) => {
   }
 });
 
+// Logo: back to the top of the homepage (and close the mobile menu)
+document.querySelector(".brand").addEventListener("click", (e) => {
+  toggle.setAttribute("aria-expanded", "false");
+  links.classList.remove("open");
+  if (location.pathname === "/" || location.pathname === "/index.html") {
+    e.preventDefault();
+    history.replaceState(null, "", location.pathname);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+});
+
 // Solid nav background once the page scrolls
 const nav = document.querySelector(".nav");
 const onScroll = () => nav.classList.toggle("scrolled", window.scrollY > 8);
