@@ -952,8 +952,7 @@ details p {
 
 /* Footer */
 .footer {
-  padding: 56px 0 0;
-  overflow: hidden;
+  padding: 56px 0 40px;
 }
 .footer-top {
   display: flex;
@@ -982,15 +981,6 @@ details p {
   line-height: var(--leading-small);
   letter-spacing: var(--tracking-small);
 }
-.wordmark {
-  font-size: clamp(4rem, 17vw, 16rem);
-  font-weight: 600;
-  letter-spacing: -0.05em;
-  line-height: 0.8;
-  margin: 32px 0 -0.06em;
-  text-align: center;
-}
-
 /* Reveal on scroll */
 .reveal.pending {
   opacity: 0;

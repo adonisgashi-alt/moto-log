@@ -64,7 +64,6 @@ export const footer = `
           </nav>
           <p>© <span id="year">2026</span> MotoLog</p>
         </div>
-        <p class="wordmark" aria-hidden="true">MotoLog</p>
       </div>
     </footer>
 
