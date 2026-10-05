@@ -16,7 +16,7 @@ The `dist/` folder can be hosted on any static host (Vercel, Netlify, GitHub Pag
 
 ## Photos
 
-The photos are free [Unsplash](https://unsplash.com/license) images loaded from Unsplash and shown in greyscale. To use your own, put files in `public/images/` and point the `<img src>` in `index.html` at them (e.g. `/images/hero.jpg`).
+The photos are free [Unsplash](https://unsplash.com/license) images, stored in `public/images/` (hero, card-1 to card-3, band) and shown in greyscale. To swap one, replace the file with your own.
 
 ## To fill in
 

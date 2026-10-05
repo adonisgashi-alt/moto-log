@@ -23,8 +23,8 @@
   </head>
   <body>
     <!--
-      Photos are free Unsplash images (unsplash.com/license), loaded from Unsplash.
-      To use your own, drop files into public/images/ and change the src, e.g. src="/images/hero.jpg".
+      Photos are free Unsplash images (unsplash.com/license), served from public/images/.
+      To swap one, replace the file in public/images/ (hero, card-1..3, band).
     -->
     <header class="nav" id="top">
       <div class="container nav-inner">
@@ -65,8 +65,8 @@
 
           <figure class="hero-media reveal">
             <img
-              src="https://unsplash.com/photos/OrP0buYnQV8/download?w=2000"
-              alt="A rider on a motorcycle, in black and white"
+              src="/images/hero.jpg"
+              alt="A road winding along a forested mountain ridge"
               loading="eager"
             />
             <div class="float-card" aria-hidden="true">
@@ -120,7 +120,7 @@
             <article class="feature-card reveal">
               <figure class="card-media">
                 <img
-                  src="https://unsplash.com/photos/4ORysIjH-mY/download?w=1200"
+                  src="/images/card-1.jpg"
                   alt="A man working on a motorcycle in a garage"
                   loading="lazy"
                 />
@@ -135,7 +135,7 @@
             <article class="feature-card reveal">
               <figure class="card-media">
                 <img
-                  src="https://unsplash.com/photos/94xrgjGVnpI/download?w=1200"
+                  src="/images/card-2.jpg"
                   alt="Close up of a motorcycle's dashboard"
                   loading="lazy"
                 />
@@ -150,8 +150,8 @@
             <article class="feature-card reveal">
               <figure class="card-media">
                 <img
-                  src="https://unsplash.com/photos/GM5cHEq9rOk/download?w=1200"
-                  alt="A motorcycle rider on a mountain road"
+                  src="/images/card-3.jpg"
+                  alt="A motorcycle rider on a country road"
                   loading="lazy"
                 />
               </figure>
@@ -258,7 +258,7 @@
       <!-- Image band -->
       <section class="band">
         <img
-          src="https://unsplash.com/photos/RhZMkOb8btU/download?w=2400"
+          src="/images/band.jpg"
           alt="A motorcyclist riding on a paved road lined with trees"
           loading="lazy"
         />
