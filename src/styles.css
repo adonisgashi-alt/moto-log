@@ -1507,3 +1507,45 @@ summary:focus-visible {
 .subpage .showcase + .cta {
   margin-top: 80px;
 }
+.info {
+  padding: 0 0 120px;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.info-card {
+  background: var(--paper);
+  border-radius: var(--radius);
+  padding: 28px;
+}
+.info-card h3 {
+  font-size: var(--text-xl);
+  line-height: var(--leading-h5);
+  letter-spacing: var(--tracking-h5);
+  margin-bottom: 10px;
+}
+.info-card p {
+  color: var(--grey-4);
+  margin: 0;
+}
+.subpage .blog-list {
+  margin-top: 0;
+}
+@media (max-width: 1000px) {
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  .info {
+    padding-bottom: 72px;
+  }
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  .info-card {
+    padding: 22px;
+  }
+}

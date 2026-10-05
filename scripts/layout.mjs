@@ -2,6 +2,9 @@
 export const SITE = "https://www.moto-log.app";
 export const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+const img = (p) => `/images/blog/${p.slug}.jpg`;
+const url = (p) => `/blog/${p.slug}`;
+
 export const head = ({ title, description, path, image, type = "website", extra = "" }) => `<!doctype html>
 <html lang="en">
   <head>
@@ -31,16 +34,16 @@ export const nav = (current = "") => `
           <span>MotoLog</span>
         </a>
         <nav class="nav-links" id="nav-links">
-          <a href="/features.html"${current === "features" ? ' aria-current="page"' : ""}>Features</a>
-          <a href="/how-it-works.html"${current === "how" ? ' aria-current="page"' : ""}>How it works</a>
-          <a href="/blog/"${current === "blog" ? ' aria-current="page"' : ""}>Blog</a>
-          <a href="/faq.html"${current === "faq" ? ' aria-current="page"' : ""}>FAQ</a>
+          <a href="/features"${current === "features" ? ' aria-current="page"' : ""}>Features</a>
+          <a href="/how-it-works"${current === "how" ? ' aria-current="page"' : ""}>How it works</a>
+          <a href="/blog"${current === "blog" ? ' aria-current="page"' : ""}>Blog</a>
+          <a href="/faq"${current === "faq" ? ' aria-current="page"' : ""}>FAQ</a>
           <a href="/#download" class="btn btn-dark mobile-only">Get the app</a>
-          <a href="/login.html" class="btn btn-ghost mobile-only">Log in</a>
+          <a href="/login" class="btn btn-ghost mobile-only">Log in</a>
         </nav>
         <div class="nav-actions desktop-only">
           <a href="/#download" class="btn btn-dark">Get the app</a>
-          <a href="/login.html" class="btn btn-ghost">Log in</a>
+          <a href="/login" class="btn btn-ghost">Log in</a>
         </div>
         <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
           <span></span><span></span>
@@ -53,10 +56,10 @@ export const footer = `
       <div class="container">
         <div class="footer-top">
           <nav>
-            <a href="/features.html">Features</a>
-            <a href="/how-it-works.html">How it works</a>
-            <a href="/blog/">Blog</a>
-            <a href="/faq.html">FAQ</a>
+            <a href="/features">Features</a>
+            <a href="/how-it-works">How it works</a>
+            <a href="/blog">Blog</a>
+            <a href="/faq">FAQ</a>
             <a href="/#download">Download</a>
           </nav>
           <p>© <span id="year">2026</span> MotoLog</p>
@@ -70,3 +73,11 @@ export const footer = `
 </html>
 `;
 
+
+export const postCard = (p) => `
+          <a class="post-card" href="${url(p)}" data-category="${esc(p.category)}">
+            <figure class="post-media"><img src="${img(p)}" alt="${esc(p.alt)}" loading="lazy" width="1400" height="933" /></figure>
+            <span class="post-tag">${esc(p.category)}</span>
+            <h3>${esc(p.title)}</h3>
+            <p>${esc(p.excerpt)}</p>
+          </a>`;

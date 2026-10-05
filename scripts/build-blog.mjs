@@ -2,21 +2,15 @@
 // Runs automatically before `npm run dev` and `npm run build`.
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 
-import { SITE, esc, head, nav, footer } from "./layout.mjs";
+import { SITE, esc, head, nav, footer, postCard } from "./layout.mjs";
 const posts = JSON.parse(readFileSync("content/posts.json", "utf8")).sort((a, b) => b.date.localeCompare(a.date));
 
 const fmtDate = (d) =>
   new Date(d + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const img = (p) => `/images/blog/${p.slug}.jpg`;
-const url = (p) => `/blog/${p.slug}.html`;
+const url = (p) => `/blog/${p.slug}`;
 
-const card = (p) => `
-          <a class="post-card" href="${url(p)}" data-category="${esc(p.category)}">
-            <figure class="post-media"><img src="${img(p)}" alt="${esc(p.alt)}" loading="lazy" width="1400" height="933" /></figure>
-            <span class="post-tag">${esc(p.category)}</span>
-            <h3>${esc(p.title)}</h3>
-            <p>${esc(p.excerpt)}</p>
-          </a>`;
+const card = postCard;
 
 // Blog index
 const [featured, ...rest] = posts;
@@ -26,7 +20,7 @@ const indexHtml =
     title: "MotoLog blog: motorcycle maintenance, mileage and trip tips",
     description:
       "Practical guides for riders: service intervals, chain care, mileage tracking, pre-ride checks and trip planning, from the MotoLog team.",
-    path: "/blog/",
+    path: "/blog",
     image: img(featured),
   }) +
   nav("blog") +
@@ -104,7 +98,7 @@ for (const p of posts) {
 
     <main class="article">
       <div class="container article-inner">
-        <a class="back" href="/blog/">← All articles</a>
+        <a class="back" href="/blog">← All articles</a>
         <p class="post-meta"><span class="post-tag">${esc(p.category)}</span> <span>${fmtDate(p.date)}</span> <span>${p.read} min read</span></p>
         <h1>${esc(p.title)}</h1>
         <p class="article-lede">${esc(p.excerpt)}</p>
@@ -132,10 +126,10 @@ for (const p of posts) {
 }
 
 // Sitemap and robots
-const urls = ["/", "/features.html", "/how-it-works.html", "/blog/", "/faq.html", ...posts.map(url)];
+const urls = ["/", "/features", "/how-it-works", "/blog", "/faq", ...posts.map(url)];
 writeFileSync(
   "public/sitemap.xml",
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u}</loc></url>`).join("\n")}\n</urlset>\n`,
 );
-writeFileSync("public/robots.txt", `User-agent: *\nAllow: /\nDisallow: /login.html\n\nSitemap: ${SITE}/sitemap.xml\n`);
+writeFileSync("public/robots.txt", `User-agent: *\nAllow: /\nDisallow: /login\n\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log(`blog: ${posts.length} articles`);
