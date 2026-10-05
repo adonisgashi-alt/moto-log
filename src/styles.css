@@ -515,14 +515,15 @@ img.failed {
   justify-items: center;
   align-content: start;
   overflow: hidden;
-  /* vertical pastel gradient: sky blue at the top, through periwinkle and lavender, to pink and peach at the bottom */
+  /* vertical gradient: soft blue at the top, fading to near-white, then down to deep navy */
   background: linear-gradient(
     180deg,
-    #6ea8ee 0%,
-    #9dbcf2 28%,
-    #c3b9f0 55%,
-    #ecbad8 80%,
-    #f6cdb8 100%
+    #84b6f4 0%,
+    #aecdf6 25%,
+    #d6e1f8 48%,
+    #c2d3f0 62%,
+    #5a86c4 82%,
+    #12396f 100%
   );
   border-radius: var(--radius);
   padding: 64px 24px 0;
