@@ -1116,8 +1116,9 @@ summary:focus-visible {
   .float-card {
     left: 20px;
     right: 20px;
-    top: 20px;
+    top: 50%;
     bottom: auto;
+    transform: translateY(-50%);
     min-width: 0;
   }
   .marquee {
