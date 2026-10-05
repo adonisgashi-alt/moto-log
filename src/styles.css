@@ -348,44 +348,77 @@ img.failed {
   position: absolute;
   left: 36px;
   bottom: 36px;
-  background: var(--white);
-  border-radius: 20px;
-  padding: 8px 20px;
-  min-width: 290px;
-  /* solid white card (readable on any photo) with a soft frosted frame */
+  min-width: 340px;
+  padding: 18px 20px 8px;
+  border-radius: 24px;
+  /* white card with a faint blue wash at the top, like the app preview */
+  background: linear-gradient(180deg, #eaf2fe 0%, var(--white) 46%);
   box-shadow:
     0 0 0 8px rgb(255 255 255 / 0.4),
-    0 24px 60px rgb(0 0 0 / 0.22);
+    0 30px 70px rgb(8 30 70 / 0.35);
+}
+.float-title {
+  font-size: var(--text-xs);
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: #3d6fb3;
 }
 .float-row {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
-  padding: 12px 0;
+  padding: 14px 0;
 }
 .float-row + .float-row {
   border-top: 1px solid var(--line);
 }
-.float-row b {
+.float-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  color: var(--white);
+  background: linear-gradient(180deg, #84b6f4, #3d6fb3);
+  box-shadow: 0 6px 14px rgb(61 111 179 / 0.35);
+}
+.float-icon.dark {
+  background: linear-gradient(180deg, #3d6fb3, #12396f);
+  box-shadow: 0 6px 14px rgb(18 57 111 / 0.4);
+}
+.float-text {
+  flex: 1;
+  min-width: 0;
+}
+.float-text b {
   display: block;
   font-weight: 600;
   font-size: var(--text-base);
   line-height: var(--leading-small);
 }
-.float-row span {
+.float-text span {
   font-size: var(--text-sm);
   line-height: var(--leading-small);
   color: var(--grey-4);
 }
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 2px solid var(--black);
+.float-pill {
   flex-shrink: 0;
+  font-style: normal;
+  font-size: var(--text-xs);
+  line-height: 1;
+  font-weight: 600;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid #3d6fb3;
+  color: #3d6fb3;
 }
-.dot.solid {
-  background: var(--black);
+.float-pill.solid {
+  background: #12396f;
+  border-color: #12396f;
+  color: var(--white);
 }
 
 /* Marquee */
