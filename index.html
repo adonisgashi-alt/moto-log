@@ -8,10 +8,52 @@
       name="description"
       content="MotoLog keeps track of your motorcycle's due services, your mileage and your trips, so you spend less time on paperwork and more time riding."
     />
+    <link rel="canonical" href="https://www.moto-log.app/" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content="MotoLog" />
+    <meta property="og:site_name" content="MotoLog" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="MotoLog: service, mileage and trip tracking for riders" />
     <meta property="og:description" content="Every ride logged. Every service on time." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.moto-log.app/" />
+    <meta property="og:image" content="https://www.moto-log.app/images/hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MotoLog: service, mileage and trip tracking for riders" />
+    <meta name="twitter:description" content="Every ride logged. Every service on time." />
+    <meta name="twitter:image" content="https://www.moto-log.app/images/hero.jpg" />
+    <link rel="alternate" type="application/rss+xml" title="MotoLog blog" href="/rss.xml" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.moto-log.app/#organization",
+            "name": "MotoLog",
+            "url": "https://www.moto-log.app/",
+            "logo": "https://www.moto-log.app/motolog-icon.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.moto-log.app/#website",
+            "name": "MotoLog",
+            "url": "https://www.moto-log.app/",
+            "publisher": { "@id": "https://www.moto-log.app/#organization" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "MobileApplication",
+            "name": "MotoLog",
+            "url": "https://www.moto-log.app/",
+            "description": "MotoLog keeps track of a motorcycle's due services, mileage and trips.",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "iOS, Android",
+            "publisher": { "@id": "https://www.moto-log.app/#organization" }
+          }
+        ]
+      }
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/src/styles.css" />

@@ -1,0 +1,26 @@
+# MotoLog
+
+> MotoLog is a mobile app that helps motorcycle riders keep track of due services, log mileage and record trips, so nothing gets missed and the service history stays in one place.
+
+## Pages
+
+- [Home](https://www.moto-log.app/): what MotoLog does and how to get the app
+- [Features](https://www.moto-log.app/features): service reminders, mileage logging and trip tracking
+- [How it works](https://www.moto-log.app/how-it-works): from adding a bike to staying on top of maintenance
+- [FAQ](https://www.moto-log.app/faq): common questions about the app
+- [Blog](https://www.moto-log.app/blog): guides for riders on maintenance, mileage and trips
+
+## Blog articles
+
+- [How often should you change your motorcycle's oil?](https://www.moto-log.app/blog/how-often-change-motorcycle-oil): Oil is the cheapest insurance your engine has. Here is how to work out the right interval for your bike, and how to stop it slipping past.
+- [Motorcycle chain maintenance: clean, lube and adjust](https://www.moto-log.app/blog/motorcycle-chain-maintenance): A neglected chain wears out sprockets, costs power and can fail at the worst time. A few minutes of regular care keeps it quiet and safe.
+- [Why you should track your motorcycle's mileage](https://www.moto-log.app/blog/why-track-motorcycle-mileage): Your odometer is more useful than it looks. Logging it regularly makes servicing, budgeting and resale easier.
+- [The 5-minute pre-ride check every rider should do](https://www.moto-log.app/blog/five-minute-pre-ride-check): A quick walk around the bike before you set off catches most problems while they are still small. Here is a simple routine you can repeat every time.
+- [How to plan a motorcycle trip you will actually enjoy](https://www.moto-log.app/blog/how-to-plan-a-motorcycle-trip): A good ride starts before you leave the driveway. Plan the route, the stops and the bike, and the trip takes care of itself.
+- [A simple motorcycle maintenance schedule](https://www.moto-log.app/blog/motorcycle-maintenance-schedule): Oil, chain, tyres, brake fluid and more: what to look at, how often, and how to keep it all straight without a notebook.
+- [How a service history helps your motorcycle sell for more](https://www.moto-log.app/blog/service-history-motorcycle-resale-value): Buyers pay more for a bike they can trust. A clear record of services and mileage is one of the easiest ways to show that.
+
+## Optional
+
+- [Sitemap](https://www.moto-log.app/sitemap.xml)
+- [RSS feed](https://www.moto-log.app/rss.xml)

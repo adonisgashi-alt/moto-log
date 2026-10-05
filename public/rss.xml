@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>MotoLog blog</title>
+  <link>https://www.moto-log.app/blog</link>
+  <description>Practical guides for riders: service intervals, mileage tracking and trip planning.</description>
+  <language>en</language>
+  <atom:link href="https://www.moto-log.app/rss.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>How often should you change your motorcycle's oil?</title>
+    <link>https://www.moto-log.app/blog/how-often-change-motorcycle-oil</link>
+    <guid>https://www.moto-log.app/blog/how-often-change-motorcycle-oil</guid>
+    <pubDate>Mon, 05 Oct 2026 09:00:00 GMT</pubDate>
+    <description>Oil is the cheapest insurance your engine has. Here is how to work out the right interval for your bike, and how to stop it slipping past.</description>
+  </item>
+  <item>
+    <title>Motorcycle chain maintenance: clean, lube and adjust</title>
+    <link>https://www.moto-log.app/blog/motorcycle-chain-maintenance</link>
+    <guid>https://www.moto-log.app/blog/motorcycle-chain-maintenance</guid>
+    <pubDate>Sun, 04 Oct 2026 09:00:00 GMT</pubDate>
+    <description>A neglected chain wears out sprockets, costs power and can fail at the worst time. A few minutes of regular care keeps it quiet and safe.</description>
+  </item>
+  <item>
+    <title>Why you should track your motorcycle's mileage</title>
+    <link>https://www.moto-log.app/blog/why-track-motorcycle-mileage</link>
+    <guid>https://www.moto-log.app/blog/why-track-motorcycle-mileage</guid>
+    <pubDate>Sat, 03 Oct 2026 09:00:00 GMT</pubDate>
+    <description>Your odometer is more useful than it looks. Logging it regularly makes servicing, budgeting and resale easier.</description>
+  </item>
+  <item>
+    <title>The 5-minute pre-ride check every rider should do</title>
+    <link>https://www.moto-log.app/blog/five-minute-pre-ride-check</link>
+    <guid>https://www.moto-log.app/blog/five-minute-pre-ride-check</guid>
+    <pubDate>Fri, 02 Oct 2026 09:00:00 GMT</pubDate>
+    <description>A quick walk around the bike before you set off catches most problems while they are still small. Here is a simple routine you can repeat every time.</description>
+  </item>
+  <item>
+    <title>How to plan a motorcycle trip you will actually enjoy</title>
+    <link>https://www.moto-log.app/blog/how-to-plan-a-motorcycle-trip</link>
+    <guid>https://www.moto-log.app/blog/how-to-plan-a-motorcycle-trip</guid>
+    <pubDate>Thu, 01 Oct 2026 09:00:00 GMT</pubDate>
+    <description>A good ride starts before you leave the driveway. Plan the route, the stops and the bike, and the trip takes care of itself.</description>
+  </item>
+  <item>
+    <title>A simple motorcycle maintenance schedule</title>
+    <link>https://www.moto-log.app/blog/motorcycle-maintenance-schedule</link>
+    <guid>https://www.moto-log.app/blog/motorcycle-maintenance-schedule</guid>
+    <pubDate>Wed, 30 Sep 2026 09:00:00 GMT</pubDate>
+    <description>Oil, chain, tyres, brake fluid and more: what to look at, how often, and how to keep it all straight without a notebook.</description>
+  </item>
+  <item>
+    <title>How a service history helps your motorcycle sell for more</title>
+    <link>https://www.moto-log.app/blog/service-history-motorcycle-resale-value</link>
+    <guid>https://www.moto-log.app/blog/service-history-motorcycle-resale-value</guid>
+    <pubDate>Tue, 29 Sep 2026 09:00:00 GMT</pubDate>
+    <description>Buyers pay more for a bike they can trust. A clear record of services and mileage is one of the easiest ways to show that.</description>
+  </item>
+</channel>
+</rss>

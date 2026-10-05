@@ -80,7 +80,10 @@ for (const p of posts) {
     image: SITE + img(p),
     datePublished: p.date,
     dateModified: p.date,
-    author: { "@type": "Organization", name: "MotoLog" },
+    inLanguage: "en",
+    articleSection: p.category,
+    wordCount: p.body.map((b) => b.p ?? b.h ?? (b.ul ? b.ul.join(" ") : "")).join(" ").split(/\s+/).length,
+    author: { "@type": "Organization", name: "MotoLog", url: SITE + "/" },
     publisher: { "@type": "Organization", name: "MotoLog", logo: { "@type": "ImageObject", url: SITE + "/motolog-icon.png" } },
     mainEntityOfPage: SITE + url(p),
   };
@@ -125,11 +128,52 @@ for (const p of posts) {
   writeFileSync(`blog/${p.slug}.html`, html);
 }
 
-// Sitemap and robots
+// Sitemap, robots, RSS and llms.txt
+const pageDates = Object.fromEntries(posts.map((p) => [url(p), p.date]));
+const latest = posts[0].date;
 const urls = ["/", "/features", "/how-it-works", "/blog", "/faq", ...posts.map(url)];
 writeFileSync(
   "public/sitemap.xml",
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u}</loc></url>`).join("\n")}\n</urlset>\n`,
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u}</loc><lastmod>${pageDates[u] ?? latest}</lastmod></url>`).join("\n")}\n</urlset>\n`,
 );
-writeFileSync("public/robots.txt", `User-agent: *\nAllow: /\nDisallow: /login\n\nSitemap: ${SITE}/sitemap.xml\n`);
+
+// Search and AI crawlers are welcome on the public pages; /login stays out
+const bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "Bingbot", "DuckDuckBot", "CCBot", "Amazonbot", "Meta-ExternalAgent"];
+writeFileSync(
+  "public/robots.txt",
+  `User-agent: *\nAllow: /\nDisallow: /login\n\n${bots.map((b) => `User-agent: ${b}\nAllow: /\nDisallow: /login\n`).join("\n")}\nSitemap: ${SITE}/sitemap.xml\n`,
+);
+
+const rfc = (d) => new Date(d + "T09:00:00Z").toUTCString();
+writeFileSync(
+  "public/rss.xml",
+  `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n  <title>MotoLog blog</title>\n  <link>${SITE}/blog</link>\n  <description>Practical guides for riders: service intervals, mileage tracking and trip planning.</description>\n  <language>en</language>\n  <atom:link href="${SITE}/rss.xml" rel="self" type="application/rss+xml" />\n${posts
+    .map((p) => `  <item>\n    <title>${esc(p.title)}</title>\n    <link>${SITE}${url(p)}</link>\n    <guid>${SITE}${url(p)}</guid>\n    <pubDate>${rfc(p.date)}</pubDate>\n    <description>${esc(p.excerpt)}</description>\n  </item>`)
+    .join("\n")}\n</channel>\n</rss>\n`,
+);
+
+writeFileSync(
+  "public/llms.txt",
+  `# MotoLog
+
+> MotoLog is a mobile app that helps motorcycle riders keep track of due services, log mileage and record trips, so nothing gets missed and the service history stays in one place.
+
+## Pages
+
+- [Home](${SITE}/): what MotoLog does and how to get the app
+- [Features](${SITE}/features): service reminders, mileage logging and trip tracking
+- [How it works](${SITE}/how-it-works): from adding a bike to staying on top of maintenance
+- [FAQ](${SITE}/faq): common questions about the app
+- [Blog](${SITE}/blog): guides for riders on maintenance, mileage and trips
+
+## Blog articles
+
+${posts.map((p) => `- [${p.title}](${SITE}${url(p)}): ${p.excerpt}`).join("\n")}
+
+## Optional
+
+- [Sitemap](${SITE}/sitemap.xml)
+- [RSS feed](${SITE}/rss.xml)
+`,
+);
 console.log(`blog: ${posts.length} articles`);

@@ -5,6 +5,23 @@ export const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace
 const img = (p) => `/images/blog/${p.slug}.jpg`;
 const url = (p) => `/blog/${p.slug}`;
 
+const crumbs = (path, title) => {
+  if (path === "/") return "";
+  const parts = path.split("/").filter(Boolean);
+  const names = { features: "Features", "how-it-works": "How it works", blog: "Blog", faq: "FAQ" };
+  const items = [{ name: "Home", url: SITE + "/" }];
+  parts.forEach((seg, i) => {
+    const last = i === parts.length - 1;
+    items.push({ name: last && i > 0 ? title.replace(/ \| MotoLog$/, "") : (names[seg] ?? seg), url: SITE + "/" + parts.slice(0, i + 1).join("/") });
+  });
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((it, i) => ({ "@type": "ListItem", position: i + 1, name: it.name, item: it.url })),
+  };
+  return `\n    <script type="application/ld+json">${JSON.stringify(ld)}</script>`;
+};
+
 export const head = ({ title, description, path, image, type = "website", extra = "" }) => `<!doctype html>
 <html lang="en">
   <head>
@@ -13,16 +30,23 @@ export const head = ({ title, description, path, image, type = "website", extra 
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     <link rel="canonical" href="${SITE}${path}" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="theme-color" content="#ffffff" />
+    <meta property="og:site_name" content="MotoLog" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="${esc(title)}" />
     <meta property="og:description" content="${esc(description)}" />
     <meta property="og:type" content="${type}" />
     <meta property="og:url" content="${SITE}${path}" />
     <meta property="og:image" content="${SITE}${image}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${esc(title)}" />
+    <meta name="twitter:description" content="${esc(description)}" />
+    <meta name="twitter:image" content="${SITE}${image}" />
+    <link rel="alternate" type="application/rss+xml" title="MotoLog blog" href="/rss.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/src/styles.css" />${extra}
+    <link rel="stylesheet" href="/src/styles.css" />${crumbs(path, title)}${extra}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE1MMLZFS4"></script>
     <script>
