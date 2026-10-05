@@ -1485,3 +1485,25 @@ summary:focus-visible {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Standalone pages (Features, How it works, FAQ) */
+.subpage {
+  padding-top: 112px;
+}
+.subpage h1 {
+  font-size: var(--text-4xl);
+  line-height: var(--leading-h2);
+  letter-spacing: var(--tracking-h2);
+}
+@media (max-width: 760px) {
+  .subpage {
+    padding-top: 88px;
+  }
+}
+.subpage > section:first-child {
+  padding-top: 24px;
+}
+.subpage .band + .cta,
+.subpage .showcase + .cta {
+  margin-top: 80px;
+}
