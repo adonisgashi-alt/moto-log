@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotoLog: service, mileage and trip tracking for riders</title>
+    <meta
+      name="description"
+      content="MotoLog keeps track of your motorcycle's due services, your mileage and your trips, so you spend less time on paperwork and more time riding."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="MotoLog" />
+    <meta property="og:description" content="Every ride logged. Every service on time." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <!--
+      Photos are free Unsplash images (unsplash.com/license), served from public/images/.
+      To swap one, replace the file in public/images/ (hero, card-1..3, band).
+    -->
+    <header class="nav" id="top">
+      <div class="container nav-inner">
+        <a href="#top" class="brand" aria-label="MotoLog home">
+          <img src="/motolog-icon.png" alt="" width="32" height="32" />
+          <span>MotoLog</span>
+        </a>
+        <nav class="nav-links" id="nav-links">
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#faq">FAQ</a>
+          <a href="/login.html">Log in</a>
+          <a href="#download" class="btn btn-dark mobile-only">Get the app</a>
+        </nav>
+        <a href="#download" class="btn btn-dark desktop-only">Get the app</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-top">
+            <h1 class="reveal">Every ride logged.<br />Every service on time.</h1>
+            <div class="hero-side reveal">
+              <p>
+                MotoLog tracks your bike's due services, your mileage and your trips in one place. Less paperwork,
+                more riding.
+              </p>
+              <div class="btn-row">
+                <a href="#download" class="btn btn-dark">Get the app <span aria-hidden="true">↗</span></a>
+                <a href="#features" class="btn btn-ghost">See features</a>
+              </div>
+            </div>
+          </div>
+
+          <figure class="hero-media reveal">
+            <img
+              src="/images/hero.jpg"
+              alt="A road winding along a forested mountain ridge"
+              loading="eager"
+            />
+            <div class="float-card" aria-hidden="true">
+              <div class="float-row">
+                <span class="dot"></span>
+                <div>
+                  <b>Engine oil &amp; filter</b>
+                  <span>Due in 380 km</span>
+                </div>
+              </div>
+              <div class="float-row">
+                <span class="dot solid"></span>
+                <div>
+                  <b>Chain clean &amp; lube</b>
+                  <span>80 km overdue</span>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Marquee -->
+      <section class="marquee" aria-label="What MotoLog does">
+        <div class="marquee-track">
+          <span>Service reminders</span><span>Mileage log</span><span>Trip planning</span><span>Service history</span
+          ><span>Every bike in your garage</span><span>Service reminders</span><span>Mileage log</span
+          ><span>Trip planning</span><span>Service history</span><span>Every bike in your garage</span>
+        </div>
+      </section>
+
+      <!-- Statement -->
+      <section class="statement">
+        <div class="container">
+          <p class="label">(About)</p>
+          <p class="statement-text reveal">
+            Oil change was 4,000 km ago? Or was it 6,000? <span>MotoLog is the logbook for riders who'd rather be
+            riding. It remembers what your bike needs, so you don't have to.</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="features" id="features">
+        <div class="container">
+          <div class="section-head">
+            <p class="label">(Features)</p>
+            <h2>Everything your bike needs, in your pocket</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <figure class="card-media">
+                <img
+                  src="/images/card-1.jpg"
+                  alt="A man working on a motorcycle in a garage"
+                  loading="lazy"
+                />
+              </figure>
+              <span class="num">01</span>
+              <h3>Never miss a service</h3>
+              <p>
+                Set intervals for oil, chain, tyres, brake fluid and more, by distance or time. MotoLog flags what's
+                due soon and what's overdue.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <figure class="card-media">
+                <img
+                  src="/images/card-2.jpg"
+                  alt="Close up of a motorcycle's dashboard"
+                  loading="lazy"
+                />
+              </figure>
+              <span class="num">02</span>
+              <h3>Your mileage at a glance</h3>
+              <p>
+                Log your odometer after a ride and see distance per month and per year. Service reminders always
+                match how much you actually ride.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <figure class="card-media">
+                <img
+                  src="/images/card-3.jpg"
+                  alt="A motorcycle rider on a country road"
+                  loading="lazy"
+                />
+              </figure>
+              <span class="num">03</span>
+              <h3>Plan trips, then ride them</h3>
+              <p>
+                Map out your next ride with a start, a destination, dates and notes. Mark it ridden and the distance
+                goes straight into your log.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- App showcase -->
+      <section class="showcase">
+        <div class="container showcase-inner">
+          <div class="showcase-visual reveal" aria-hidden="true">
+            <div class="phone">
+              <div class="screen">
+                <div class="app-bar"><b>The Beast</b><span>MT-07</span></div>
+                <div class="stat-row">
+                  <div class="mini-stat"><span>Odometer</span><b>19,070 km</b></div>
+                  <div class="mini-stat"><span>This month</span><b>1,070 km</b></div>
+                </div>
+                <div class="section-label">Needs attention</div>
+                <div class="svc">
+                  <div><b>Chain clean &amp; lube</b><span>80 km over</span></div>
+                  <span class="tag solid">Overdue</span>
+                </div>
+                <div class="svc">
+                  <div><b>Engine oil &amp; filter</b><span>in 380 km</span></div>
+                  <span class="tag">Due soon</span>
+                </div>
+                <div class="svc">
+                  <div><b>Brake fluid</b><span>in 9 months</span></div>
+                  <span class="tag muted">OK</span>
+                </div>
+                <div class="section-label">Last 6 months</div>
+                <div class="mini-bars">
+                  <i style="height: 35%"></i><i style="height: 60%"></i><i style="height: 85%"></i
+                  ><i style="height: 70%"></i><i style="height: 45%"></i><i style="height: 100%"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-copy">
+            <p class="label">(The app)</p>
+            <h2>One glance tells you what your bike needs</h2>
+            <ul class="rows">
+              <li>
+                <span>01</span>
+                <div>
+                  <h3>A schedule that fits your bike</h3>
+                  <p>Start from common jobs and adjust every interval to match your owner's manual.</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <h3>Whichever comes first</h3>
+                  <p>Distance and time are tracked together, so a bike that sits all winter still gets its fluids changed.</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <h3>A history worth keeping</h3>
+                  <p>Every job is logged with its date, odometer, cost and notes. Handy at the shop and at resale.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="how" id="how">
+        <div class="container">
+          <div class="section-head">
+            <p class="label">(How it works)</p>
+            <h2>Set up in a minute. Useful for years.</h2>
+          </div>
+          <ol class="steps">
+            <li class="reveal">
+              <span class="step-num">1</span>
+              <h3>Add your bike</h3>
+              <p>Enter the make, model and current odometer. MotoLog suggests a service schedule to start from.</p>
+            </li>
+            <li class="reveal">
+              <span class="step-num">2</span>
+              <h3>Ride and log</h3>
+              <p>Log your mileage and trips as you go. It takes a few seconds after each ride.</p>
+            </li>
+            <li class="reveal">
+              <span class="step-num">3</span>
+              <h3>Stay ahead</h3>
+              <p>See what's due before it becomes a problem, and keep a full record of your bike's life.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Image band -->
+      <section class="band">
+        <img
+          src="/images/band.jpg"
+          alt="A motorcyclist riding on a paved road lined with trees"
+          loading="lazy"
+        />
+        <div class="band-copy">
+          <p>Less paperwork.<br />More road.</p>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq" id="faq">
+        <div class="container faq-inner">
+          <div class="faq-head">
+            <p class="label">(FAQ)</p>
+            <h2>Questions riders ask</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>Which bikes does MotoLog work with?</summary>
+              <p>Any motorcycle or scooter. You set the service intervals, so it fits sport bikes, adventure bikes, cruisers and commuters alike.</p>
+            </details>
+            <details>
+              <summary>Can I change the service intervals?</summary>
+              <p>Yes. Edit any interval, add your own jobs, or remove the ones that don't apply to your bike.</p>
+            </details>
+            <details>
+              <summary>Does it work in miles?</summary>
+              <p>Yes, you can choose kilometres or miles.</p>
+            </details>
+            <details>
+              <summary>Can I track more than one bike?</summary>
+              <p>Yes. Each bike in your garage has its own services, mileage and trips.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta" id="download">
+        <div class="container">
+          <div class="cta-box">
+            <div>
+              <p class="label light">(Download)</p>
+              <h2>Ride more.<br />Worry less.</h2>
+            </div>
+            <div class="cta-side">
+              <p>Get MotoLog on your phone and keep your bike in top shape.</p>
+              <div class="store-buttons">
+                <a href="#download" class="store-btn" aria-label="Download on the App Store">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-3.9zM14 5.5c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg>
+                  <span><small>Download on the</small>App Store</span>
+                </a>
+                <a href="#download" class="store-btn" aria-label="Get it on Google Play">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 2.3c-.2.2-.3.6-.3 1v17.4c0 .4.1.8.3 1l9.7-9.7-9.7-9.7zm10.6 10.6 2.7 2.7-11.3 6.5 8.6-9.2zm0-1.8L5.6 1.9l11.3 6.5-2.7 2.7zm6.4.4c.6.4.6 1.2 0 1.6l-2.6 1.5-3-3 3-3 2.6 1.5z"/></svg>
+                  <span><small>Get it on</small>Google Play</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <nav>
+            <a href="#features">Features</a>
+            <a href="#how">How it works</a>
+            <a href="#faq">FAQ</a>
+            <a href="#download">Download</a>
+          </nav>
+          <p>© <span id="year">2026</span> MotoLog</p>
+        </div>
+        <p class="wordmark" aria-hidden="true">MotoLog</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
