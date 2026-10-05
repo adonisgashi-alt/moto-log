@@ -339,6 +339,10 @@ img.failed {
 .mobile-only {
   display: none !important;
 }
+.nav-actions {
+  display: flex;
+  gap: 10px;
+}
 .nav-toggle {
   display: none;
   background: none;
@@ -1102,6 +1106,9 @@ summary:focus-visible {
     display: inline-flex !important;
     justify-content: center;
     margin-top: 18px;
+  }
+  .nav-links .mobile-only + .mobile-only {
+    margin-top: 10px;
   }
   .nav:has(.nav-links.open) {
     background: var(--white);
