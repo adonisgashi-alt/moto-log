@@ -10,7 +10,24 @@
   --line: rgb(10 10 10 / 0.12);
   --line-dark: rgb(255 255 255 / 0.16);
   --radius: 20px;
-  --sans: "Inter Tight", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /*
+    Type scale. Follows common web guidance: 16px minimum body text (18px on large
+    screens), 14px floor for small text, rem units so browser zoom and user font
+    settings work, clamp() with a rem + vw mix rather than vw alone, a ~1.25-1.33
+    ratio between steps, body line-height 1.6, headings 1.05-1.25, and paragraphs
+    capped around 65 characters.
+  */
+  --fs-sm: 0.875rem; /* 14px: labels, captions */
+  --fs-md: 1rem; /* 16px: nav, buttons, UI text */
+  --fs-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem); /* 16-18px: body */
+  --fs-lead: clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem); /* 18-20px: intro text */
+  --fs-h3: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem); /* 20-24px */
+  --fs-statement: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem); /* 24-36px */
+  --fs-h2: clamp(2rem, 1.6rem + 1.75vw, 3rem); /* 32-48px */
+  --fs-h1: clamp(2.5rem, 2rem + 2vw, 3.75rem); /* 40-60px */
+  --fs-display: clamp(2.75rem, 2rem + 3.25vw, 4.75rem); /* 44-76px: hero */
+  --measure: 65ch;
   color-scheme: light;
 }
 
@@ -30,7 +47,8 @@ body {
   margin: 0;
   background: var(--white);
   color: var(--ink);
-  font: 17px/1.55 var(--sans);
+  font: var(--fs-base)/1.6 var(--sans);
+  font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -39,19 +57,22 @@ h2,
 h3 {
   margin: 0;
   font-weight: 500;
-  letter-spacing: -0.035em;
-  line-height: 1.02;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 h2 {
-  font-size: clamp(2.2rem, 4.6vw, 4rem);
+  font-size: var(--fs-h2);
 }
 h3 {
-  font-size: 1.45rem;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
+  font-size: var(--fs-h3);
+  letter-spacing: -0.01em;
+  line-height: 1.25;
 }
 p {
   margin: 0;
+}
+main p {
+  max-width: var(--measure);
 }
 a {
   color: inherit;
@@ -67,7 +88,7 @@ img {
   padding: 0 32px;
 }
 .label {
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   font-weight: 500;
   color: var(--grey-3);
   margin-bottom: 18px;
@@ -102,7 +123,7 @@ img.failed {
   border-radius: 999px;
   padding: 13px 22px;
   font-weight: 500;
-  font-size: 0.98rem;
+  font-size: var(--fs-md);
   text-decoration: none;
   border: 1px solid transparent;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
@@ -154,7 +175,7 @@ img.failed {
   text-decoration: none;
   font-weight: 600;
   font-size: 1.25rem;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 .nav-links {
   display: flex;
@@ -164,7 +185,7 @@ img.failed {
   text-decoration: none;
   color: var(--grey-4);
   font-weight: 500;
-  font-size: 0.98rem;
+  font-size: var(--fs-md);
 }
 .nav-links a:not(.btn):hover {
   color: var(--black);
@@ -209,12 +230,12 @@ img.failed {
   margin-bottom: 48px;
 }
 .hero h1 {
-  font-size: clamp(3rem, 7.2vw, 7rem);
-  letter-spacing: -0.05em;
-  line-height: 0.95;
+  font-size: var(--fs-display);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
 }
 .hero-side p {
-  font-size: 1.12rem;
+  font-size: var(--fs-lead);
   color: var(--grey-4);
   margin-bottom: 26px;
   max-width: 28em;
@@ -249,10 +270,10 @@ img.failed {
 .float-row b {
   display: block;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--fs-md);
 }
 .float-row span {
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   color: var(--grey-3);
 }
 .dot {
@@ -279,9 +300,9 @@ img.failed {
   animation: marquee 40s linear infinite;
 }
 .marquee-track span {
-  font-size: clamp(1.4rem, 2.6vw, 2.2rem);
+  font-size: var(--fs-h3);
   font-weight: 500;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   white-space: nowrap;
   padding: 0 28px;
   display: flex;
@@ -310,10 +331,10 @@ img.failed {
   padding: 140px 0;
 }
 .statement-text {
-  font-size: clamp(1.8rem, 3.6vw, 3.2rem);
+  font-size: var(--fs-statement);
   font-weight: 500;
-  letter-spacing: -0.035em;
-  line-height: 1.12;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
   max-width: 22em;
 }
 .statement-text span {
@@ -357,7 +378,7 @@ img.failed {
 }
 .num {
   display: block;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   color: var(--grey-3);
   margin-bottom: 10px;
 }
@@ -404,7 +425,7 @@ img.failed {
 }
 .rows li > span {
   color: var(--grey-3);
-  font-size: 0.9rem;
+  font-size: var(--fs-sm);
   padding-top: 4px;
 }
 .rows h3 {
@@ -459,7 +480,7 @@ img.failed {
 .app-bar b {
   font-size: 22px;
   font-weight: 600;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 .app-bar span {
   color: var(--grey-3);
@@ -476,7 +497,7 @@ img.failed {
 }
 .mini-stat span {
   display: block;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--grey-3);
 }
 .mini-stat b {
@@ -484,7 +505,7 @@ img.failed {
   font-weight: 600;
 }
 .section-label {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--grey-3);
   margin-top: 6px;
 }
@@ -507,7 +528,7 @@ img.failed {
 }
 .tag {
   flex-shrink: 0;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   padding: 3px 9px;
   border-radius: 999px;
@@ -557,9 +578,9 @@ img.failed {
   flex-direction: column;
 }
 .step-num {
-  font-size: 4.5rem;
+  font-size: var(--fs-h1);
   font-weight: 500;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.03em;
   line-height: 1;
   margin-bottom: auto;
   padding-bottom: 48px;
@@ -597,10 +618,10 @@ img.failed {
 }
 .band-copy p {
   color: var(--white);
-  font-size: clamp(2.6rem, 7vw, 6.5rem);
+  font-size: var(--fs-display);
   font-weight: 500;
-  letter-spacing: -0.05em;
-  line-height: 0.95;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
 }
 
 /* FAQ */
@@ -622,9 +643,9 @@ summary {
   cursor: pointer;
   list-style: none;
   padding: 26px 48px 26px 0;
-  font-size: 1.2rem;
+  font-size: var(--fs-lead);
   font-weight: 500;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   position: relative;
 }
 summary::-webkit-details-marker {
@@ -664,13 +685,13 @@ details p {
   align-items: end;
 }
 .cta-box h2 {
-  font-size: clamp(2.8rem, 6vw, 5.5rem);
-  letter-spacing: -0.05em;
-  line-height: 0.95;
+  font-size: var(--fs-display);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
 }
 .cta-side p {
   color: var(--grey-2);
-  font-size: 1.1rem;
+  font-size: var(--fs-lead);
   margin-bottom: 24px;
 }
 .store-buttons {
@@ -688,7 +709,7 @@ details p {
   color: var(--black);
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: var(--fs-md);
   line-height: 1.1;
   transition: background 0.2s;
 }
@@ -701,7 +722,7 @@ details p {
 }
 .store-btn small {
   display: block;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
@@ -733,12 +754,12 @@ details p {
 }
 .footer-top p {
   color: var(--grey-3);
-  font-size: 0.92rem;
+  font-size: var(--fs-sm);
 }
 .wordmark {
   font-size: clamp(4rem, 17vw, 16rem);
   font-weight: 600;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.05em;
   line-height: 0.8;
   margin: 32px 0 -0.06em;
   text-align: center;
@@ -818,7 +839,7 @@ summary:focus-visible {
 
 @media (max-width: 760px) {
   body {
-    font-size: 16px;
+    font-size: var(--fs-base);
   }
   .container,
   .band-copy {
@@ -851,7 +872,7 @@ summary:focus-visible {
   .nav-links a:not(.btn) {
     padding: 16px 0;
     border-bottom: 1px solid var(--line);
-    font-size: 1.1rem;
+    font-size: var(--fs-lead);
     color: var(--black);
   }
   .nav-links .mobile-only {
