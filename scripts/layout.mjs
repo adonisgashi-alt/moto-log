@@ -34,7 +34,7 @@ export const authLinks = (home = "/") => `
 export const authActions = (home = "/") => `
           <a href="${home}#download" class="btn btn-dark auth-out">Get the app</a>
           <a href="/login" class="btn btn-ghost auth-out">Log in</a>
-          <a href="/dashboard" class="nav-account auth-in" title="Your garage"><span class="nav-avatar" data-user-initial aria-hidden="true"></span><span data-user-email></span></a>
+          <a href="/dashboard" class="nav-account auth-in" title="Your garage"><span class="nav-avatar" data-user-initial aria-hidden="true"></span><span>Account</span></a>
           <button type="button" class="btn btn-ghost auth-in" data-sign-out>Sign out</button>`;
 
 export const head = ({ title, description, path, image, type = "website", extra = "", robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1", analytics = true }) => `<!doctype html>

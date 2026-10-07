@@ -17,7 +17,6 @@ const remember = (user) => {
 
 const render = (label) => {
   root.classList.toggle("signed-in", Boolean(label));
-  document.querySelectorAll("[data-user-email]").forEach((el) => (el.textContent = label ?? ""));
   document.querySelectorAll("[data-user-initial]").forEach((el) => (el.textContent = (label ?? "").charAt(0).toUpperCase()));
 };
 
