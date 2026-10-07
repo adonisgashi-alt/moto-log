@@ -330,16 +330,12 @@ button.btn {
   gap: 36px;
 }
 .nav-links a,
-.nav-actions .btn,
-.nav-account {
+.nav-actions .btn {
   white-space: nowrap;
 }
 @media (max-width: 1280px) {
   .nav-links {
     gap: 28px;
-  }
-  .nav-account {
-    max-width: 180px;
   }
 }
 .nav-links a:not(.btn) {
@@ -371,26 +367,66 @@ button.btn {
 .signed-in .nav-actions .auth-in {
   display: inline-flex !important;
 }
-.nav-account {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  max-width: 260px;
-  text-decoration: none;
-  color: var(--black);
+.nav-user {
+  position: relative;
+}
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  min-width: 240px;
+  padding: 8px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+.nav-dropdown[hidden] {
+  display: none;
+}
+.nav-dropdown-label {
+  margin: 0;
+  padding: 10px 12px 12px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 6px;
+  font-size: var(--text-xs);
+  color: var(--grey-4);
+}
+.nav-dropdown-label strong {
+  display: block;
+  margin-top: 2px;
   font-size: var(--text-sm);
   font-weight: 500;
-}
-.nav-account span[data-user-email] {
+  color: var(--black);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.nav-account:hover span[data-user-email] {
-  text-decoration: underline;
+.nav-dropdown a,
+.nav-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  font: inherit;
+  font-size: var(--text-sm);
+  text-align: left;
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+}
+.nav-dropdown a:hover,
+.nav-dropdown button:hover {
+  background: var(--paper);
 }
 .nav-avatar {
   flex: none;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
   display: grid;
   place-items: center;
   width: 32px;

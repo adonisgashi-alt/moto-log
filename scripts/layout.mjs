@@ -34,8 +34,14 @@ export const authLinks = (home = "/") => `
 export const authActions = (home = "/") => `
           <a href="${home}#download" class="btn btn-dark auth-out">Get the app</a>
           <a href="/login" class="btn btn-ghost auth-out">Log in</a>
-          <a href="/dashboard" class="nav-account auth-in" title="Your garage"><span class="nav-avatar" data-user-initial aria-hidden="true"></span><span>Account</span></a>
-          <button type="button" class="btn btn-ghost auth-in" data-sign-out>Sign out</button>`;
+          <div class="nav-user auth-in">
+            <button type="button" class="nav-avatar" data-user-menu data-user-initial aria-haspopup="menu" aria-expanded="false" aria-label="Account menu"></button>
+            <div class="nav-dropdown" role="menu" hidden>
+              <p class="nav-dropdown-label">Signed in as<strong data-user-email></strong></p>
+              <a href="/dashboard" role="menuitem">Your garage</a>
+              <button type="button" role="menuitem" data-sign-out>Sign out</button>
+            </div>
+          </div>`;
 
 export const head = ({ title, description, path, image, type = "website", extra = "", robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1", analytics = true }) => `<!doctype html>
 <html lang="en">
