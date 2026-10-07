@@ -32,8 +32,8 @@ export const authLinks = (home = "/") => `
           <button type="button" class="btn btn-ghost mobile-only auth-in" data-sign-out>Sign out</button>`;
 
 export const authActions = (home = "/") => `
-          <a href="${home}#download" class="btn btn-dark auth-out">Get the app</a>
           <a href="/login" class="btn btn-ghost auth-out">Log in</a>
+          <a href="${home}#download" class="btn btn-dark auth-out">Get the app</a>
           <div class="nav-user auth-in">
             <button type="button" class="nav-avatar" data-user-menu data-user-initial aria-haspopup="menu" aria-expanded="false" aria-label="Account menu"></button>
             <div class="nav-dropdown" role="menu" hidden>

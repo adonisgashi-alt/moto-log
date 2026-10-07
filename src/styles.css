@@ -328,6 +328,8 @@ button.btn {
 .nav-links {
   display: flex;
   gap: 36px;
+  margin-right: auto;
+  margin-left: 16px;
 }
 .nav-links a,
 .nav-actions .btn {
@@ -355,7 +357,22 @@ button.btn {
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+/* Signed out: a plain "Log in" text link beside the primary pill */
+.nav-actions .btn-ghost.auth-out {
+  padding: 0;
+  height: auto;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  font-weight: 500;
+  font-size: var(--text-base);
+  color: var(--black);
+}
+.nav-actions .btn-ghost.auth-out:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 /* Signed-in state: the signed-in class is set before first paint (see the inline script in each page head) */
 .auth-in {
