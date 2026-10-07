@@ -2,9 +2,8 @@
 // access is protected by Firestore security rules (owner-only) and Firebase Auth.
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
 
-const app = initializeApp({
+export const app = initializeApp({
   apiKey: "AIzaSyBBDFaoSQaQi78w5hVM-jRVtpKpDSQUW9k",
   authDomain: "motolog-e34b1.firebaseapp.com",
   projectId: "motolog-e34b1",
@@ -14,4 +13,3 @@ const app = initializeApp({
 });
 
 export const auth = getAuth(app);
-export const db = getFirestore(app);

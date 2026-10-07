@@ -58,3 +58,8 @@ document.querySelectorAll("main img").forEach((img) => {
   if (img.complete && img.naturalWidth === 0) hide();
   img.addEventListener("error", hide);
 });
+
+// Sign-in state for the nav. Loaded after the page is interactive so the Firebase SDK never delays first paint.
+const loadAuthNav = () => import("./auth-nav.js");
+if ("requestIdleCallback" in window) requestIdleCallback(loadAuthNav, { timeout: 2000 });
+else setTimeout(loadAuthNav, 300);

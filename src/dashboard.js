@@ -1,11 +1,11 @@
-import { onAuthStateChanged, signOut } from "firebase/auth";
+import { onAuthStateChanged } from "firebase/auth";
 import { collection, getDocs } from "firebase/firestore";
-import { auth, db } from "./firebase.js";
+import { auth } from "./firebase.js";
+import { db } from "./db.js";
 import { status, worst, milesRemaining, daysRemaining } from "./status.js";
 
 const stateEl = document.getElementById("dash-state");
 const garage = document.getElementById("garage");
-const emailEl = document.getElementById("user-email");
 
 const nf = new Intl.NumberFormat("en-US", { maximumFractionDigits: 1 });
 const fmtDate = (ts) =>
@@ -142,17 +142,11 @@ async function load(user) {
   }
 }
 
-document.getElementById("sign-out").addEventListener("click", async () => {
-  await signOut(auth);
-  window.location.assign("/login");
-});
-
 onAuthStateChanged(auth, async (user) => {
   if (!user) {
     window.location.replace("/login");
     return;
   }
-  emailEl.textContent = user.email ?? "";
   try {
     await load(user);
   } catch (err) {

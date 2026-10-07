@@ -22,7 +22,22 @@ const crumbs = (path, title) => {
   return `\n    <script type="application/ld+json">${JSON.stringify(ld)}</script>`;
 };
 
-export const head = ({ title, description, path, image, type = "website", extra = "" }) => `<!doctype html>
+// Sets the signed-in class before first paint so the nav doesn't flash the signed-out buttons
+export const authHint = `<script>try{if(localStorage.getItem("motolog-user"))document.documentElement.classList.add("signed-in")}catch(e){}</script>`;
+
+export const authLinks = (home = "/") => `
+          <a href="${home}#download" class="btn btn-dark mobile-only auth-out">Get the app</a>
+          <a href="/login" class="btn btn-ghost mobile-only auth-out">Log in</a>
+          <a href="/dashboard" class="btn btn-dark mobile-only auth-in">Your garage</a>
+          <button type="button" class="btn btn-ghost mobile-only auth-in" data-sign-out>Sign out</button>`;
+
+export const authActions = (home = "/") => `
+          <a href="${home}#download" class="btn btn-dark auth-out">Get the app</a>
+          <a href="/login" class="btn btn-ghost auth-out">Log in</a>
+          <a href="/dashboard" class="nav-account auth-in" title="Your garage"><span class="nav-avatar" data-user-initial aria-hidden="true"></span><span data-user-email></span></a>
+          <button type="button" class="btn btn-ghost auth-in" data-sign-out>Sign out</button>`;
+
+export const head = ({ title, description, path, image, type = "website", extra = "", robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1", analytics = true }) => `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -30,7 +45,7 @@ export const head = ({ title, description, path, image, type = "website", extra 
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     <link rel="canonical" href="${SITE}${path}" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="robots" content="${robots}" />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:site_name" content="MotoLog" />
     <meta property="og:locale" content="en_US" />
@@ -47,7 +62,8 @@ export const head = ({ title, description, path, image, type = "website", extra 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/src/styles.css" />${crumbs(path, title)}${extra}
-    <!-- Google tag (gtag.js) -->
+    ${authHint}
+    ${analytics ? `    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE1MMLZFS4"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -55,6 +71,7 @@ export const head = ({ title, description, path, image, type = "website", extra 
       gtag('js', new Date());
       gtag('config', 'G-RE1MMLZFS4');
     </script>
+    ` : ""}
   </head>
   <body>`;
 
@@ -70,12 +87,10 @@ export const nav = (current = "") => `
           <a href="/how-it-works"${current === "how" ? ' aria-current="page"' : ""}>How it works</a>
           <a href="/blog"${current === "blog" ? ' aria-current="page"' : ""}>Blog</a>
           <a href="/faq"${current === "faq" ? ' aria-current="page"' : ""}>FAQ</a>
-          <a href="/#download" class="btn btn-dark mobile-only">Get the app</a>
-          <a href="/login" class="btn btn-ghost mobile-only">Log in</a>
+${authLinks()}
         </nav>
         <div class="nav-actions desktop-only">
-          <a href="/#download" class="btn btn-dark">Get the app</a>
-          <a href="/login" class="btn btn-ghost">Log in</a>
+${authActions()}
         </div>
         <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
           <span></span><span></span>

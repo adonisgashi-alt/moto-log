@@ -57,6 +57,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/src/styles.css" />
+    <script>try{if(localStorage.getItem("motolog-user"))document.documentElement.classList.add("signed-in")}catch(e){}</script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE1MMLZFS4"></script>
     <script>
@@ -82,12 +83,16 @@
           <a href="/how-it-works">How it works</a>
           <a href="/blog">Blog</a>
           <a href="/faq">FAQ</a>
-          <a href="#download" class="btn btn-dark mobile-only">Get the app</a>
-          <a href="/login" class="btn btn-ghost mobile-only">Log in</a>
+          <a href="#download" class="btn btn-dark mobile-only auth-out">Get the app</a>
+          <a href="/login" class="btn btn-ghost mobile-only auth-out">Log in</a>
+          <a href="/dashboard" class="btn btn-dark mobile-only auth-in">Your garage</a>
+          <button type="button" class="btn btn-ghost mobile-only auth-in" data-sign-out>Sign out</button>
         </nav>
         <div class="nav-actions desktop-only">
-          <a href="#download" class="btn btn-dark">Get the app</a>
-          <a href="/login" class="btn btn-ghost">Log in</a>
+          <a href="#download" class="btn btn-dark auth-out">Get the app</a>
+          <a href="/login" class="btn btn-ghost auth-out">Log in</a>
+          <a href="/dashboard" class="nav-account auth-in" title="Your garage"><span class="nav-avatar" data-user-initial aria-hidden="true"></span><span data-user-email></span></a>
+          <button type="button" class="btn btn-ghost auth-in" data-sign-out>Sign out</button>
         </div>
         <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
           <span></span><span></span>

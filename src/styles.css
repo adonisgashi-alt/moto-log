@@ -345,7 +345,48 @@ button.btn {
 }
 .nav-actions {
   display: flex;
+  align-items: center;
   gap: 10px;
+}
+/* Signed-in state: the signed-in class is set before first paint (see the inline script in each page head) */
+.auth-in {
+  display: none !important;
+}
+.signed-in .auth-out {
+  display: none !important;
+}
+.signed-in .nav-actions .auth-in {
+  display: inline-flex !important;
+}
+.nav-account {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 260px;
+  text-decoration: none;
+  color: var(--black);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+.nav-account span[data-user-email] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav-account:hover span[data-user-email] {
+  text-decoration: underline;
+}
+.nav-avatar {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--black);
+  color: var(--white);
+  font-size: var(--text-sm);
+  font-weight: 500;
 }
 .nav-toggle {
   display: none;
@@ -1096,12 +1137,14 @@ summary:focus-visible {
     font-size: var(--text-lg);
     color: var(--black);
   }
-  .nav-links .mobile-only {
+  html:not(.signed-in) .nav-links .mobile-only.auth-out,
+  .signed-in .nav-links .mobile-only.auth-in {
     display: inline-flex !important;
     justify-content: center;
     margin-top: 18px;
   }
-  .nav-links .mobile-only + .mobile-only {
+  html:not(.signed-in) .nav-links .mobile-only.auth-out + .mobile-only.auth-out,
+  .signed-in .nav-links .mobile-only.auth-in + .mobile-only.auth-in {
     margin-top: 10px;
   }
   .nav:has(.nav-links.open) {
@@ -1573,19 +1616,6 @@ summary:focus-visible {
 }
 
 /* Dashboard (signed-in garage) */
-.dash-user {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-.dash-email {
-  font-size: var(--text-sm);
-  color: var(--grey-4);
-  max-width: 28ch;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
 .dashboard {
   padding: 132px 0 120px;
 }
@@ -1730,9 +1760,6 @@ summary:focus-visible {
   color: #8f1f1f;
 }
 @media (max-width: 760px) {
-  .dash-email {
-    display: none;
-  }
   .dashboard {
     padding-top: 112px;
   }
