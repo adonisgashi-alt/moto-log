@@ -1,5 +1,74 @@
 [
   {
+    "slug": "how-to-store-your-motorcycle-for-winter",
+    "title": "How to store your motorcycle for winter",
+    "category": "Maintenance",
+    "date": "2026-10-07",
+    "read": 5,
+    "image": "how-to-store-your-motorcycle-for-winter",
+    "alt": "A black sport motorcycle with a green frame resting on a paddock stand in a dark garage",
+    "excerpt": "A few hours of preparation in autumn means a bike that starts first time in spring. Here is what to do before you park it up, and what to check when you bring it back.",
+    "body": [
+      {
+        "p": "When the days get short and the roads turn wet and salty, plenty of riders park the bike until spring. Done carelessly, that break can leave you with a flat battery, stale fuel and tyres with flat spots. Done well, it takes an afternoon and the bike is ready to go the first warm weekend of the year."
+      },
+      {
+        "h": "Clean it before it sits"
+      },
+      {
+        "p": "Road grime, salt and dead insects keep working on paint, alloy and chrome while the bike is parked. Give it a proper wash, dry it thoroughly, and pay attention to the wheels, the swingarm and the underside of the engine. A coat of wax or a protective spray on bare metal helps too. A clean bike also makes it easier to spot leaks over the winter."
+      },
+      {
+        "h": "Change the oil now, not in spring"
+      },
+      {
+        "p": "Used oil carries acids and contaminants from combustion, and they sit against the inside of the engine for months if you leave them there. Changing the oil and filter before storage means the engine rests in clean oil. If an oil change is close to due anyway, this is the obvious time to do it."
+      },
+      {
+        "h": "Look after the fuel and the battery"
+      },
+      {
+        "ul": [
+          "Fill the tank close to full to reduce condensation, and add a fuel stabiliser if the bike will sit for more than a month or so. Run the engine briefly so treated fuel reaches the fuel system.",
+          "Connect the battery to a smart maintenance charger, or remove it and keep it somewhere cool and dry on a charger.",
+          "Check your manual for anything specific to your bike, such as draining a carburettor."
+        ]
+      },
+      {
+        "h": "Take the weight off the tyres"
+      },
+      {
+        "p": "Tyres that sit in one position for months can develop flat spots. Put the bike on a paddock stand or centre stand if you can, so one or both wheels are off the ground. If not, pump the tyres up to the recommended pressure and move the bike a little every few weeks."
+      },
+      {
+        "h": "Cover it and keep it dry"
+      },
+      {
+        "p": "A garage or shed is ideal. Use a breathable cover rather than a plastic sheet, which traps moisture against the bike. If the bike has to stay outside, an outdoor cover that is designed to vent is worth the money. Plugging the exhaust outlets keeps out damp and small animals, as long as you remember to remove the plugs before you start it."
+      },
+      {
+        "h": "Write down where you left off"
+      },
+      {
+        "p": "Before you walk away, record the date and the odometer reading, along with what you did: oil changed, battery on charge, fuel treated. It takes a minute, and in March it answers the question you will otherwise be guessing at. In MotoLog you can log the mileage and the services you did, and because service intervals can be set by time as well as distance, anything that falls due over the winter still shows up as due soon or overdue."
+      },
+      {
+        "h": "Bringing it back in spring"
+      },
+      {
+        "ul": [
+          "Remove exhaust plugs and the cover, and refit the charged battery.",
+          "Check tyre pressures, chain tension and lubrication, and brake fluid level.",
+          "Look underneath for leaks and test the brakes before your first proper ride.",
+          "Check what services came due while the bike was parked."
+        ]
+      },
+      {
+        "p": "An afternoon of preparation now saves you a dead battery and a frustrating first ride. Park it carefully, write down where you left off, and the bike will be ready when the roads are."
+      }
+    ]
+  },
+  {
     "slug": "how-often-change-motorcycle-oil",
     "title": "How often should you change your motorcycle's oil?",
     "category": "Maintenance",
