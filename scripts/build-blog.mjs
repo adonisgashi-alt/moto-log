@@ -141,7 +141,7 @@ writeFileSync(
 const bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "Bingbot", "DuckDuckBot", "CCBot", "Amazonbot", "Meta-ExternalAgent"];
 writeFileSync(
   "public/robots.txt",
-  `User-agent: *\nAllow: /\nDisallow: /login\n\n${bots.map((b) => `User-agent: ${b}\nAllow: /\nDisallow: /login\n`).join("\n")}\nSitemap: ${SITE}/sitemap.xml\n`,
+  `User-agent: *\nAllow: /\nDisallow: /login\nDisallow: /dashboard\n\n${bots.map((b) => `User-agent: ${b}\nAllow: /\nDisallow: /login\nDisallow: /dashboard\n`).join("\n")}\nSitemap: ${SITE}/sitemap.xml\n`,
 );
 
 const rfc = (d) => new Date(d + "T09:00:00Z").toUTCString();

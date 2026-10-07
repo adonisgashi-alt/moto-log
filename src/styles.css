@@ -268,6 +268,10 @@ img.failed {
   border: 1px solid transparent;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
+button.btn {
+  font-family: inherit;
+  cursor: pointer;
+}
 .btn-dark {
   background: var(--black);
   color: var(--white);
@@ -1174,7 +1178,7 @@ summary:focus-visible {
   }
 }
 
-/* Login page (placeholder, no accounts yet) */
+/* Login page */
 .login {
   padding: 160px 0 120px;
 }
@@ -1222,6 +1226,34 @@ summary:focus-visible {
   justify-content: center;
   margin-top: 8px;
   cursor: pointer;
+}
+.login-or {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0 4px;
+  color: var(--grey-3);
+  font-size: var(--text-sm);
+}
+.login-or::before,
+.login-or::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+.login-form .btn-ghost {
+  gap: 10px;
+  background: var(--white);
+  cursor: pointer;
+}
+.login-form .btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.login-note.is-error,
+.dash-state.is-error {
+  color: #a32424;
 }
 .login-note {
   font-size: var(--text-sm);
@@ -1537,5 +1569,171 @@ summary:focus-visible {
   }
   .info-card {
     padding: 22px;
+  }
+}
+
+/* Dashboard (signed-in garage) */
+.dash-user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.dash-email {
+  font-size: var(--text-sm);
+  color: var(--grey-4);
+  max-width: 28ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dashboard {
+  padding: 132px 0 120px;
+}
+.dashboard h1 {
+  font-size: var(--text-5xl);
+  line-height: var(--leading-h1);
+  letter-spacing: var(--tracking-h1);
+  margin-bottom: 16px;
+}
+.dash-intro {
+  font-size: var(--text-lg);
+  line-height: var(--leading-lg);
+  letter-spacing: var(--tracking-lg);
+  color: var(--grey-4);
+  margin-bottom: 40px;
+}
+.dash-state {
+  color: var(--grey-4);
+  font-size: var(--text-base);
+}
+.garage {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.bike {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  overflow: hidden;
+}
+.bike-photo {
+  margin: 0;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--paper);
+}
+.bike-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.bike-photo figcaption {
+  position: absolute;
+  inset: auto 8px 8px auto;
+  max-width: calc(100% - 16px);
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.85);
+  font-size: var(--text-xs);
+  color: var(--grey-4);
+}
+.bike-body {
+  padding: 24px;
+}
+.bike-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.bike-head h2 {
+  font-size: var(--text-2xl);
+  line-height: var(--leading-h4);
+  letter-spacing: var(--tracking-h4);
+}
+.bike-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.bike-stats div {
+  background: var(--paper);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+}
+.bike-stats dt {
+  font-size: var(--text-xs);
+  color: var(--grey-4);
+}
+.bike-stats dd {
+  margin: 2px 0 0;
+  font-weight: 500;
+  font-size: var(--text-base);
+}
+.bike h3 {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--grey-4);
+  margin: 24px 0 8px;
+}
+.svc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.svc-row,
+.trip-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+.svc-name {
+  font-weight: 500;
+  font-size: var(--text-base);
+}
+.svc-meta {
+  font-size: var(--text-sm);
+  line-height: var(--leading-small);
+  color: var(--grey-4);
+}
+.trip-dist {
+  font-size: var(--text-sm);
+  color: var(--grey-4);
+  white-space: nowrap;
+}
+.badge {
+  flex: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  white-space: nowrap;
+}
+.badge-ok {
+  background: #dff3e4;
+  color: #1c5a2c;
+}
+.badge-dueSoon {
+  background: #fdf1cc;
+  color: #7a5a00;
+}
+.badge-overdue {
+  background: #f8dcdc;
+  color: #8f1f1f;
+}
+@media (max-width: 760px) {
+  .dash-email {
+    display: none;
+  }
+  .dashboard {
+    padding-top: 112px;
   }
 }
