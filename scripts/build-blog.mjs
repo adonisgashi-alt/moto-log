@@ -59,9 +59,17 @@ const indexHtml =
         <div class="container">
           <p class="label">Blog and articles</p>
           <h2 id="blog-heading">Latest insights and trends</h2>
-          <div class="post-grid" id="post-grid">${posts.map((p) => (p === featured ? card(p).replace('<a class="post-card"', '<a class="post-card" data-featured hidden') : card(p))).join("")}
+          <div class="post-grid" id="post-grid">${posts
+            .map((p, i) => {
+              const html = card(p);
+              // The featured post lives in the hero on "All"; later posts wait behind "Load more" (still in the HTML for crawlers)
+              if (i === 0) return html.replace('<a class="post-card"', '<a class="post-card" data-featured hidden');
+              return i > 8 ? html.replace('<a class="post-card"', '<a class="post-card" hidden') : html;
+            })
+            .join("")}
           </div>
           <p class="blog-empty" id="blog-empty" hidden>No articles in this topic yet.</p>
+          <div class="load-more"><button type="button" class="btn btn-ghost" id="load-more" hidden>Load more articles</button></div>
         </div>
       </section>
     </main>

@@ -1504,6 +1504,14 @@ summary:focus-visible {
   text-decoration: none;
   color: inherit;
 }
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
+.load-more [hidden] {
+  display: none;
+}
 .post-card[hidden] {
   display: none;
 }

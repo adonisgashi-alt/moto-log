@@ -1,29 +1,44 @@
-// Topic filter on the blog index.
-// "All" shows the featured newest post above a grid of the rest. Picking a topic hides the featured block and lists every
-// matching post in one grid, newest first, so the results sit right under the (sticky) filter bar.
+// Topic filter and "Load more" on the blog index.
+// "All" shows the featured newest post (the 1st) plus the next 8 in the grid; a topic shows its first 9 matches in the grid.
+// Every post stays in the HTML so crawlers see all the links, and hidden cards never load their images.
+const PAGE = 9;
 const buttons = document.querySelectorAll(".filter");
-const cards = document.querySelectorAll("#post-grid .post-card");
+const cards = [...document.querySelectorAll("#post-grid .post-card")];
 const feature = document.getElementById("blog-feature");
 const heading = document.getElementById("blog-heading");
 const empty = document.getElementById("blog-empty");
+const more = document.getElementById("load-more");
+
+let topic = "All";
+let limit = PAGE - 1;
+
+const render = () => {
+  const all = topic === "All";
+  const matches = cards.filter((c) => (all ? !("featured" in c.dataset) : c.dataset.category === topic));
+  matches.forEach((c, i) => (c.hidden = i >= limit));
+  cards.filter((c) => !matches.includes(c)).forEach((c) => (c.hidden = true));
+  feature.hidden = !all;
+  heading.textContent = all ? "Latest insights and trends" : topic;
+  empty.hidden = matches.length !== 0;
+  more.hidden = matches.length <= limit;
+};
 
 buttons.forEach((btn) => {
   btn.addEventListener("click", () => {
-    const topic = btn.dataset.filter;
-    const all = topic === "All";
+    topic = btn.dataset.filter;
+    limit = topic === "All" ? PAGE - 1 : PAGE;
     buttons.forEach((b) => {
       const on = b === btn;
       b.classList.toggle("active", on);
       b.setAttribute("aria-pressed", String(on));
     });
-    feature.hidden = !all;
-    heading.textContent = all ? "Latest insights and trends" : topic;
-    let shown = 0;
-    cards.forEach((card) => {
-      const match = all ? !("featured" in card.dataset) : card.dataset.category === topic;
-      card.hidden = !match;
-      if (match) shown++;
-    });
-    empty.hidden = shown !== 0;
+    render();
   });
 });
+
+more.addEventListener("click", () => {
+  limit += PAGE;
+  render();
+});
+
+render();
