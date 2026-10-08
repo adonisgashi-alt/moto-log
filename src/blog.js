@@ -1,5 +1,6 @@
 // Topic filter and "Load more" on the blog index.
-// "All" shows the featured newest post (the 1st) plus the next 8 in the grid; a topic shows its first 9 matches in the grid.
+// "All" shows the featured newest post plus 9 in the grid (three full rows of three); a topic shows its first 9 matches.
+// Load more adds 9 at a time, so the grid stays on full rows.
 // Every post stays in the HTML so crawlers see all the links, and hidden cards never load their images.
 const PAGE = 9;
 const buttons = document.querySelectorAll(".filter");
@@ -10,7 +11,7 @@ const empty = document.getElementById("blog-empty");
 const more = document.getElementById("load-more");
 
 let topic = "All";
-let limit = PAGE - 1;
+let limit = PAGE;
 
 const render = () => {
   const all = topic === "All";
@@ -26,7 +27,7 @@ const render = () => {
 buttons.forEach((btn) => {
   btn.addEventListener("click", () => {
     topic = btn.dataset.filter;
-    limit = topic === "All" ? PAGE - 1 : PAGE;
+    limit = PAGE;
     buttons.forEach((b) => {
       const on = b === btn;
       b.classList.toggle("active", on);

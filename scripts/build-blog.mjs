@@ -64,7 +64,7 @@ const indexHtml =
               const html = card(p);
               // The featured post lives in the hero on "All"; later posts wait behind "Load more" (still in the HTML for crawlers)
               if (i === 0) return html.replace('<a class="post-card"', '<a class="post-card" data-featured hidden');
-              return i > 8 ? html.replace('<a class="post-card"', '<a class="post-card" hidden') : html;
+              return i > 9 ? html.replace('<a class="post-card"', '<a class="post-card" hidden') : html;
             })
             .join("")}
           </div>
