@@ -13,7 +13,7 @@ const url = (p) => `/blog/${p.slug}`;
 const card = postCard;
 
 // Blog index
-const [featured, ...rest] = posts;
+const featured = posts[0];
 const categories = ["All", ...new Set(posts.map((p) => p.category))];
 const indexHtml =
   head({
@@ -30,9 +30,19 @@ const indexHtml =
       <section class="blog-top">
         <div class="container">
           <h1>Blog &amp; articles</h1>
+        </div>
+      </section>
+
+      <div class="filters-bar">
+        <div class="container">
           <div class="filters" role="group" aria-label="Filter articles by topic">
             ${categories.map((c, i) => `<button type="button" class="filter${i === 0 ? " active" : ""}" data-filter="${esc(c)}" aria-pressed="${i === 0}">${esc(c)}</button>`).join("\n            ")}
           </div>
+        </div>
+      </div>
+
+      <section class="blog-feature" id="blog-feature">
+        <div class="container">
           <a class="featured" href="${url(featured)}">
             <figure class="featured-media"><img src="${img(featured)}" alt="${esc(featured.alt)}" width="1400" height="933" /></figure>
             <div class="featured-body">
@@ -48,8 +58,8 @@ const indexHtml =
       <section class="blog-list">
         <div class="container">
           <p class="label">Blog and articles</p>
-          <h2>Latest insights and trends</h2>
-          <div class="post-grid" id="post-grid">${rest.map(card).join("")}
+          <h2 id="blog-heading">Latest insights and trends</h2>
+          <div class="post-grid" id="post-grid">${posts.map((p) => (p === featured ? card(p).replace('<a class="post-card"', '<a class="post-card" data-featured hidden') : card(p))).join("")}
           </div>
           <p class="blog-empty" id="blog-empty" hidden>No articles in this topic yet.</p>
         </div>
