@@ -1,5 +1,61 @@
 [
   {
+    "slug": "basic-motorcycle-toolkit-every-rider-should-own",
+    "title": "The basic toolkit every rider should own",
+    "category": "Gear",
+    "date": "2026-10-08",
+    "read": 5,
+    "image": "basic-motorcycle-toolkit-every-rider-should-own",
+    "alt": "An open socket set in a black case on a concrete garage floor, with a ratchet and loose sockets beside it",
+    "excerpt": "You don't need a workshop to look after your bike. A small, well-chosen set of tools covers most of the jobs that keep it running well between services.",
+    "body": [
+      {
+        "p": "Plenty of riders leave every job to the dealer, and that is fine for the big services. But a lot of what keeps a motorcycle healthy is small, regular work: adjusting the chain, checking tyre pressures, topping up fluids, tightening something that has worked loose. With a modest toolkit you can do all of that at home, in less time than it takes to book an appointment."
+      },
+      {
+        "h": "Start with what your bike actually uses"
+      },
+      {
+        "p": "Before you buy anything, look at your bike. Note the sizes of the bolts you touch most often, such as the axle nut, the chain adjusters and the sump plug, and check the owner's manual for the torque figures. Buying the right sizes once is cheaper than a big generic set full of tools you never use."
+      },
+      {
+        "h": "The essentials"
+      },
+      {
+        "ul": [
+          "A socket set with a ratchet, covering the common sizes on your bike, plus a few extensions.",
+          "Combination spanners in the same sizes, for places a socket cannot reach.",
+          "A set of hex keys, and Torx bits if your bike uses them.",
+          "A torque wrench, so axle nuts, sump plugs and brake bolts go back to the right figure.",
+          "A good tyre pressure gauge. The one on a petrol station airline is not always accurate.",
+          "Chain cleaner, a soft brush and chain lube.",
+          "Nitrile gloves, rags and a drain pan for anything involving oil."
+        ]
+      },
+      {
+        "h": "Nice to have"
+      },
+      {
+        "p": "A paddock stand makes chain and wheel work far easier on bikes without a centre stand. A small battery maintenance charger keeps the battery healthy if the bike sits for weeks. A head torch and a magnetic pick-up tool will save your temper the first time a washer drops into the fairing."
+      },
+      {
+        "h": "Carry a small kit on the bike"
+      },
+      {
+        "p": "For trips, a compact roll under the seat is worth its weight: the tool kit that came with the bike, a tyre plug kit with a few CO2 cartridges or a small pump, cable ties, a little tape and a spare fuse or two. It will not fix everything, but it turns plenty of roadside problems into a short stop instead of a recovery call."
+      },
+      {
+        "h": "Tools are only half of it"
+      },
+      {
+        "p": "Doing your own small jobs is satisfying, but it is easy to lose track of what you did and when. Was the chain adjusted last month or last season? When did the oil go in? Writing it down each time, with the date and the odometer reading, gives you a proper service history and tells you when the next job is due. That record is also exactly what a buyer wants to see when you sell."
+      },
+      {
+        "p": "If you would rather not keep that record in a notebook, MotoLog logs your services and mileage and flags each job as due soon or overdue, so your toolkit comes out at the right time. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-to-store-your-motorcycle-for-winter",
     "title": "How to store your motorcycle for winter",
     "category": "Maintenance",
