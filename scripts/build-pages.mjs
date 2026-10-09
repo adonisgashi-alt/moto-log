@@ -157,3 +157,68 @@ for (const p of pages) {
   writeFileSync(p.file, html);
 }
 console.log(`pages: ${pages.length}`);
+
+// Account pages: same header and footer as the rest of the site, but private (noindex, no analytics on the garage)
+const account = [
+  {
+    file: "login.html",
+    path: "/login",
+    title: "Log in to MotoLog",
+    description: "Log in to see the services, mileage and trips you have logged in the MotoLog app.",
+    analytics: true,
+    script: "/src/login.js",
+    main: `<main class="login">
+      <div class="container login-inner">
+        <p class="label">Rider account</p>
+        <h1>Log in</h1>
+        <p class="login-intro">See the services, mileage and trips you have logged in the MotoLog app.</p>
+
+        <form class="login-form" id="login-form" novalidate>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required />
+          <button type="submit" class="btn btn-dark" id="login-submit">Log in</button>
+          <p class="login-or" aria-hidden="true"><span>or</span></p>
+          <button type="button" class="btn btn-ghost" id="google-btn">
+            <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45.1 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h11.8c-.5 2.7-2.1 5-4.4 6.5v5.4h7.1c4.2-3.8 6.6-9.5 6.6-15.9z"/><path fill="#34A853" d="M24 46c5.9 0 10.9-2 14.5-5.3l-7.1-5.4c-2 1.3-4.5 2.1-7.4 2.1-5.7 0-10.5-3.8-12.2-9H4.5v5.6C8.1 41.1 15.5 46 24 46z"/><path fill="#FBBC05" d="M11.8 28.4c-.4-1.3-.7-2.7-.7-4.4s.3-3 .7-4.4v-5.6H4.5C3 17 2 20.4 2 24s1 7 2.5 10l7.3-5.6z"/><path fill="#EA4335" d="M24 10.6c3.2 0 6.1 1.1 8.4 3.3l6.3-6.3C34.9 4.1 29.9 2 24 2 15.5 2 8.1 6.9 4.5 14l7.3 5.6c1.7-5.2 6.500-9 12.2-9z"/></svg>
+            Continue with Google
+          </button>
+          <p class="login-note" id="login-note" role="status" aria-live="polite">
+            Accounts are created in the MotoLog app. Log in here with the same email or Google account.
+          </p>
+        </form>
+      </div>
+    </main>`,
+  },
+  {
+    file: "dashboard.html",
+    path: "/dashboard",
+    title: "Your garage | MotoLog",
+    description: "Your bikes, services and trips from the MotoLog app.",
+    analytics: false,
+    script: "/src/dashboard.js",
+    main: `<main class="dashboard">
+      <div class="container">
+        <p class="label">Your garage</p>
+        <h1>Your bikes</h1>
+        <p class="dash-intro">The services, mileage and trips you have logged in the MotoLog app.</p>
+        <p class="dash-state" id="dash-state" role="status" aria-live="polite">Loading your garage…</p>
+        <div class="garage" id="garage"></div>
+      </div>
+    </main>`,
+  },
+];
+
+for (const p of account) {
+  const html =
+    head({ title: p.title, description: p.description, path: p.path, image: "/images/hero.jpg", robots: "noindex, nofollow", analytics: p.analytics }) +
+    nav("") +
+    `
+
+    ${p.main}
+` +
+    footer.replace("</body>", `    <script type="module" src="${p.script}"></script>\n  </body>`);
+  writeFileSync(p.file, html);
+}
+console.log(`account pages: ${account.length}`);

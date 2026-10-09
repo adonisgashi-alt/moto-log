@@ -1,5 +1,184 @@
 [
   {
+    "slug": "get-your-motorcycle-ready-for-a-long-trip",
+    "title": "How to get your motorcycle ready for a long trip",
+    "category": "Trips",
+    "date": "2026-10-09",
+    "read": 5,
+    "image": "get-your-motorcycle-ready-for-a-long-trip",
+    "alt": "A dark green motorcycle loaded with a tail bag and a helmet, parked on a dusty roadside",
+    "excerpt": "A long ride puts more miles on your bike in a few days than it might see in a month. Here is what to check before you leave, so the trip is about the road and not the hard shoulder.",
+    "body": [
+      {
+        "p": "A multi-day trip is the best thing you can do on a motorcycle, and also the hardest thing you can ask of it. Hundreds of miles in a few days, extra weight from luggage, unfamiliar roads and no garage nearby. Most trip-ending problems are things that could have been spotted at home with an hour of preparation. A quick look over the bike, done a few days before you leave, also gives you time to order a part if something needs replacing."
+      },
+      {
+        "h": "Look at what is due before you go"
+      },
+      {
+        "p": "Start with the bike's service history. Add the distance of your trip to the current odometer reading and see what that number crosses. If the oil change or a chain and sprocket check is due halfway through the trip, do it before you leave. Finding a workshop in a town you have never visited, on a day you planned to ride, is nobody's idea of a holiday."
+      },
+      {
+        "h": "The pre-trip check"
+      },
+      {
+        "ul": [
+          "Tyres: check the tread depth across the whole width and the age of the tyres. A tyre that would last another month at home may not last two thousand miles.",
+          "Pressures: set them for the load you will carry. Your manual usually lists a higher figure for a passenger or luggage.",
+          "Chain: clean, lube and adjust it, and look for tight spots and hooked sprocket teeth.",
+          "Brakes: check pad thickness and fluid level, and make sure the lever and pedal feel firm.",
+          "Fluids and lights: top up the oil and coolant, and check every bulb, including the brake light."
+        ]
+      },
+      {
+        "h": "Load it properly"
+      },
+      {
+        "p": "Luggage changes how a bike handles. Keep heavy items low and close to the centre, and spread weight evenly across panniers. Adjust the rear preload if your suspension allows it, and take a short ride fully loaded before the trip so the first time you feel the difference is not on a mountain pass."
+      },
+      {
+        "h": "Pack a small roadside kit"
+      },
+      {
+        "p": "Bring the tool kit that came with the bike, a tyre plug kit with a way to reinflate, a few cable ties, some tape, a spare fuse and a small bottle of chain lube for longer trips. Save your breakdown cover number and a photo of your documents on your phone."
+      },
+      {
+        "h": "Keep a record as you ride"
+      },
+      {
+        "p": "Note the odometer at the start and end of the trip and each day in between. You will know exactly how far you went, and when you get home you will know which services the trip pulled forward. Those miles count just as much as the commute, and they are easy to forget."
+      },
+      {
+        "p": "MotoLog makes that part simple: log the trip and its mileage, and the app shows which services are due soon or overdue before you set off and when you get back. You can get it in the section just below."
+      }
+    ]
+  },
+  {
+    "slug": "basic-motorcycle-toolkit-every-rider-should-own",
+    "title": "The basic toolkit every rider should own",
+    "category": "Gear",
+    "date": "2026-10-08",
+    "read": 5,
+    "image": "basic-motorcycle-toolkit-every-rider-should-own",
+    "alt": "An open socket set in a black case on a concrete garage floor, with a ratchet and loose sockets beside it",
+    "excerpt": "You don't need a workshop to look after your bike. A small, well-chosen set of tools covers most of the jobs that keep it running well between services.",
+    "body": [
+      {
+        "p": "Plenty of riders leave every job to the dealer, and that is fine for the big services. But a lot of what keeps a motorcycle healthy is small, regular work: adjusting the chain, checking tyre pressures, topping up fluids, tightening something that has worked loose. With a modest toolkit you can do all of that at home, in less time than it takes to book an appointment."
+      },
+      {
+        "h": "Start with what your bike actually uses"
+      },
+      {
+        "p": "Before you buy anything, look at your bike. Note the sizes of the bolts you touch most often, such as the axle nut, the chain adjusters and the sump plug, and check the owner's manual for the torque figures. Buying the right sizes once is cheaper than a big generic set full of tools you never use."
+      },
+      {
+        "h": "The essentials"
+      },
+      {
+        "ul": [
+          "A socket set with a ratchet, covering the common sizes on your bike, plus a few extensions.",
+          "Combination spanners in the same sizes, for places a socket cannot reach.",
+          "A set of hex keys, and Torx bits if your bike uses them.",
+          "A torque wrench, so axle nuts, sump plugs and brake bolts go back to the right figure.",
+          "A good tyre pressure gauge. The one on a petrol station airline is not always accurate.",
+          "Chain cleaner, a soft brush and chain lube.",
+          "Nitrile gloves, rags and a drain pan for anything involving oil."
+        ]
+      },
+      {
+        "h": "Nice to have"
+      },
+      {
+        "p": "A paddock stand makes chain and wheel work far easier on bikes without a centre stand. A small battery maintenance charger keeps the battery healthy if the bike sits for weeks. A head torch and a magnetic pick-up tool will save your temper the first time a washer drops into the fairing."
+      },
+      {
+        "h": "Carry a small kit on the bike"
+      },
+      {
+        "p": "For trips, a compact roll under the seat is worth its weight: the tool kit that came with the bike, a tyre plug kit with a few CO2 cartridges or a small pump, cable ties, a little tape and a spare fuse or two. It will not fix everything, but it turns plenty of roadside problems into a short stop instead of a recovery call."
+      },
+      {
+        "h": "Tools are only half of it"
+      },
+      {
+        "p": "Doing your own small jobs is satisfying, but it is easy to lose track of what you did and when. Was the chain adjusted last month or last season? When did the oil go in? Writing it down each time, with the date and the odometer reading, gives you a proper service history and tells you when the next job is due. That record is also exactly what a buyer wants to see when you sell."
+      },
+      {
+        "p": "If you would rather not keep that record in a notebook, MotoLog logs your services and mileage and flags each job as due soon or overdue, so your toolkit comes out at the right time. You can get the app just below."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-store-your-motorcycle-for-winter",
+    "title": "How to store your motorcycle for winter",
+    "category": "Maintenance",
+    "date": "2026-10-07",
+    "read": 5,
+    "image": "how-to-store-your-motorcycle-for-winter",
+    "alt": "A black sport motorcycle with a green frame resting on a paddock stand in a dark garage",
+    "excerpt": "A few hours of preparation in autumn means a bike that starts first time in spring. Here is what to do before you park it up, and what to check when you bring it back.",
+    "body": [
+      {
+        "p": "When the days get short and the roads turn wet and salty, plenty of riders park the bike until spring. Done carelessly, that break can leave you with a flat battery, stale fuel and tyres with flat spots. Done well, it takes an afternoon and the bike is ready to go the first warm weekend of the year."
+      },
+      {
+        "h": "Clean it before it sits"
+      },
+      {
+        "p": "Road grime, salt and dead insects keep working on paint, alloy and chrome while the bike is parked. Give it a proper wash, dry it thoroughly, and pay attention to the wheels, the swingarm and the underside of the engine. A coat of wax or a protective spray on bare metal helps too. A clean bike also makes it easier to spot leaks over the winter."
+      },
+      {
+        "h": "Change the oil now, not in spring"
+      },
+      {
+        "p": "Used oil carries acids and contaminants from combustion, and they sit against the inside of the engine for months if you leave them there. Changing the oil and filter before storage means the engine rests in clean oil. If an oil change is close to due anyway, this is the obvious time to do it."
+      },
+      {
+        "h": "Look after the fuel and the battery"
+      },
+      {
+        "ul": [
+          "Fill the tank close to full to reduce condensation, and add a fuel stabiliser if the bike will sit for more than a month or so. Run the engine briefly so treated fuel reaches the fuel system.",
+          "Connect the battery to a smart maintenance charger, or remove it and keep it somewhere cool and dry on a charger.",
+          "Check your manual for anything specific to your bike, such as draining a carburettor."
+        ]
+      },
+      {
+        "h": "Take the weight off the tyres"
+      },
+      {
+        "p": "Tyres that sit in one position for months can develop flat spots. Put the bike on a paddock stand or centre stand if you can, so one or both wheels are off the ground. If not, pump the tyres up to the recommended pressure and move the bike a little every few weeks."
+      },
+      {
+        "h": "Cover it and keep it dry"
+      },
+      {
+        "p": "A garage or shed is ideal. Use a breathable cover rather than a plastic sheet, which traps moisture against the bike. If the bike has to stay outside, an outdoor cover that is designed to vent is worth the money. Plugging the exhaust outlets keeps out damp and small animals, as long as you remember to remove the plugs before you start it."
+      },
+      {
+        "h": "Write down where you left off"
+      },
+      {
+        "p": "Before you walk away, record the date and the odometer reading, along with what you did: oil changed, battery on charge, fuel treated. It takes a minute, and in March it answers the question you will otherwise be guessing at. In MotoLog you can log the mileage and the services you did, and because service intervals can be set by time as well as distance, anything that falls due over the winter still shows up as due soon or overdue."
+      },
+      {
+        "h": "Bringing it back in spring"
+      },
+      {
+        "ul": [
+          "Remove exhaust plugs and the cover, and refit the charged battery.",
+          "Check tyre pressures, chain tension and lubrication, and brake fluid level.",
+          "Look underneath for leaks and test the brakes before your first proper ride.",
+          "Check what services came due while the bike was parked."
+        ]
+      },
+      {
+        "p": "An afternoon of preparation now saves you a dead battery and a frustrating first ride. Park it carefully, write down where you left off, and the bike will be ready when the roads are."
+      }
+    ]
+  },
+  {
     "slug": "how-often-change-motorcycle-oil",
     "title": "How often should you change your motorcycle's oil?",
     "category": "Maintenance",
@@ -319,7 +498,7 @@
   {
     "slug": "service-history-motorcycle-resale-value",
     "title": "How a service history helps your motorcycle sell for more",
-    "category": "Ownership",
+    "category": "Buying & Selling",
     "date": "2026-09-29",
     "read": 4,
     "image": "card-2",
@@ -363,6 +542,260 @@
       },
       {
         "p": "A well-kept bike is easier to enjoy and easier to sell. The records are how you prove it."
+      }
+    ]
+  },
+  {
+    "slug": "buying-a-used-motorcycle-checklist",
+    "title": "Buying a used motorcycle: the checklist to run before you pay",
+    "category": "Buying & Selling",
+    "date": "2026-09-28",
+    "read": 5,
+    "alt": "A rider crouching beside a motorcycle in a garage, working on it with a toolkit open beside them",
+    "excerpt": "A used bike is only a good deal if you know what you are buying. Here is what to ask, check and walk away from.",
+    "body": [
+      {
+        "p": "Buying used can save you a lot of money, but the price on the advert is only part of the story. What decides whether it is a good deal is how the bike was looked after. This checklist helps you find that out before you hand anything over."
+      },
+      {
+        "h": "Start with the paperwork"
+      },
+      {
+        "ul": [
+          "The seller's name matches the registration document.",
+          "The frame number on the bike matches the documents.",
+          "There is a service history, ideally with dates and mileage.",
+          "Any claims about previous owners or accidents are written down, not just promised."
+        ]
+      },
+      {
+        "p": "If a seller cannot or will not show any records, treat that as information. It does not always mean the bike is bad, but it means you are taking their word for it."
+      },
+      {
+        "h": "Check the mileage makes sense"
+      },
+      {
+        "p": "Compare the odometer with the service records and the general wear. A low reading with worn pegs, a shiny seat and tired tyres does not add up. A believable history, with mileage rising steadily between services, is far more reassuring than a single round number."
+      },
+      {
+        "h": "Look at the bike with the engine cold"
+      },
+      {
+        "ul": [
+          "Ask the seller not to warm it up before you arrive, so you can hear a cold start.",
+          "Look for oil or coolant weeping from the engine, forks and shocks.",
+          "Check the chain and sprockets: hooked teeth and a stiff or rusty chain mean money soon.",
+          "Read the date code on the tyres. Old rubber hardens even when the tread looks fine.",
+          "Squeeze the brake and clutch levers and check they feel smooth and consistent."
+        ]
+      },
+      {
+        "h": "Ride it before you decide"
+      },
+      {
+        "p": "A short test ride tells you more than any photo. Listen for odd noises, notice whether it pulls to one side, and check it shifts cleanly through the gears. If the seller will not allow a ride, ask them why."
+      },
+      {
+        "h": "Negotiate with evidence"
+      },
+      {
+        "p": "Worn tyres, an overdue service or a tired chain are all fair reasons to ask for a lower price, because you will have to pay for them. Point at the specific thing and what it costs, and the conversation stays calm."
+      },
+      {
+        "h": "Then keep your own record"
+      },
+      {
+        "p": "Once the bike is yours, the first thing worth doing is writing down the mileage and the date, and then every service from there. It is the same evidence you just asked the seller for. MotoLog keeps your services and mileage in one place on your phone and flags what is due soon or overdue, so you always know where the bike stands."
+      },
+      {
+        "p": "Buy carefully, and the next owner, whether that is you in five years or someone else, will thank you for the records."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-a-motorcycle-helmet",
+    "title": "How to choose a motorcycle helmet that fits and lasts",
+    "category": "Gear",
+    "date": "2026-09-27",
+    "read": 4,
+    "alt": "A motorcyclist checking their bike and gear before a ride",
+    "excerpt": "The best helmet is the one that fits your head and gets worn every ride. Here is how to pick one and know when to replace it.",
+    "body": [
+      {
+        "p": "A helmet is the most important piece of kit you own, and a surprising amount of its protection depends on fit. A good helmet that does not fit is worse than a modest one that does."
+      },
+      {
+        "h": "Fit first"
+      },
+      {
+        "p": "Try helmets on in person if you can. It should feel snug all the way round, with the cheek pads firm against your face and no sharp pressure points, especially on your forehead. When you hold the chin bar and try to roll it forwards or sideways, your skin should move with the helmet instead of the helmet sliding over your head."
+      },
+      {
+        "ul": [
+          "Wear it for at least ten minutes in the shop. Hot spots show up with time.",
+          "Check you can see to the sides without turning the whole helmet.",
+          "Fasten the strap and make sure the helmet does not lift off when pulled from the back."
+        ]
+      },
+      {
+        "h": "Look for a recognised safety standard"
+      },
+      {
+        "p": "Helmets are tested to standards such as ECE 22.06, which is the current European one, or DOT in the United States. The sticker or label shows which one it meets. Check which standard applies where you ride, and be wary of helmets with no labelling at all."
+      },
+      {
+        "h": "Pick the style for how you ride"
+      },
+      {
+        "ul": [
+          "Full face: the most coverage, and the usual choice for fast or long rides.",
+          "Modular: the chin bar flips up, handy for commuting and stops.",
+          "Open face: lighter and airier, with less protection for your face.",
+          "Adventure: a peak and a larger visor opening for mixed roads and trails."
+        ]
+      },
+      {
+        "h": "Know when to replace it"
+      },
+      {
+        "p": "Replace a helmet after any hard impact, even if it looks fine, because the protective liner may be damaged where you cannot see. Many manufacturers also advise replacing a helmet around five years after you start using it, as materials age. Check what the maker of yours recommends."
+      },
+      {
+        "h": "Look after it"
+      },
+      {
+        "p": "Clean the shell and visor with mild soap and water, and avoid strong solvents or stickers that can weaken the shell. Store it somewhere cool and dry and never hang it by its strap on a mirror, where it can get knocked."
+      },
+      {
+        "h": "Write the date down"
+      },
+      {
+        "p": "It is easy to forget when you bought it. Note the purchase date somewhere you will see it again. If you already keep your rides and bike details in MotoLog, that is a natural place to keep a reminder of how long the helmet has been in use."
+      },
+      {
+        "p": "Choose well, replace when it is time, and wear it every ride."
+      }
+    ]
+  },
+  {
+    "slug": "five-riding-skills-to-practise-in-a-car-park",
+    "title": "Five riding skills to practise in an empty car park",
+    "category": "Riding Skills",
+    "date": "2026-09-26",
+    "read": 5,
+    "alt": "A motorcycle on an open road at the start of a journey",
+    "excerpt": "You do not need a track day to ride better. A quiet car park and an hour is enough to build skills that matter on the road.",
+    "body": [
+      {
+        "p": "Most of us learn to ride well enough to pass a test and then stop practising. A quiet car park and an hour every few weeks can fix that. Here are five skills worth working on, in the order that usually helps most."
+      },
+      {
+        "h": "1. Progressive braking"
+      },
+      {
+        "p": "Squeeze the front brake smoothly instead of grabbing it, and add the rear as you slow. Practise from a low speed, building up gradually, until you can stop quickly in a straight line without the bike feeling twitchy. Hard stopping is a habit, so it is worth rehearsing before you ever need it."
+      },
+      {
+        "h": "2. Slow-speed control"
+      },
+      {
+        "p": "Ride in a slow, tight circle using a little rear brake and the clutch friction zone, keeping your head up and looking where you want to go. This is the skill that makes junctions, filtering and parking feel easy."
+      },
+      {
+        "h": "3. U-turns"
+      },
+      {
+        "p": "Look over your shoulder to where you want to finish, keep the revs steady, drag a little rear brake and let the bike lean while you stay upright. Start wide, then slowly tighten the circle."
+      },
+      {
+        "h": "4. Looking through corners"
+      },
+      {
+        "p": "Set up some cones or markers and practise turning your head to the exit before you turn the bars. The bike follows your eyes. This habit carries straight onto real bends."
+      },
+      {
+        "h": "5. Smooth shifting and throttle"
+      },
+      {
+        "p": "Practise rolling the throttle on and off gently and matching your shifts, so the bike never lurches. Smooth riding is safer and easier on the chain, clutch and tyres."
+      },
+      {
+        "h": "Make it a habit"
+      },
+      {
+        "ul": [
+          "Pick one skill per session instead of trying everything.",
+          "Keep sessions short, about an hour, so you stay sharp.",
+          "Check your tyre pressures and chain before you go. A quick look takes minutes.",
+          "Find a place with no traffic, and ask permission if it is private."
+        ]
+      },
+      {
+        "p": "If you log your rides and mileage in MotoLog, you will see how much you actually ride, and a practice session is a good reason to get out. Mileage between services and trips both build up over a season, and the app keeps them in one place."
+      },
+      {
+        "p": "Little and often beats one big effort. Your future self on a wet road will be glad you did."
+      }
+    ]
+  },
+  {
+    "slug": "motorcycle-service-intervals-cheat-sheet",
+    "title": "Motorcycle service intervals: a plain-English cheat sheet",
+    "category": "Guides",
+    "date": "2026-09-25",
+    "read": 6,
+    "alt": "A motorcycle being serviced in a workshop",
+    "excerpt": "How often does a motorcycle really need servicing? Typical intervals for common jobs, and why your owner's manual always has the last word.",
+    "body": [
+      {
+        "p": "Service intervals vary a lot between models, so the single most reliable source is your owner's manual. Think of this guide as a map of what usually gets done and roughly how often, so you know what to look for and what to ask a mechanic about."
+      },
+      {
+        "h": "The big rule"
+      },
+      {
+        "p": "Most manufacturers set intervals by whichever comes first: a distance or a time. A bike that only does a few thousand miles a year still needs its oil and fluids changed, because they age even when parked."
+      },
+      {
+        "h": "Common jobs and typical ranges"
+      },
+      {
+        "ul": [
+          "Engine oil and filter: often every 3,000 to 8,000 miles, or once a year. Check your manual, as modern engines vary.",
+          "Chain: clean and lubricate every few hundred miles and after wet rides, and check the tension regularly.",
+          "Tyre pressure: check weekly, and before any long ride.",
+          "Brake fluid: commonly every one to two years, because it absorbs moisture over time.",
+          "Coolant: usually every two to five years on liquid-cooled bikes.",
+          "Air filter: inspect at each service and replace when dirty, often every 6,000 to 12,000 miles.",
+          "Spark plugs and valve clearances: set by the manufacturer, and can range from several thousand miles to tens of thousands."
+        ]
+      },
+      {
+        "h": "Think about how you ride"
+      },
+      {
+        "ul": [
+          "Sport bikes: often tighter intervals, especially for oil and consumables, if ridden hard.",
+          "Cruisers: usually relaxed intervals, with the chain or belt checked regularly.",
+          "Adventure bikes: dust, mud and weight mean chain, filters and tyres wear faster off the tarmac.",
+          "Commuters and scooters: lots of short trips and stop-start riding are hard on oil, so do not stretch intervals.",
+          "Off-road bikes: often measured in hours of running time, not miles."
+        ]
+      },
+      {
+        "h": "Do not forget the time limit"
+      },
+      {
+        "p": "It is easy to track mileage and forget the calendar. Brake fluid, coolant and oil all expire on a date as well as a distance, so a bike that sits in the garage can still be overdue."
+      },
+      {
+        "h": "Let something keep track"
+      },
+      {
+        "p": "Remembering every interval across every part is a lot. MotoLog lets you log each service and set an interval in miles and months, then shows what is due soon or overdue so nothing slips. You enter the numbers from your manual once, and the app does the counting."
+      },
+      {
+        "p": "Keep to the schedule, keep the records, and your bike will repay you with reliability and a better resale price."
       }
     ]
   }

@@ -13,7 +13,7 @@ const url = (p) => `/blog/${p.slug}`;
 const card = postCard;
 
 // Blog index
-const [featured, ...rest] = posts;
+const featured = posts[0];
 const categories = ["All", ...new Set(posts.map((p) => p.category))];
 const indexHtml =
   head({
@@ -30,9 +30,19 @@ const indexHtml =
       <section class="blog-top">
         <div class="container">
           <h1>Blog &amp; articles</h1>
+        </div>
+      </section>
+
+      <div class="filters-bar">
+        <div class="container">
           <div class="filters" role="group" aria-label="Filter articles by topic">
             ${categories.map((c, i) => `<button type="button" class="filter${i === 0 ? " active" : ""}" data-filter="${esc(c)}" aria-pressed="${i === 0}">${esc(c)}</button>`).join("\n            ")}
           </div>
+        </div>
+      </div>
+
+      <section class="blog-feature" id="blog-feature">
+        <div class="container">
           <a class="featured" href="${url(featured)}">
             <figure class="featured-media"><img src="${img(featured)}" alt="${esc(featured.alt)}" width="1400" height="933" /></figure>
             <div class="featured-body">
@@ -48,10 +58,18 @@ const indexHtml =
       <section class="blog-list">
         <div class="container">
           <p class="label">Blog and articles</p>
-          <h2>Latest insights and trends</h2>
-          <div class="post-grid" id="post-grid">${rest.map(card).join("")}
+          <h2 id="blog-heading">Latest insights and trends</h2>
+          <div class="post-grid" id="post-grid">${posts
+            .map((p, i) => {
+              const html = card(p);
+              // The featured post lives in the hero on "All"; later posts wait behind "Load more" (still in the HTML for crawlers)
+              if (i === 0) return html.replace('<a class="post-card"', '<a class="post-card" data-featured hidden');
+              return i > 9 ? html.replace('<a class="post-card"', '<a class="post-card" hidden') : html;
+            })
+            .join("")}
           </div>
           <p class="blog-empty" id="blog-empty" hidden>No articles in this topic yet.</p>
+          <div class="load-more"><button type="button" class="btn btn-ghost" id="load-more" hidden>Load more articles</button></div>
         </div>
       </section>
     </main>
@@ -141,7 +159,7 @@ writeFileSync(
 const bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "Bingbot", "DuckDuckBot", "CCBot", "Amazonbot", "Meta-ExternalAgent"];
 writeFileSync(
   "public/robots.txt",
-  `User-agent: *\nAllow: /\nDisallow: /login\n\n${bots.map((b) => `User-agent: ${b}\nAllow: /\nDisallow: /login\n`).join("\n")}\nSitemap: ${SITE}/sitemap.xml\n`,
+  `User-agent: *\nAllow: /\nDisallow: /login\nDisallow: /dashboard\n\n${bots.map((b) => `User-agent: ${b}\nAllow: /\nDisallow: /login\nDisallow: /dashboard\n`).join("\n")}\nSitemap: ${SITE}/sitemap.xml\n`,
 );
 
 const rfc = (d) => new Date(d + "T09:00:00Z").toUTCString();
