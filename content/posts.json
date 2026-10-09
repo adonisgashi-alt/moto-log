@@ -1,5 +1,59 @@
 [
   {
+    "slug": "get-your-motorcycle-ready-for-a-long-trip",
+    "title": "How to get your motorcycle ready for a long trip",
+    "category": "Trips",
+    "date": "2026-10-09",
+    "read": 5,
+    "image": "get-your-motorcycle-ready-for-a-long-trip",
+    "alt": "A dark green motorcycle loaded with a tail bag and a helmet, parked on a dusty roadside",
+    "excerpt": "A long ride puts more miles on your bike in a few days than it might see in a month. Here is what to check before you leave, so the trip is about the road and not the hard shoulder.",
+    "body": [
+      {
+        "p": "A multi-day trip is the best thing you can do on a motorcycle, and also the hardest thing you can ask of it. Hundreds of miles in a few days, extra weight from luggage, unfamiliar roads and no garage nearby. Most trip-ending problems are things that could have been spotted at home with an hour of preparation. A quick look over the bike, done a few days before you leave, also gives you time to order a part if something needs replacing."
+      },
+      {
+        "h": "Look at what is due before you go"
+      },
+      {
+        "p": "Start with the bike's service history. Add the distance of your trip to the current odometer reading and see what that number crosses. If the oil change or a chain and sprocket check is due halfway through the trip, do it before you leave. Finding a workshop in a town you have never visited, on a day you planned to ride, is nobody's idea of a holiday."
+      },
+      {
+        "h": "The pre-trip check"
+      },
+      {
+        "ul": [
+          "Tyres: check the tread depth across the whole width and the age of the tyres. A tyre that would last another month at home may not last two thousand miles.",
+          "Pressures: set them for the load you will carry. Your manual usually lists a higher figure for a passenger or luggage.",
+          "Chain: clean, lube and adjust it, and look for tight spots and hooked sprocket teeth.",
+          "Brakes: check pad thickness and fluid level, and make sure the lever and pedal feel firm.",
+          "Fluids and lights: top up the oil and coolant, and check every bulb, including the brake light."
+        ]
+      },
+      {
+        "h": "Load it properly"
+      },
+      {
+        "p": "Luggage changes how a bike handles. Keep heavy items low and close to the centre, and spread weight evenly across panniers. Adjust the rear preload if your suspension allows it, and take a short ride fully loaded before the trip so the first time you feel the difference is not on a mountain pass."
+      },
+      {
+        "h": "Pack a small roadside kit"
+      },
+      {
+        "p": "Bring the tool kit that came with the bike, a tyre plug kit with a way to reinflate, a few cable ties, some tape, a spare fuse and a small bottle of chain lube for longer trips. Save your breakdown cover number and a photo of your documents on your phone."
+      },
+      {
+        "h": "Keep a record as you ride"
+      },
+      {
+        "p": "Note the odometer at the start and end of the trip and each day in between. You will know exactly how far you went, and when you get home you will know which services the trip pulled forward. Those miles count just as much as the commute, and they are easy to forget."
+      },
+      {
+        "p": "MotoLog makes that part simple: log the trip and its mileage, and the app shows which services are due soon or overdue before you set off and when you get back. You can get it in the section just below."
+      }
+    ]
+  },
+  {
     "slug": "basic-motorcycle-toolkit-every-rider-should-own",
     "title": "The basic toolkit every rider should own",
     "category": "Gear",
