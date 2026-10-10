@@ -1,5 +1,62 @@
 [
   {
+    "slug": "motorcycle-brake-pads-and-fluid-when-to-replace",
+    "title": "Motorcycle brakes: when to replace pads and fluid",
+    "category": "Safety",
+    "date": "2026-10-10",
+    "read": 5,
+    "image": "motorcycle-brake-pads-and-fluid-when-to-replace",
+    "alt": "Close-up of a motorcycle's front brake disc and caliper behind the fork leg",
+    "excerpt": "Brakes wear slowly, so the change is easy to miss until it matters. Here is how to check your pads and fluid, and how often to replace them.",
+    "body": [
+      {
+        "p": "Brakes are the one system on a motorcycle you cannot afford to get wrong, and they are also the one that tells you least about its condition. Pads wear a fraction of a millimetre at a time, and brake fluid ages without any change you would notice on a normal ride. By the time the lever feels different, you are already overdue."
+      },
+      {
+        "h": "Checking your brake pads"
+      },
+      {
+        "p": "Most calipers let you see the pads from the side or from below with a torch. Look at the friction material between the backing plate and the disc. Many pads have a wear groove cut into the material; once the groove is gone, the pads are finished. As a rough guide, if there is less than about 2 mm of material left, replace them. Your service manual gives the exact minimum for your bike."
+      },
+      {
+        "p": "Check both front calipers and the rear. Fronts usually wear faster, but a rear that is used heavily in town or with a passenger can surprise you."
+      },
+      {
+        "h": "Signs your brakes need attention"
+      },
+      {
+        "ul": [
+          "A squeal or grinding noise when you brake.",
+          "The lever or pedal travels further than it used to, or feels spongy.",
+          "The bike pulls or the brakes judder under firm braking.",
+          "Scoring or a visible lip on the edge of the disc.",
+          "Brake fluid in the reservoir looks dark rather than light amber."
+        ]
+      },
+      {
+        "h": "Brake fluid ages even when you don't ride"
+      },
+      {
+        "p": "Most motorcycle brake fluid absorbs moisture from the air over time. Water in the fluid lowers its boiling point, so after a long descent or hard braking the fluid can boil and the lever can go soft. That is why manufacturers specify a fluid change by time, commonly every two years, regardless of how far you ride. If you can't remember when the fluid was last changed, assume it is due."
+      },
+      {
+        "h": "Discs and the rest of the system"
+      },
+      {
+        "p": "Discs wear too, more slowly than pads. The minimum thickness is usually stamped on the disc itself. While you are looking, check the brake lines for cracks or bulges and make sure nothing is leaking around the caliper or master cylinder. Anything that looks wrong here is worth a professional opinion before your next ride."
+      },
+      {
+        "h": "Keep a record"
+      },
+      {
+        "p": "Because brakes wear on two clocks, distance for pads and time for fluid, they are easy to lose track of. Note when you change pads with the odometer reading, and note the date of each fluid change. That record makes the next check obvious instead of a guess."
+      },
+      {
+        "p": "MotoLog lets you set service intervals by distance or by time and flags each one as due soon or overdue, which suits brakes perfectly. If you would like reminders for your pads and fluid, you can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "get-your-motorcycle-ready-for-a-long-trip",
     "title": "How to get your motorcycle ready for a long trip",
     "category": "Trips",
