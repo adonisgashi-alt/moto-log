@@ -1,5 +1,67 @@
 [
   {
+    "slug": "motorcycle-tyre-care-pressure-tread-and-age",
+    "title": "Motorcycle tyre care: pressure, tread and age",
+    "category": "Maintenance",
+    "date": "2026-10-12",
+    "read": 5,
+    "image": "motorcycle-tyre-care-pressure-tread-and-age",
+    "alt": "Front wheel and tyre of a red motorcycle in motion on smooth asphalt",
+    "excerpt": "Two small contact patches are all that hold your motorcycle to the road. Here is how to check tyre pressure, tread and age, and when it is time for a new pair.",
+    "body": [
+      {
+        "p": "Everything a motorcycle does, from braking to cornering to riding through a wet roundabout, happens through two contact patches roughly the size of your palm. Tyres are also one of the easiest parts to neglect, because they wear slowly and still look round and black long after they have stopped performing well. A few minutes of checking every week or two keeps them doing their job."
+      },
+      {
+        "h": "Check pressures cold and often"
+      },
+      {
+        "p": "Motorcycle tyres lose air gradually, even without a puncture, and a tyre that is a few psi low makes the steering feel heavy, wears the edges faster and runs hotter. Check pressures at least every couple of weeks and before any longer ride, always with the tyres cold, before you have ridden more than a mile or two. Use your own gauge rather than a forecourt one, and set the pressures listed in your owner's manual or on the sticker on the swingarm or chain guard. Many manuals give a higher figure for riding with a passenger or luggage, so adjust for that too."
+      },
+      {
+        "h": "Read the tread"
+      },
+      {
+        "p": "Most tyres have small wear indicator bars moulded into the bottom of the grooves, marked by a small triangle or the letters TWI on the sidewall. When the tread is level with those bars, the tyre is finished. Many riders change well before that point, because grip in the wet drops off noticeably as the grooves get shallow. Check the legal minimum where you live as well, since it is often higher than people expect."
+      },
+      {
+        "p": "While you are looking, check how the tyre is wearing. A flat strip down the middle of the rear is normal for a bike that does a lot of straight-line miles, but it makes the bike reluctant to lean. Uneven or stepped wear can point to wrong pressures or a suspension problem worth looking into."
+      },
+      {
+        "h": "Look for damage"
+      },
+      {
+        "p": "Run your eyes and hand around both tyres and look for:"
+      },
+      {
+        "ul": [
+          "Nails, screws or stones lodged in the tread",
+          "Cuts, bulges or blisters on the tread or sidewall",
+          "Fine cracks in the rubber, especially on the sidewalls",
+          "A tyre that keeps losing pressure faster than the other one"
+        ]
+      },
+      {
+        "p": "Anything that looks like a bulge or a deep cut means the tyre should be replaced, not ridden home and forgotten about."
+      },
+      {
+        "h": "Do not forget the age"
+      },
+      {
+        "p": "Rubber hardens with time, even on a bike that sits in the garage most of the year. An old tyre with plenty of tread can still have far less grip than a new one. The manufacturing date is printed on the sidewall as a four-digit code after the letters DOT: the first two digits are the week and the last two are the year, so 2223 means week 22 of 2023. Many manufacturers suggest an inspection by a tyre specialist once a tyre is five years old and replacement by around ten years at the latest, whatever the tread looks like."
+      },
+      {
+        "h": "Make it part of your routine"
+      },
+      {
+        "p": "The easiest way to stay on top of tyres is to tie the checks to things you already do. Check pressures each time you fill up, look over the tread when you clean the chain, and note the mileage whenever you fit a new pair so you know roughly how long your tyres last on your bike and your roads."
+      },
+      {
+        "p": "If you would like a reminder when your next tyre check or replacement is due soon, MotoLog can track it as a service alongside your mileage and trips. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-to-ride-a-motorcycle-in-the-rain",
     "title": "How to ride a motorcycle in the rain",
     "category": "Riding Skills",
