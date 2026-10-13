@@ -1,4 +1,4 @@
-// Google AdSense. Paste your publisher ID (AdSense > Account > Account information) to switch ads on.
+// Google AdSense publisher ID (AdSense > Account > Account information).
 export const ADSENSE_CLIENT = "ca-pub-4060599703929477";
 
 const ready = /^ca-pub-\d{16}$/.test(ADSENSE_CLIENT);
