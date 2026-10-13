@@ -1617,6 +1617,11 @@ summary:focus-visible {
 .prose li {
   margin-bottom: 6px;
 }
+.prose a {
+  color: var(--brand-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .article-cta {
   margin-top: 56px;
   padding: 32px;
