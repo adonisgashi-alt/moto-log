@@ -157,7 +157,7 @@ for (const p of pages) {
   writeFileSync(p.file, html);
 }
 // Privacy policy. AdSense and Google Analytics require one, linked from every page's footer.
-const CONTACT_EMAIL = "[contact email]";
+const CONTACT_EMAIL = `<a href="mailto:info@moto-log.app">info@moto-log.app</a>`;
 const policy = [
   ["Who we are", [`MotoLog makes a mobile app for motorcycle riders and runs this website, moto-log.app. If you have a question about this policy or your data, email us at ${CONTACT_EMAIL}.`]],
   [
