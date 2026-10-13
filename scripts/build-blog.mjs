@@ -81,15 +81,19 @@ mkdirSync("blog", { recursive: true });
 writeFileSync("blog/index.html", indexHtml);
 
 // Article pages
+// Body text may link to other pages on the site with [text](/path); only site-relative paths become links
+const inline = (t) => esc(t).replace(/\[([^\]]+)\]\((\/[^\s)]*)\)/g, '<a href="$2">$1</a>');
 const block = (b) => {
   if (b.h) return `<h2>${esc(b.h)}</h2>`;
-  if (b.p) return `<p>${esc(b.p)}</p>`;
-  if (b.ul) return `<ul>${b.ul.map((li) => `<li>${esc(li)}</li>`).join("")}</ul>`;
+  if (b.p) return `<p>${inline(b.p)}</p>`;
+  if (b.ul) return `<ul>${b.ul.map((li) => `<li>${inline(li)}</li>`).join("")}</ul>`;
   return "";
 };
 
 for (const p of posts) {
-  const related = posts.filter((o) => o.slug !== p.slug).slice(0, 3);
+  // Same-topic articles first, then the newest, so each article links to its closest neighbours
+  const others = posts.filter((o) => o.slug !== p.slug);
+  const related = [...others.filter((o) => o.category === p.category), ...others.filter((o) => o.category !== p.category)].slice(0, 3);
   const ld = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -100,7 +104,7 @@ for (const p of posts) {
     dateModified: p.date,
     inLanguage: "en",
     articleSection: p.category,
-    wordCount: p.body.map((b) => b.p ?? b.h ?? (b.ul ? b.ul.join(" ") : "")).join(" ").split(/\s+/).length,
+    wordCount: p.body.map((b) => b.p ?? b.h ?? (b.ul ? b.ul.join(" ") : "")).join(" ").replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").split(/\s+/).length,
     author: { "@type": "Organization", name: "MotoLog", url: SITE + "/" },
     publisher: { "@type": "Organization", name: "MotoLog", logo: { "@type": "ImageObject", url: SITE + "/motolog-icon.png" } },
     mainEntityOfPage: SITE + url(p),
