@@ -1,6 +1,5 @@
 // Google AdSense. Paste your publisher ID (AdSense > Account > Account information) to switch ads on.
-// While it is the placeholder, nothing is added to the pages and no ads.txt is published.
-export const ADSENSE_CLIENT = "ca-pub-XXXXXXXXXXXXXXXX";
+export const ADSENSE_CLIENT = "ca-pub-4060599703929477";
 
 const ready = /^ca-pub-\d{16}$/.test(ADSENSE_CLIENT);
 
