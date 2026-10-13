@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import { postCard } from "./scripts/layout.mjs";
+import { adsense } from "./scripts/adsense.mjs";
 
 // Puts the three newest articles on the homepage so it links straight to the blog posts (and stays fresh as posts are added)
 const latestPosts = () => ({
@@ -32,7 +33,7 @@ const blog = Object.fromEntries(
 );
 
 export default defineConfig({
-  plugins: [latestPosts()],
+  plugins: [latestPosts(), adsense()],
   build: {
     rollupOptions: {
       input: {
@@ -42,6 +43,7 @@ export default defineConfig({
         features: resolve(__dirname, "features.html"),
         how: resolve(__dirname, "how-it-works.html"),
         faq: resolve(__dirname, "faq.html"),
+        privacy: resolve(__dirname, "privacy.html"),
         ...blog,
       },
     },
