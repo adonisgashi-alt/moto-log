@@ -9,9 +9,13 @@
     "preview": "vite preview",
     "blog": "node scripts/build-blog.mjs && node scripts/build-pages.mjs",
     "predev": "node scripts/build-blog.mjs && node scripts/build-pages.mjs",
-    "prebuild": "node scripts/build-blog.mjs && node scripts/build-pages.mjs"
+    "prebuild": "node scripts/build-blog.mjs && node scripts/build-pages.mjs",
+    "test": "node tests/status.test.mjs"
   },
   "devDependencies": {
     "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "firebase": "^12.19.0"
   }
 }

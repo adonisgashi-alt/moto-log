@@ -1,69 +1,86 @@
 User-agent: *
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: GPTBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Claude-User
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Claude-SearchBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Perplexity-User
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Applebot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Bingbot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: DuckDuckBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: CCBot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 User-agent: Meta-ExternalAgent
 Allow: /
 Disallow: /login
+Disallow: /dashboard
 
 Sitemap: https://www.moto-log.app/sitemap.xml
