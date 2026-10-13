@@ -156,4 +156,57 @@ for (const p of pages) {
     footer;
   writeFileSync(p.file, html);
 }
-console.log(`pages: ${pages.length}`);
+// Privacy policy. AdSense and Google Analytics require one, linked from every page's footer.
+const CONTACT_EMAIL = `<a href="mailto:info@moto-log.app">info@moto-log.app</a>`;
+const policy = [
+  ["Who we are", [`MotoLog makes a mobile app for motorcycle riders and runs this website, moto-log.app. If you have a question about this policy or your data, email us at ${CONTACT_EMAIL}.`]],
+  [
+    "What this website collects",
+    [
+      "We use Google Analytics to understand how people use the site, such as which pages are visited and how visitors arrive. It uses cookies and collects information like your approximate location, device, browser and the pages you view. We do not use it to identify you.",
+      "We show ads through Google AdSense. Google and its partners use cookies to serve ads based on your visits to this and other websites, and to measure how ads perform.",
+      "If you sign in to MotoLog on the website, we use your email address and sign-in details to give you access to your account.",
+    ],
+  ],
+  [
+    "Advertising cookies",
+    [
+      `Google's use of advertising cookies lets it and its partners serve ads to you based on your visits to this site and other sites on the internet. You can turn off personalised advertising in <a href="https://adssettings.google.com">Google Ads Settings</a>, or opt out of some third-party vendors' cookies at <a href="https://www.aboutads.info/choices/">aboutads.info</a>.`,
+      `To learn how Google uses data from sites that use its services, see <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a>.`,
+      "If you visit from the European Economic Area, the United Kingdom or Switzerland, we ask for your consent before personalised ads and their cookies are used. You can change your choice at any time from the privacy settings link on the page.",
+    ],
+  ],
+  ["Data in the MotoLog app", ["Your bikes, services, mileage and trips are stored to run the app for you. We do not sell your data."]],
+  [
+    "Your choices and rights",
+    [
+      `You can block or delete cookies in your browser settings. Depending on where you live, you may have the right to access, correct or delete your personal data, or object to how it is used. To make a request, email ${CONTACT_EMAIL}.`,
+    ],
+  ],
+  ["Changes to this policy", ["If we change this policy, we will update this page and the date below."]],
+];
+writeFileSync(
+  "privacy.html",
+  head({
+    title: "Privacy policy | MotoLog",
+    description: "How MotoLog uses cookies, analytics and advertising on moto-log.app, and the choices you have.",
+    path: "/privacy",
+    image: "/images/hero.jpg",
+  }) +
+    nav() +
+    `
+
+    <main class="article">
+      <div class="container article-inner">
+        <h1>Privacy policy</h1>
+        <p class="article-lede">How MotoLog uses cookies, analytics and advertising on this website, and the choices you have.</p>
+        <div class="prose">
+          ${policy.map(([h, ps]) => `<h2>${esc(h)}</h2>\n          ${ps.map((t) => `<p>${t}</p>`).join("\n          ")}`).join("\n          ")}
+          <p>Last updated 13 October 2026.</p>
+        </div>
+      </div>
+    </main>
+` +
+    footer,
+);
+console.log(`pages: ${pages.length + 1}`);

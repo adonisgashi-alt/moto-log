@@ -8,7 +8,7 @@ const url = (p) => `/blog/${p.slug}`;
 const crumbs = (path, title) => {
   if (path === "/") return "";
   const parts = path.split("/").filter(Boolean);
-  const names = { features: "Features", "how-it-works": "How it works", blog: "Blog", faq: "FAQ" };
+  const names = { features: "Features", "how-it-works": "How it works", blog: "Blog", faq: "FAQ", privacy: "Privacy policy" };
   const items = [{ name: "Home", url: SITE + "/" }];
   parts.forEach((seg, i) => {
     const last = i === parts.length - 1;
@@ -93,6 +93,7 @@ export const footer = `
             <a href="/blog">Blog</a>
             <a href="/faq">FAQ</a>
             <a href="/#download">Download</a>
+            <a href="/privacy">Privacy</a>
           </nav>
           <p>© <span id="year">2026</span> MotoLog</p>
         </div>

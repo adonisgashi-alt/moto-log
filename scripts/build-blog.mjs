@@ -131,7 +131,7 @@ for (const p of posts) {
 // Sitemap, robots, RSS and llms.txt
 const pageDates = Object.fromEntries(posts.map((p) => [url(p), p.date]));
 const latest = posts[0].date;
-const urls = ["/", "/features", "/how-it-works", "/blog", "/faq", ...posts.map(url)];
+const urls = ["/", "/features", "/how-it-works", "/blog", "/faq", "/privacy", ...posts.map(url)];
 writeFileSync(
   "public/sitemap.xml",
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u}</loc><lastmod>${pageDates[u] ?? latest}</lastmod></url>`).join("\n")}\n</urlset>\n`,
