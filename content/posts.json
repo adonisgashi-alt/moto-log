@@ -1,5 +1,70 @@
 [
   {
+    "slug": "motorcycle-battery-care",
+    "title": "Motorcycle battery care: how to keep it charged and healthy",
+    "category": "Maintenance",
+    "date": "2026-10-14",
+    "read": 5,
+    "image": "motorcycle-battery-care",
+    "alt": "A black bobber motorcycle parked in a dim underground garage under fluorescent lights",
+    "excerpt": "A flat battery is one of the most common reasons a motorcycle will not start. Here is why bike batteries die, how to test yours, and how to make it last.",
+    "body": [
+      {
+        "p": "Few things spoil a planned ride faster than pressing the starter and hearing a weak click. Motorcycle batteries are small, they often sit unused for weeks, and many modern bikes draw a little power even when they are switched off. The good news is that most battery problems are avoidable with a few simple habits."
+      },
+      {
+        "h": "Why motorcycle batteries go flat"
+      },
+      {
+        "p": "A car battery gets a long charge every time you drive, but a motorcycle often does short trips or sits in the garage between weekends. Alarms, immobilisers, clocks and ECUs all draw a small current around the clock, and over two or three weeks that is enough to drain a small battery. Cold weather makes things worse, because a cold battery delivers less power just when the engine needs more to turn over."
+      },
+      {
+        "p": "Batteries also wear out with age. Most last somewhere between three and five years, and every time one is run completely flat it loses some of its capacity for good."
+      },
+      {
+        "h": "Check it before it lets you down"
+      },
+      {
+        "p": "A cheap digital multimeter tells you most of what you need to know. With the bike off and rested for a few hours, measure across the terminals:"
+      },
+      {
+        "ul": [
+          "Around 12.6 to 12.8 volts means the battery is fully charged",
+          "Around 12.4 volts means it is about three-quarters charged and worth topping up",
+          "Below about 12.2 volts means it is low and should be charged soon",
+          "If it will not hold a charge for a day or two after charging, it is probably time for a new one"
+        ]
+      },
+      {
+        "p": "While you are there, look at the terminals. White or green crust on the connections can stop current flowing properly. Clean it off with a wire brush, tighten the bolts and add a thin smear of terminal grease. You can fold this into your [pre-ride check](/blog/five-minute-pre-ride-check) every few weeks."
+      },
+      {
+        "h": "Use a smart charger"
+      },
+      {
+        "p": "The single best thing you can do for a motorcycle battery is connect it to a smart charger, sometimes called a battery tender or maintainer, whenever the bike will sit for more than a week or two. A smart charger brings the battery up to full and then holds it there without overcharging. Many come with a lead that you can leave permanently attached to the battery, so plugging in takes seconds. It is essential if you are [storing your bike for winter](/blog/how-to-store-your-motorcycle-for-winter)."
+      },
+      {
+        "p": "Make sure the charger suits your battery type. Lithium batteries, which are increasingly common on newer bikes, need a charger with a lithium mode, and using the wrong setting can damage them."
+      },
+      {
+        "h": "Ride it properly"
+      },
+      {
+        "p": "Short trips of a few minutes use more charge to start the engine than the charging system can put back. If most of your riding is short hops, try to fit in a longer ride of half an hour or more every week or so, or put the bike on the charger afterwards."
+      },
+      {
+        "h": "Keep track of its age"
+      },
+      {
+        "p": "Because batteries fade gradually, it is easy to forget how old yours is until it fails on a cold morning. Note the date you fit a new one, and treat a check of the battery as part of your regular [maintenance schedule](/blog/motorcycle-maintenance-schedule), alongside jobs like [changing the oil](/blog/how-often-change-motorcycle-oil)."
+      },
+      {
+        "p": "If you want a reminder when your next battery check or other service is due soon, MotoLog can track it for you alongside your mileage and trips. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-to-choose-motorcycle-gloves",
     "title": "How to choose motorcycle gloves",
     "category": "Gear",
