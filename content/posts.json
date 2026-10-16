@@ -1,5 +1,72 @@
 [
   {
+    "slug": "motorcycle-warning-lights-explained",
+    "title": "Motorcycle warning lights explained: what each one means",
+    "category": "Guides",
+    "date": "2026-10-16",
+    "read": 5,
+    "image": "motorcycle-warning-lights-explained",
+    "alt": "A lit digital motorcycle instrument cluster at night showing neutral, the odometer and an amber oil warning light",
+    "excerpt": "A light on the dash can mean anything from a reminder to a reason to stop right now. Here is what the common motorcycle warning lights mean and what to do about each one.",
+    "body": [
+      {
+        "p": "Modern motorcycles have more warning lights than ever, and it is not always obvious which ones matter. Some are simply information, some mean you should get the bike checked soon, and a few mean you should pull over as soon as it is safe. The exact symbols vary between manufacturers, so your owner's manual is the final word, but most bikes follow the same broad rules."
+      },
+      {
+        "h": "Read the colour first"
+      },
+      {
+        "p": "Colour is the quickest guide to how serious a light is:"
+      },
+      {
+        "ul": [
+          "Green or blue lights are information, such as neutral, indicators or high beam",
+          "Amber or yellow lights mean something needs attention soon, but you can usually ride on carefully",
+          "Red lights mean stop as soon as it is safe and find out what is wrong"
+        ]
+      },
+      {
+        "h": "Oil pressure light"
+      },
+      {
+        "p": "Usually red and shaped like an oil can. If it comes on while riding, stop as soon as you safely can and switch off the engine. Low oil pressure can destroy an engine in minutes. Check the oil level once the bike has stood for a few minutes, and do not ride on if the light stays on after topping up. Keeping to sensible [oil change intervals](/blog/how-often-change-motorcycle-oil) makes this far less likely."
+      },
+      {
+        "h": "Engine temperature light"
+      },
+      {
+        "p": "Often red, with a thermometer symbol. It means the engine is running too hot. Stop, let it cool, and check the coolant level once the engine is cold. Never open a hot radiator cap. A temperature light in slow summer traffic can point to a cooling fan that is not switching on."
+      },
+      {
+        "h": "Battery or charging light"
+      },
+      {
+        "p": "A red or amber battery symbol means the charging system is not keeping the battery topped up. The bike may run for a while on what is left in the battery, but it will eventually stop. Head home or to a garage by the shortest route, and turn off heated grips and other accessories to save power. Our guide to [motorcycle battery care](/blog/motorcycle-battery-care) explains how to test the battery afterwards."
+      },
+      {
+        "h": "ABS light"
+      },
+      {
+        "p": "The ABS light normally comes on when you switch on and goes out once you ride off. If it stays on, the anti-lock system may be switched off because of a fault, but the normal brakes still work. Ride gently, leave extra stopping room, and get it checked, along with a look at the [brake pads and fluid](/blog/motorcycle-brake-pads-and-fluid-when-to-replace)."
+      },
+      {
+        "h": "Engine management light"
+      },
+      {
+        "p": "Usually amber and shaped like an engine. It means the bike's computer has spotted a fault. If the bike runs normally you can usually ride on carefully and get it diagnosed soon. If it flashes, or the bike misfires or loses power, stop and get help."
+      },
+      {
+        "h": "Service reminder"
+      },
+      {
+        "p": "Many bikes show a spanner symbol when a service is due based on time or mileage. It is not a fault, but it is easy to ignore until it becomes one. Our [service intervals cheat sheet](/blog/motorcycle-service-intervals-cheat-sheet) covers what each service usually includes."
+      },
+      {
+        "p": "If your bike has no service light, or you would like a reminder you can rely on, MotoLog tracks your mileage and tells you when each service is due soon or overdue. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-to-pack-a-motorcycle-for-a-weekend-trip",
     "title": "How to pack a motorcycle for a weekend trip",
     "category": "Trips",
