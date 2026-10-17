@@ -85,7 +85,7 @@ const pages = [
     title: "MotoLog features: service reminders, mileage log and trip planning",
     description:
       "See what MotoLog does: due-service reminders, a mileage log, trip planning and a full service history for every bike in your garage.",
-    image: "/images/card-1.jpg",
+    image: "/images/og.jpg",
     body: [
       asPage(section("features")),
       info("In the app", "Everything MotoLog keeps track of", [
@@ -106,7 +106,7 @@ const pages = [
     title: "How MotoLog works: set up in a minute | MotoLog",
     description:
       "Add your bike, log your rides and stay ahead of every service. Here is how MotoLog keeps your motorcycle maintenance on track.",
-    image: "/images/hero.jpg",
+    image: "/images/og.jpg",
     body: [
       asPage(section("how")),
       info("Step by step", "What happens along the way", [
@@ -124,7 +124,7 @@ const pages = [
     current: "faq",
     title: "MotoLog FAQ: questions riders ask",
     description: "Answers to common questions about MotoLog: supported bikes, service intervals, reminders, trips, miles or kilometres and more.",
-    image: "/images/hero.jpg",
+    image: "/images/og.jpg",
     body: [
       withMoreFaqs(asPage(section("faq"))),
       related(["motorcycle-chain-maintenance", "how-often-change-motorcycle-oil", "why-track-motorcycle-mileage"]),
@@ -212,7 +212,7 @@ const account = [
 
 for (const p of account) {
   const html =
-    head({ title: p.title, description: p.description, path: p.path, image: "/images/hero.jpg", robots: "noindex, nofollow", analytics: p.analytics }) +
+    head({ title: p.title, description: p.description, path: p.path, image: "/images/og.jpg", robots: "noindex, nofollow", analytics: p.analytics }) +
     nav("") +
     `
 
@@ -258,7 +258,7 @@ writeFileSync(
     title: "Privacy policy | MotoLog",
     description: "How MotoLog uses cookies, analytics and advertising on moto-log.app, and the choices you have.",
     path: "/privacy",
-    image: "/images/hero.jpg",
+    image: "/images/og.jpg",
   }) +
     nav() +
     `

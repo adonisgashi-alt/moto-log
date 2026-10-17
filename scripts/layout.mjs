@@ -66,6 +66,7 @@ export const head = ({ title, description, path, image, type = "website", extra 
     <meta name="twitter:image" content="${SITE}${image}" />
     <link rel="alternate" type="application/rss+xml" title="MotoLog blog" href="/rss.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/src/styles.css" />${crumbs(path, title)}${extra}
     ${authHint}
@@ -85,8 +86,7 @@ export const nav = (current = "") => `
     <header class="nav scrolled" id="top">
       <div class="container nav-inner">
         <a href="/" class="brand" aria-label="MotoLog home">
-          <img src="/motolog-icon.png" alt="" width="32" height="32" />
-          <span>MotoLog</span>
+          <img src="/logo.svg" alt="MotoLog" width="128" height="29" />
         </a>
         <nav class="nav-links" id="nav-links">
           <a href="/features"${current === "features" ? ' aria-current="page"' : ""}>Features</a>
@@ -107,6 +107,7 @@ ${authActions()}
 export const footer = `
     <footer class="footer">
       <div class="container">
+        <a href="/" class="footer-brand" aria-label="MotoLog home"><img src="/logo.svg" alt="MotoLog" width="150" height="34" loading="lazy" /></a>
         <div class="footer-top">
           <nav>
             <a href="/features">Features</a>
