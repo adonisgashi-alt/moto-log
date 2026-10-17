@@ -65,7 +65,9 @@ export const head = ({ title, description, path, image, type = "website", extra 
     <meta name="twitter:description" content="${esc(description)}" />
     <meta name="twitter:image" content="${SITE}${image}" />
     <link rel="alternate" type="application/rss+xml" title="MotoLog blog" href="/rss.xml" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preload" href="/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/src/styles.css" />${crumbs(path, title)}${extra}
