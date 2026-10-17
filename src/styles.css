@@ -323,7 +323,9 @@ button.btn {
   letter-spacing: var(--tracking-h4);
 }
 .brand img {
-  border-radius: 8px;
+  display: block;
+  height: 28px;
+  width: auto;
 }
 .nav-links {
   display: flex;
@@ -1064,6 +1066,15 @@ details p {
 /* Footer */
 .footer {
   padding: 56px 0 40px;
+}
+.footer-brand {
+  display: inline-block;
+  margin-bottom: 32px;
+}
+.footer-brand img {
+  display: block;
+  height: 32px;
+  width: auto;
 }
 .footer-top {
   display: flex;
