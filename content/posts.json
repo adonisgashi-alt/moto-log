@@ -1,5 +1,71 @@
 [
   {
+    "slug": "motorcycle-air-filter-when-to-clean-or-replace",
+    "title": "Motorcycle air filter: when to clean or replace it",
+    "category": "Maintenance",
+    "date": "2026-10-19",
+    "read": 4,
+    "image": "motorcycle-air-filter-when-to-clean-or-replace",
+    "alt": "A mechanic sitting on a stool beside a scooter engine and rear wheel stripped down on a workshop floor, with tools laid out in front",
+    "excerpt": "A clogged air filter quietly costs you power and fuel. Here is how often to check your motorcycle's air filter, how to tell when it needs attention, and whether to clean or replace it.",
+    "body": [
+      {
+        "p": "The air filter is one of the easiest parts of a motorcycle to forget. It sits out of sight under the seat, tank or a side panel, and it rarely fails in a dramatic way. Instead, it slowly fills with dust, bugs and grime until the engine has to work harder for every breath. Looking after it is cheap, quick and one of the best things you can do for how your bike runs."
+      },
+      {
+        "h": "What the air filter does"
+      },
+      {
+        "p": "Your engine burns a mix of fuel and air, and it needs a lot of air. The filter stops dust and grit from being drawn into the engine, where it would wear the cylinders, piston rings and valves. A clean filter lets air through freely while catching the dirt. A blocked one restricts airflow, which can make the engine run rich, feel flat and use more fuel."
+      },
+      {
+        "h": "How often to check it"
+      },
+      {
+        "p": "Most manufacturers list an air filter check or replacement every 10,000 to 20,000 km, or at set services. Your owner's manual has the exact figure, and our [service intervals cheat sheet](/blog/motorcycle-service-intervals-cheat-sheet) shows where it usually fits alongside oil, plugs and valves. Check more often if you:"
+      },
+      {
+        "ul": [
+          "Ride on gravel, dirt or dusty roads",
+          "Spend a lot of time in heavy city traffic",
+          "Ride in areas with lots of pollen, sand or insects",
+          "Have just come back from a long trip on mixed roads"
+        ]
+      },
+      {
+        "h": "Signs it needs attention"
+      },
+      {
+        "p": "A dirty filter does not always announce itself, but there are clues. The bike may feel sluggish when you open the throttle, fuel economy may drop, or the engine may hesitate or run unevenly. Once you can get to the filter, look at it against the light. If it is dark, caked with dirt or you can barely see light through it, it is time to act."
+      },
+      {
+        "h": "Clean or replace?"
+      },
+      {
+        "p": "It depends on the type of filter your bike uses:"
+      },
+      {
+        "ul": [
+          "Paper filters are the most common on road bikes. They cannot be washed, so replace them when they are dirty. You can gently tap out loose dust between changes, but never blow compressed air through from the clean side or soak them.",
+          "Foam filters, common on off-road bikes, are washed in filter cleaner or warm soapy water, dried fully and re-oiled with proper foam filter oil.",
+          "Oiled cotton gauze filters are cleaned with a dedicated kit and lightly re-oiled. Too much oil can foul sensors, so follow the kit's instructions."
+        ]
+      },
+      {
+        "p": "Whatever the type, make sure the filter seats properly and the airbox lid seals all the way round. A filter that lets air bypass it is worse than a dirty one. A few basic tools from a [rider's toolkit](/blog/basic-motorcycle-toolkit-every-rider-should-own) are usually all you need to get to it."
+      },
+      {
+        "h": "Keep a record"
+      },
+      {
+        "p": "Because the air filter is checked so rarely, it is easy to lose track of when it was last done. Write down the date and the odometer reading each time you clean or replace it. A record like this also adds weight to your [service history when you sell](/blog/service-history-motorcycle-resale-value), since buyers like to see the small jobs were done too."
+      },
+      {
+        "p": "If you would rather not rely on memory, MotoLog can log your mileage and remind you when your next air filter check is due soon or overdue. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "motorcycle-warning-lights-explained",
     "title": "Motorcycle warning lights explained: what each one means",
     "category": "Guides",
