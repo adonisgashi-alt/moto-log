@@ -1,5 +1,67 @@
 [
   {
+    "slug": "how-to-work-out-motorcycle-fuel-consumption",
+    "title": "How to work out your motorcycle's fuel consumption",
+    "category": "Mileage",
+    "date": "2026-10-20",
+    "read": 4,
+    "image": "how-to-work-out-motorcycle-fuel-consumption",
+    "alt": "A rider in a full-face helmet sitting on a motorcycle at a petrol station forecourt in warm evening light, with scooters at the pumps behind",
+    "excerpt": "Knowing how far your bike goes on a tank helps you plan rides and spot problems early. Here is a simple way to measure your motorcycle's real fuel consumption and what to do if it gets worse.",
+    "body": [
+      {
+        "p": "Most riders have a rough idea of how far they get on a tank, but very few know the real number. That is a shame, because fuel consumption is one of the best early warnings you have. A bike that suddenly needs more fuel to cover the same distance is often telling you something needs attention, long before a warning light comes on."
+      },
+      {
+        "h": "The brim-to-brim method"
+      },
+      {
+        "p": "The most reliable way to measure consumption needs nothing more than your odometer and a fuel receipt:"
+      },
+      {
+        "ul": [
+          "Fill the tank to the same level every time, ideally at the same pump, and note the odometer reading",
+          "Ride normally until you next need fuel",
+          "Fill to the same level again and note how many litres it took and the new odometer reading",
+          "Divide the litres by the distance and multiply by 100 to get litres per 100 km"
+        ]
+      },
+      {
+        "p": "For example, if you rode 280 km and it took 14 litres to fill up again, that is 14 ÷ 280 × 100 = 5 litres per 100 km. If you prefer kilometres per litre, divide the distance by the litres instead: 280 ÷ 14 = 20 km per litre. Do this over three or four tanks and take the average, since a single fill can be thrown off by a short trip or a pump that clicks off early."
+      },
+      {
+        "h": "Why the dashboard figure is not enough"
+      },
+      {
+        "p": "Many modern bikes show an average consumption figure, and it is useful for a quick check. But it is an estimate, and it can be optimistic by several percent. Working it out from real fill-ups gives you an honest baseline you can compare against over months and seasons. That is one more reason it pays to [track your mileage](/blog/why-track-motorcycle-mileage) properly rather than relying on memory."
+      },
+      {
+        "h": "What makes consumption rise"
+      },
+      {
+        "p": "Some changes are normal. Cold weather, heavy luggage, a passenger, motorway speeds and stop-start traffic will all push the figure up. If none of those explain it, look at the bike itself:"
+      },
+      {
+        "ul": [
+          "Low tyre pressures add rolling resistance, so check them as part of your [tyre care routine](/blog/motorcycle-tyre-care-pressure-tread-and-age)",
+          "A dirty air filter makes the engine work harder, which our guide to [cleaning or replacing the air filter](/blog/motorcycle-air-filter-when-to-clean-or-replace) covers",
+          "A dry or tight chain wastes power between the engine and the rear wheel",
+          "Worn spark plugs or an overdue service can leave the engine running less efficiently",
+          "Dragging brakes, which you can often feel as warmth in the disc after a ride"
+        ]
+      },
+      {
+        "h": "Use it to plan your range"
+      },
+      {
+        "p": "Once you know your real consumption and your tank size, you know your real range. Take that number, knock off a safety margin of around 20 percent, and you have a figure you can trust when [planning a longer trip](/blog/how-to-plan-a-motorcycle-trip) through areas where fuel stations are far apart."
+      },
+      {
+        "p": "MotoLog makes the first half of this easy: log your mileage at each fill-up and you will always have the distances to hand, along with reminders when a service is due soon or overdue. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "motorcycle-air-filter-when-to-clean-or-replace",
     "title": "Motorcycle air filter: when to clean or replace it",
     "category": "Maintenance",
