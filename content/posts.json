@@ -1,5 +1,70 @@
 [
   {
+    "slug": "how-to-read-a-motorcycle-tyre-sidewall",
+    "title": "How to read a motorcycle tyre sidewall",
+    "category": "Guides",
+    "date": "2026-10-25",
+    "read": 4,
+    "image": "how-to-read-a-motorcycle-tyre-sidewall",
+    "alt": "Low-angle close-up of a motorcycle front wheel showing the lettering on the tyre sidewall, parked on a road by large rocks",
+    "excerpt": "The numbers and letters on your motorcycle tyre tell you its size, speed rating, load rating and age. Here is how to decode them so you buy the right replacement and spot tyres that are past their best.",
+    "body": [
+      {
+        "p": "Every motorcycle tyre carries a block of codes on its sidewall. At first glance it looks like a jumble of numbers and letters, but once you know the pattern you can read it in seconds. It tells you exactly which tyre fits your bike, how much weight and speed it is rated for, and how old it is."
+      },
+      {
+        "h": "The size code"
+      },
+      {
+        "p": "A typical rear tyre might read 180/55 ZR17. Here is what each part means:"
+      },
+      {
+        "ul": [
+          "180 is the tyre's width in millimetres",
+          "55 is the aspect ratio: the height of the sidewall as a percentage of the width, so here it is 55 percent of 180 mm",
+          "Z is an older speed marking for tyres rated above 240 km/h, and R means radial construction",
+          "17 is the wheel rim diameter in inches"
+        ]
+      },
+      {
+        "p": "Older or smaller bikes may use bias-ply tyres, shown with a dash or a B instead of the R, or an older style of size such as 3.00-18. Always fit the sizes listed in your owner's manual or on the bike's tyre label."
+      },
+      {
+        "h": "Load index and speed rating"
+      },
+      {
+        "p": "After the size you will usually see something like 73W. The number is the load index, which tells you the maximum weight the tyre can carry at the correct pressure. The letter is the speed rating. Common ratings on road bikes include H (up to 210 km/h), V (up to 240 km/h) and W (up to 270 km/h). Never fit a tyre with a lower load index or speed rating than the manufacturer specifies."
+      },
+      {
+        "h": "Other markings worth knowing"
+      },
+      {
+        "ul": [
+          "TL means tubeless and TT means the tyre needs an inner tube",
+          "M/C confirms the tyre is made for motorcycles",
+          "An arrow shows the direction of rotation, so the tyre must be fitted the right way round",
+          "Front and Rear markings show where a tyre is designed to go",
+          "Small triangles or TWI marks show where the tread wear indicators sit in the grooves"
+        ]
+      },
+      {
+        "h": "Check the age with the DOT code"
+      },
+      {
+        "p": "Look for a code starting with DOT, ending in a four-digit number inside an oval. Those four digits are the week and year of manufacture, so 2324 means week 23 of 2024. Rubber hardens with age even when the tread looks fine, and many experts suggest replacing tyres around five years old regardless of wear. Our guide to [tyre pressure, tread and age](/blog/motorcycle-tyre-care-pressure-tread-and-age) covers this in more detail, and checking the date code is a smart step on any [used motorcycle you are thinking of buying](/blog/buying-a-used-motorcycle-checklist)."
+      },
+      {
+        "h": "Keep a note when you change them"
+      },
+      {
+        "p": "Tyres wear at different rates depending on how and where you ride. Writing down the date and odometer reading whenever you fit a new tyre shows you how many kilometres you really get from each set, which makes it much easier to plan replacements alongside your other [regular services](/blog/motorcycle-service-intervals-cheat-sheet)."
+      },
+      {
+        "p": "MotoLog keeps that record for you: log your mileage and services, and it will remind you when the next one is due soon or overdue. You can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-to-choose-a-motorcycle-jacket",
     "title": "How to choose a motorcycle jacket",
     "category": "Gear",
