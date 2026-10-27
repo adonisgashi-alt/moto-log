@@ -1,5 +1,64 @@
 [
   {
+    "slug": "motorcycle-fluids-explained",
+    "title": "Motorcycle fluids explained: what each one does and when to check it",
+    "category": "Guides",
+    "date": "2026-10-27",
+    "read": 5,
+    "image": "motorcycle-fluids-explained",
+    "alt": "Close-up of a sport motorcycle's top yoke and handlebars, with the front brake and clutch fluid reservoirs showing amber fluid",
+    "excerpt": "Oil, coolant, brake fluid, clutch fluid and fork oil all keep your motorcycle running safely. Here is what each fluid does, how to check it and roughly how often it needs changing.",
+    "body": [
+      {
+        "p": "A motorcycle relies on several different fluids, and each one has its own job. Some you can check in seconds before a ride, while others are changed only every couple of years. Knowing what they all do makes it much easier to keep on top of them, and to spot trouble before it turns into an expensive repair."
+      },
+      {
+        "h": "Engine oil"
+      },
+      {
+        "p": "Oil lubricates and cools the engine, and on most bikes it also lubricates the gearbox and clutch. Check the level regularly, with the bike upright on level ground, using the sight glass or dipstick as your manual describes. Top up with the grade the manufacturer specifies. How often to change it depends on the bike and how you ride, which we cover in detail in [how often to change motorcycle oil](/blog/how-often-change-motorcycle-oil)."
+      },
+      {
+        "h": "Coolant"
+      },
+      {
+        "p": "Liquid-cooled bikes use coolant to carry heat away from the engine and stop it freezing in winter. Check the level in the expansion tank when the engine is cold; it should sit between the minimum and maximum marks. Never open the radiator cap on a hot engine. Coolant breaks down over time, so most manufacturers recommend replacing it every two to three years."
+      },
+      {
+        "h": "Brake fluid"
+      },
+      {
+        "p": "Brake fluid transfers the force from your lever and pedal to the brake calipers. It absorbs moisture from the air, which lowers its boiling point and can make the brakes feel spongy after hard use. Check the level in each reservoir window, and look at the colour: fresh fluid is clear or light amber, while old fluid turns dark. Most bikes need new brake fluid about every two years. Our guide to [brake pads and fluid](/blog/motorcycle-brake-pads-and-fluid-when-to-replace) explains the signs to watch for."
+      },
+      {
+        "h": "Clutch fluid"
+      },
+      {
+        "p": "Bikes with a hydraulic clutch use the same kind of fluid as the brakes, usually in a small reservoir on the left handlebar. It needs the same checks and is usually changed at the same time as the brake fluid. Bikes with a cable clutch do not have this fluid at all."
+      },
+      {
+        "h": "Fork oil"
+      },
+      {
+        "p": "The front forks contain oil that controls how the suspension moves. It wears out slowly and is easy to forget, but tired fork oil can make the front end feel vague or bouncy. Change intervals vary a lot between models, so check your owner's manual. Oily residue on the fork legs can mean a leaking seal, which needs fixing soon."
+      },
+      {
+        "h": "Make fluid checks a habit"
+      },
+      {
+        "ul": [
+          "Check oil, coolant and brake fluid levels as part of your [quick pre-ride check](/blog/five-minute-pre-ride-check)",
+          "Look under the bike where you park it for fresh drips or stains",
+          "Use only the fluid types listed in your manual, and never mix brake fluid types",
+          "Write down the date and mileage whenever a fluid is changed"
+        ]
+      },
+      {
+        "p": "Because the longer intervals are easy to lose track of, a record really helps. MotoLog logs your mileage and services and reminds you when each one is due soon or overdue, so you can get the app just below and stop relying on memory."
+      }
+    ]
+  },
+  {
     "slug": "what-to-do-if-your-motorcycle-breaks-down-on-a-trip",
     "title": "What to do if your motorcycle breaks down on a trip",
     "category": "Trips",
