@@ -2,7 +2,7 @@
 // Runs automatically before `npm run dev` and `npm run build`.
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 
-import { SITE, esc, head, nav, footer, postCard } from "./layout.mjs";
+import { SITE, esc, head, nav, footer, postCard, pageTitle, metaDescription, topic, EXTRA_PAGES } from "./layout.mjs";
 const posts = JSON.parse(readFileSync("content/posts.json", "utf8")).sort((a, b) => b.date.localeCompare(a.date));
 
 const fmtDate = (d) =>
@@ -14,7 +14,16 @@ const card = postCard;
 
 // Blog index
 const featured = posts[0];
-const categories = ["All", ...new Set(posts.map((p) => p.category))];
+const categories = [...new Set(posts.map((p) => p.category))];
+// Topic links are real pages, so search engines can find and rank each topic
+const filters = (current = "") => `<div class="filters-bar">
+        <div class="container">
+          <nav class="filters" aria-label="Browse articles by topic">
+            <a class="filter${current ? "" : " active"}" href="/blog"${current ? "" : ' aria-current="page"'}>All</a>
+            ${categories.map((c) => `<a class="filter${c === current ? " active" : ""}" href="/blog/${topic(c).slug}"${c === current ? ' aria-current="page"' : ""}>${esc(c)}</a>`).join("\n            ")}
+          </nav>
+        </div>
+      </div>`;
 const indexHtml =
   head({
     title: "MotoLog blog: motorcycle maintenance, mileage and trip tips",
@@ -33,13 +42,7 @@ const indexHtml =
         </div>
       </section>
 
-      <div class="filters-bar">
-        <div class="container">
-          <div class="filters" role="group" aria-label="Filter articles by topic">
-            ${categories.map((c, i) => `<button type="button" class="filter${i === 0 ? " active" : ""}" data-filter="${esc(c)}" aria-pressed="${i === 0}">${esc(c)}</button>`).join("\n            ")}
-          </div>
-        </div>
-      </div>
+      ${filters()}
 
       <section class="blog-feature" id="blog-feature">
         <div class="container">
@@ -58,7 +61,7 @@ const indexHtml =
       <section class="blog-list">
         <div class="container">
           <p class="label">Blog and articles</p>
-          <h2 id="blog-heading">Latest insights and trends</h2>
+          <h2>Latest insights and trends</h2>
           <div class="post-grid" id="post-grid">${posts
             .map((p, i) => {
               const html = card(p);
@@ -68,7 +71,6 @@ const indexHtml =
             })
             .join("")}
           </div>
-          <p class="blog-empty" id="blog-empty" hidden>No articles in this topic yet.</p>
           <div class="load-more"><button type="button" class="btn btn-ghost" id="load-more" hidden>Load more articles</button></div>
         </div>
       </section>
@@ -79,6 +81,52 @@ const indexHtml =
 rmSync("blog", { recursive: true, force: true });
 mkdirSync("blog", { recursive: true });
 writeFileSync("blog/index.html", indexHtml);
+
+// Topic pages, one per category
+for (const c of categories) {
+  const t = topic(c);
+  const list = posts.filter((p) => p.category === c);
+  const html =
+    head({
+      title: pageTitle(t.title),
+      description: metaDescription(t.intro || `MotoLog articles about ${c.toLowerCase()} for motorcycle riders.`),
+      path: `/blog/${t.slug}`,
+      image: img(list[0]),
+      extra: `\n    <script type="application/ld+json">${JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: t.title,
+        description: t.intro,
+        url: `${SITE}/blog/${t.slug}`,
+        hasPart: list.map((p) => ({ "@type": "Article", headline: p.title, url: SITE + url(p) })),
+      })}</script>`,
+    }) +
+    nav("blog") +
+    `
+
+    <main class="blog">
+      <section class="blog-top">
+        <div class="container">
+          <h1>${esc(t.title)}</h1>
+          <p class="topic-intro">${esc(t.intro)}</p>
+        </div>
+      </section>
+
+      ${filters(c)}
+
+      <section class="blog-list">
+        <div class="container">
+          <p class="label">${list.length} article${list.length === 1 ? "" : "s"}</p>
+          <div class="post-grid" id="post-grid">${list.map((p, i) => (i > 8 ? card(p).replace('<a class="post-card"', '<a class="post-card" hidden') : card(p))).join("")}
+          </div>
+          <div class="load-more"><button type="button" class="btn btn-ghost" id="load-more" hidden>Load more articles</button></div>
+        </div>
+      </section>
+    </main>
+` +
+    footer.replace("</body>", `    <script type="module" src="/src/blog.js"></script>\n  </body>`);
+  writeFileSync(`blog/${t.slug}.html`, html);
+}
 
 // Article pages
 // Body text may link to other pages on the site with [text](/path); only site-relative paths become links
@@ -101,7 +149,7 @@ for (const p of posts) {
     description: p.excerpt,
     image: SITE + img(p),
     datePublished: p.date,
-    dateModified: p.date,
+    dateModified: p.updated ?? p.date,
     inLanguage: "en",
     articleSection: p.category,
     wordCount: p.body.map((b) => b.p ?? b.h ?? (b.ul ? b.ul.join(" ") : "")).join(" ").replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").split(/\s+/).length,
@@ -111,8 +159,10 @@ for (const p of posts) {
   };
   const html =
     head({
-      title: `${p.title} | MotoLog`,
-      description: p.excerpt,
+      // An optional "seoTitle" gives search results a shorter title than the on-page headline
+      title: pageTitle(p.seoTitle ?? p.title),
+      // An optional "meta" field overrides the search snippet; otherwise the excerpt is trimmed to fit
+      description: p.meta ?? metaDescription(p.excerpt),
       path: url(p),
       image: img(p),
       type: "article",
@@ -124,7 +174,7 @@ for (const p of posts) {
     <main class="article">
       <div class="container article-inner">
         <a class="back" href="/blog">← All articles</a>
-        <p class="post-meta"><span class="post-tag">${esc(p.category)}</span> <span>${fmtDate(p.date)}</span> <span>${p.read} min read</span></p>
+        <p class="post-meta"><a class="post-tag" href="/blog/${topic(p.category).slug}">${esc(p.category)}</a> <span>${fmtDate(p.date)}</span>${p.updated ? ` <span>Updated ${fmtDate(p.updated)}</span>` : ""} <span>${p.read} min read</span></p>
         <h1>${esc(p.title)}</h1>
         <p class="article-lede">${esc(p.excerpt)}</p>
         <figure class="article-hero"><img src="${img(p)}" alt="${esc(p.alt)}" width="1400" height="933" /></figure>
@@ -151,9 +201,9 @@ for (const p of posts) {
 }
 
 // Sitemap, robots, RSS and llms.txt
-const pageDates = Object.fromEntries(posts.map((p) => [url(p), p.date]));
-const latest = posts[0].date;
-const urls = ["/", "/features", "/how-it-works", "/blog", "/faq", "/privacy", ...posts.map(url)];
+const pageDates = Object.fromEntries(posts.map((p) => [url(p), p.updated ?? p.date]));
+const latest = posts.map((p) => p.updated ?? p.date).sort().at(-1);
+const urls = ["/", "/features", "/how-it-works", "/blog", ...categories.map((c) => `/blog/${topic(c).slug}`), "/faq", ...EXTRA_PAGES.map((p) => p.path), "/privacy", ...posts.map(url)];
 writeFileSync(
   "public/sitemap.xml",
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u}</loc><lastmod>${pageDates[u] ?? latest}</lastmod></url>`).join("\n")}\n</urlset>\n`,
@@ -187,6 +237,11 @@ writeFileSync(
 - [How it works](${SITE}/how-it-works): from adding a bike to staying on top of maintenance
 - [FAQ](${SITE}/faq): common questions about the app
 - [Blog](${SITE}/blog): guides for riders on maintenance, mileage and trips
+${EXTRA_PAGES.map((p) => `- [${p.name}](${SITE}${p.path}): ${p.about}`).join("\n")}
+
+## Blog topics
+
+${categories.map((c) => `- [${topic(c).title}](${SITE}/blog/${topic(c).slug}): ${topic(c).intro}`).join("\n")}
 
 ## Blog articles
 

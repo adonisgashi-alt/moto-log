@@ -2,17 +2,55 @@
 export const SITE = "https://www.moto-log.app";
 export const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+// Google cuts titles at about 60 characters, so long titles go without the brand suffix
+export const pageTitle = (t) => (t.length + " | MotoLog".length <= 60 ? `${t} | MotoLog` : t);
+
+// Google cuts descriptions at about 155 characters: keep whole sentences that fit, or cut at a word
+export const metaDescription = (text, max = 155) => {
+  if (text.length <= max) return text;
+  let out = "";
+  for (const s of text.match(/[^.!?]+[.!?]+/g) ?? []) {
+    if ((out + s).trim().length > max) break;
+    out += s;
+  }
+  if (out.trim().length >= 70) return out.trim();
+  return text.slice(0, text.lastIndexOf(" ", max - 1)).replace(/[,;:]$/, "") + "…";
+};
+
+// Blog topics: each category gets its own page at /blog/<slug>
+export const TOPICS = {
+  Maintenance: { slug: "maintenance", title: "Motorcycle maintenance guides", intro: "Oil, chains, tyres, brakes, batteries and storage: practical guides to the jobs that keep a motorcycle running well, and how often to do them." },
+  Mileage: { slug: "mileage", title: "Motorcycle mileage and fuel guides", intro: "How to track your odometer, work out fuel consumption and read what a bike's mileage really tells you when you buy, sell or service it." },
+  Safety: { slug: "safety", title: "Motorcycle safety checks", intro: "Pre-ride checks, brakes and the small habits that catch problems before they turn into a breakdown or a crash." },
+  Trips: { slug: "trips", title: "Motorcycle trip planning guides", intro: "Planning routes, packing the bike, riding in a group and handling a breakdown far from home, so the trip is about the road." },
+  "Buying & Selling": { slug: "buying-selling", title: "Buying and selling a motorcycle", intro: "What to check before you pay for a used bike, how to price and sell your own, and why a clear service history is worth real money." },
+  Gear: { slug: "gear", title: "Motorcycle gear and tools guides", intro: "How to choose a helmet, jacket, gloves and boots that fit and protect you, plus the basic toolkit every rider should own." },
+  "Riding Skills": { slug: "riding-skills", title: "Motorcycle riding skills", intro: "Practical drills and techniques to ride more smoothly and safely, from slow-speed control to wet roads." },
+  Guides: { slug: "guides", title: "Motorcycle guides", intro: "Plain-English explainers for riders: service intervals, warning lights, tyre markings, fluids and more." },
+};
+export const topic = (category) => TOPICS[category] ?? { slug: category.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""), title: category, intro: "" };
+
+// Free tools and app pages built by scripts/build-pages.mjs, listed here so the sitemap and llms.txt include them
+export const EXTRA_PAGES = [
+  { path: "/motorcycle-maintenance-app", name: "Motorcycle maintenance app", about: "how MotoLog tracks due services for every bike" },
+  { path: "/motorcycle-mileage-log", name: "Motorcycle mileage log", about: "logging odometer readings, distance per month and trips" },
+  { path: "/tools", name: "Free tools", about: "free calculators and a printable log for riders" },
+  { path: "/fuel-consumption-calculator", name: "Fuel consumption calculator", about: "work out mpg, L/100 km and km/L from a fill-up" },
+  { path: "/service-due-calculator", name: "Service due calculator", about: "find when the next service is due by distance or time" },
+  { path: "/printable-motorcycle-maintenance-log", name: "Printable maintenance log", about: "a free service record sheet to print" },
+];
+
 const img = (p) => `/images/blog/${p.slug}.jpg`;
 const url = (p) => `/blog/${p.slug}`;
 
 const crumbs = (path, title) => {
   if (path === "/") return "";
   const parts = path.split("/").filter(Boolean);
-  const names = { features: "Features", "how-it-works": "How it works", blog: "Blog", faq: "FAQ", privacy: "Privacy policy" };
+  const names = { features: "Features", "how-it-works": "How it works", blog: "Blog", faq: "FAQ", privacy: "Privacy policy", tools: "Free tools" };
   const items = [{ name: "Home", url: SITE + "/" }];
   parts.forEach((seg, i) => {
     const last = i === parts.length - 1;
-    items.push({ name: last && i > 0 ? title.replace(/ \| MotoLog$/, "") : (names[seg] ?? seg), url: SITE + "/" + parts.slice(0, i + 1).join("/") });
+    items.push({ name: last && (i > 0 || !names[seg]) ? title.replace(/ \| MotoLog$/, "") : (names[seg] ?? seg), url: SITE + "/" + parts.slice(0, i + 1).join("/") });
   });
   const ld = {
     "@context": "https://schema.org",
@@ -114,6 +152,8 @@ export const footer = `
             <a href="/how-it-works">How it works</a>
             <a href="/blog">Blog</a>
             <a href="/faq">FAQ</a>
+            <a href="/tools">Free tools</a>
+            <a href="/motorcycle-maintenance-app">Maintenance app</a>
             <a href="/#download">Download</a>
             <a href="/privacy">Privacy</a>
           </nav>
