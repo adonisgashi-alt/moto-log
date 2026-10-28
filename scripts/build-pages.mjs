@@ -82,7 +82,7 @@ const pages = [
   {
     file: "features.html",
     current: "features",
-    title: "MotoLog features: service reminders, mileage log and trip planning",
+    title: "MotoLog features: service reminders, mileage and trips",
     description:
       "See what MotoLog does: due-service reminders, a mileage log, trip planning and a full service history for every bike in your garage.",
     image: "/images/og.jpg",

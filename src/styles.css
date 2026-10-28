@@ -1919,3 +1919,222 @@ summary:focus-visible {
     padding-top: 112px;
   }
 }
+
+/* Topic pages and topic links */
+a.filter {
+  display: inline-block;
+  text-decoration: none;
+}
+a.post-tag {
+  text-decoration: none;
+}
+a.post-tag:hover {
+  color: var(--black);
+}
+.topic-intro {
+  font-size: var(--text-lg);
+  color: var(--grey-4);
+  max-width: var(--measure-intro);
+  margin: -16px 0 0;
+}
+.prose h3 {
+  font-size: var(--text-xl);
+  line-height: var(--leading-h5);
+  letter-spacing: var(--tracking-h5);
+  margin: 28px 0 8px;
+}
+
+/* Free tools */
+.tool-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 0 0 48px;
+}
+.tool-card {
+  display: block;
+  padding: 24px;
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.tool-card:hover {
+  background: var(--grey-1);
+}
+.tool-card h2 {
+  font-size: var(--text-xl);
+  line-height: var(--leading-h5);
+  letter-spacing: var(--tracking-h5);
+  margin-bottom: 8px;
+}
+.tool-card p {
+  color: var(--grey-4);
+  margin: 0;
+}
+.tool {
+  margin: 0 0 48px;
+  padding: 28px;
+  border-radius: var(--radius);
+  background: var(--paper);
+}
+.tool-units {
+  border: 0;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+.tool-units legend {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.tool-units label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.tool-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.tool-fields label {
+  display: block;
+  font-size: var(--text-sm);
+  line-height: var(--leading-small);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.tool-fields input {
+  width: 100%;
+  font: inherit;
+  font-size: var(--text-base);
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  color: var(--black);
+}
+.tool-fields input:focus-visible {
+  outline: 2px solid var(--black);
+  outline-offset: 2px;
+}
+.tool-result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  padding: 16px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  color: var(--grey-4);
+}
+.tool-result b {
+  color: var(--black);
+  font-size: var(--text-xl);
+}
+.tool-result .status {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  font-weight: 500;
+}
+.status-ok {
+  background: #dff3e4;
+  color: #1c5a2c;
+}
+.status-soon {
+  background: #fdf1cc;
+  color: #7a5a00;
+}
+.status-overdue {
+  background: #f8dcdc;
+  color: #8f1f1f;
+}
+.print-log {
+  margin: 0 0 48px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow-x: auto;
+}
+.print-log-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.print-log-head h2 {
+  font-size: var(--text-xl);
+  margin: 0;
+}
+.print-log-bike {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: var(--text-xs);
+  color: var(--grey-4);
+}
+.print-log-bike span {
+  border-bottom: 1px solid var(--grey-2);
+  padding: 18px 0 4px;
+}
+.print-log table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: var(--text-xs);
+}
+.print-log th {
+  text-align: left;
+  font-weight: 500;
+  padding: 6px;
+  border-bottom: 2px solid var(--black);
+}
+.print-log td {
+  height: 30px;
+  border-bottom: 1px solid var(--grey-2);
+}
+.print-log td + td,
+.print-log th + th {
+  border-left: 1px solid var(--grey-1);
+}
+.print-log-foot {
+  margin: 12px 0 0;
+  font-size: var(--text-xs);
+  color: var(--grey-3);
+}
+@media (max-width: 760px) {
+  .tool-list,
+  .tool-fields {
+    grid-template-columns: 1fr;
+  }
+  .tool {
+    padding: 20px;
+  }
+}
+@media print {
+  body > :not(main),
+  main > :not(.article-inner),
+  .article-inner > :not(.print-log),
+  .no-print,
+  ins.adsbygoogle {
+    display: none !important;
+  }
+  .article {
+    padding: 0;
+  }
+  .print-log {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+}

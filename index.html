@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MotoLog: service, mileage and trip tracking for riders</title>
+    <title>MotoLog: the motorcycle maintenance and mileage app</title>
     <meta
       name="description"
       content="MotoLog keeps track of your motorcycle's due services, your mileage and your trips, so you spend less time on paperwork and more time riding."
@@ -13,13 +13,13 @@
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:site_name" content="MotoLog" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="MotoLog: service, mileage and trip tracking for riders" />
+    <meta property="og:title" content="MotoLog: the motorcycle maintenance and mileage app" />
     <meta property="og:description" content="Every ride logged. Every service on time." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.moto-log.app/" />
     <meta property="og:image" content="https://www.moto-log.app/images/og.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="MotoLog: service, mileage and trip tracking for riders" />
+    <meta name="twitter:title" content="MotoLog: the motorcycle maintenance and mileage app" />
     <meta name="twitter:description" content="Every ride logged. Every service on time." />
     <meta name="twitter:image" content="https://www.moto-log.app/images/og.jpg" />
     <link rel="alternate" type="application/rss+xml" title="MotoLog blog" href="/rss.xml" />
@@ -127,8 +127,13 @@
           <figure class="hero-media reveal">
             <img
               src="/images/hero.jpg"
+              srcset="/images/hero-900.webp 900w, /images/hero-1600.webp 1600w"
+              sizes="(max-width: 760px) 100vw, 90vw"
+              width="2000"
+              height="1333"
               alt="A road winding along a forested mountain ridge"
               loading="eager"
+              fetchpriority="high"
             />
             <div class="float-card" aria-hidden="true">
               <p class="float-title">Next up</p>
@@ -327,6 +332,10 @@
       <section class="band">
         <img
           src="/images/band.jpg"
+          srcset="/images/band-700.webp 700w, /images/band-1333.webp 1333w"
+          sizes="(max-width: 760px) 100vw, 50vw"
+          width="1333"
+          height="2000"
           alt="A motorcyclist riding on a paved road lined with trees"
           loading="lazy"
         />

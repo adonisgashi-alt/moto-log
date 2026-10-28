@@ -9,6 +9,23 @@
 - [How it works](https://www.moto-log.app/how-it-works): from adding a bike to staying on top of maintenance
 - [FAQ](https://www.moto-log.app/faq): common questions about the app
 - [Blog](https://www.moto-log.app/blog): guides for riders on maintenance, mileage and trips
+- [Motorcycle maintenance app](https://www.moto-log.app/motorcycle-maintenance-app): how MotoLog tracks due services for every bike
+- [Motorcycle mileage log](https://www.moto-log.app/motorcycle-mileage-log): logging odometer readings, distance per month and trips
+- [Free tools](https://www.moto-log.app/tools): free calculators and a printable log for riders
+- [Fuel consumption calculator](https://www.moto-log.app/fuel-consumption-calculator): work out mpg, L/100 km and km/L from a fill-up
+- [Service due calculator](https://www.moto-log.app/service-due-calculator): find when the next service is due by distance or time
+- [Printable maintenance log](https://www.moto-log.app/printable-motorcycle-maintenance-log): a free service record sheet to print
+
+## Blog topics
+
+- [Motorcycle mileage and fuel guides](https://www.moto-log.app/blog/mileage): How to track your odometer, work out fuel consumption and read what a bike's mileage really tells you when you buy, sell or service it.
+- [Motorcycle guides](https://www.moto-log.app/blog/guides): Plain-English explainers for riders: service intervals, warning lights, tyre markings, fluids and more.
+- [Motorcycle trip planning guides](https://www.moto-log.app/blog/trips): Planning routes, packing the bike, riding in a group and handling a breakdown far from home, so the trip is about the road.
+- [Motorcycle gear and tools guides](https://www.moto-log.app/blog/gear): How to choose a helmet, jacket, gloves and boots that fit and protect you, plus the basic toolkit every rider should own.
+- [Buying and selling a motorcycle](https://www.moto-log.app/blog/buying-selling): What to check before you pay for a used bike, how to price and sell your own, and why a clear service history is worth real money.
+- [Motorcycle maintenance guides](https://www.moto-log.app/blog/maintenance): Oil, chains, tyres, brakes, batteries and storage: practical guides to the jobs that keep a motorcycle running well, and how often to do them.
+- [Motorcycle riding skills](https://www.moto-log.app/blog/riding-skills): Practical drills and techniques to ride more smoothly and safely, from slow-speed control to wet roads.
+- [Motorcycle safety checks](https://www.moto-log.app/blog/safety): Pre-ride checks, brakes and the small habits that catch problems before they turn into a breakdown or a crash.
 
 ## Blog articles
 
