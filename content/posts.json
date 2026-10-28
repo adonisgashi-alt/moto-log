@@ -1258,6 +1258,7 @@
     "title": "How often should you change your motorcycle's oil?",
     "category": "Maintenance",
     "date": "2026-10-05",
+    "updated": "2026-10-28",
     "read": 5,
     "image": "card-1",
     "alt": "A rider working on a motorcycle in a garage with a socket set laid out beside the bike",
@@ -1290,6 +1291,44 @@
         "p": "That last one is the most common. Most missed services are not a decision to skip them. The date and the [mileage](/blog/why-track-motorcycle-mileage) just fade from memory."
       },
       {
+        "h": "Typical oil change intervals"
+      },
+      {
+        "p": "As a rough guide, most modern road bikes call for an oil and filter change somewhere between 3,000 and 8,000 miles (5,000 to 13,000 km), or once a year, whichever comes first. Some older air-cooled engines and many small commuters sit at the shorter end. High-performance engines that rev hard often do too. A few newer models stretch to 10,000 miles or more on fully synthetic oil. Your manual is the only number that really counts, but if it is lost, the shorter end of that range is the safe choice."
+      },
+      {
+        "ul": [
+          "Small commuters and scooters: often every 2,000 to 4,000 miles, or every 6 to 12 months.",
+          "Mid-size road bikes: commonly every 4,000 to 7,500 miles, or yearly.",
+          "Sports bikes ridden hard or on track: change earlier than the maximum, and after every few track days.",
+          "Bikes that barely move: still change the oil at least once a year, ideally before winter storage."
+        ]
+      },
+      {
+        "h": "Mileage or time: which comes first?"
+      },
+      {
+        "p": "If you ride 10,000 miles a year and your interval is 6,000 miles or 12 months, distance will catch you first, roughly every seven months. If you ride 2,000 miles a year, the calendar wins and you change it every year with plenty of miles to spare. Both limits apply. Our [service due calculator](/service-due-calculator) works out which one comes first for your bike."
+      },
+      {
+        "h": "Which oil should you use?"
+      },
+      {
+        "p": "Use the viscosity and specification your manual lists, for example 10W-40 meeting JASO MA2. The JASO MA or MA2 rating matters on bikes with a wet clutch, which is most of them, because car oils with friction modifiers can make the clutch slip. Mineral, semi-synthetic and fully synthetic oils all work if they meet the spec. Synthetic handles heat better and may suit hard riding, but it does not let you ignore the interval unless the manual says so."
+      },
+      {
+        "h": "Checking the level between changes"
+      },
+      {
+        "p": "Check the level every week or two, and before a long ride. Follow the manual's method: some bikes are checked upright on level ground with a sight glass, others on the side stand with a dipstick, and some need the engine warm. Many engines use a little oil between changes, especially when ridden hard, so topping up with the same oil is normal. A sudden increase in consumption, blue smoke or oil on the outside of the engine is worth investigating."
+      },
+      {
+        "h": "Doing it yourself"
+      },
+      {
+        "p": "An oil change is one of the easiest jobs to do at home with a [basic toolkit](/blog/basic-motorcycle-toolkit-every-rider-should-own). Warm the engine briefly so the oil flows, drain it into a tray, fit a new crush washer on the sump plug and tighten it to the torque in the manual, replace the filter, then refill to the correct level and check again after a short run. Take the old oil to a recycling point, never down the drain."
+      },
+      {
         "h": "Don't forget the filter"
       },
       {
@@ -1311,6 +1350,7 @@
     "title": "Motorcycle chain maintenance: clean, lube and adjust",
     "category": "Maintenance",
     "date": "2026-10-04",
+    "updated": "2026-10-28",
     "read": 5,
     "image": "card-3",
     "alt": "A hand spraying lubricant onto a motorcycle chain",
@@ -1341,6 +1381,45 @@
         "p": "A chain that is too loose can jump the sprockets. One that is too tight strains the gearbox and wheel bearings. Your manual gives the correct slack measurement. Check it at the tightest point of the chain, because chains do not wear evenly."
       },
       {
+        "h": "What you need"
+      },
+      {
+        "ul": [
+          "A paddock stand or centre stand, so the rear wheel turns freely.",
+          "A chain brush, or a three-sided brush that cleans several faces at once.",
+          "Chain cleaner that is safe for O-ring and X-ring chains. Avoid petrol and harsh solvents, which damage the seals.",
+          "Chain lube or wax, plus a rag to wipe off the excess.",
+          "A ruler or tape measure for the slack, and the right spanners for the axle and adjusters."
+        ]
+      },
+      {
+        "h": "How much slack is right?"
+      },
+      {
+        "p": "Most road bikes want somewhere around 20 to 35 mm (roughly 3/4 to 1 3/8 inches) of up-and-down movement, measured halfway between the sprockets on the lower run. Off-road and adventure bikes with long suspension travel often need more. The exact figure is usually on a sticker on the swingarm and always in the manual, along with whether to measure on the side stand, centre stand or with a rider on board. Rotate the wheel and check at several points: the tightest spot is the one that counts."
+      },
+      {
+        "h": "Adjusting the chain"
+      },
+      {
+        "p": "Loosen the rear axle nut, turn the adjusters on each side by the same amount, and use the marks on the swingarm to keep the wheel straight. A wheel that is out of line wears the chain and sprockets unevenly and can affect handling. Tighten the axle nut to the torque in the manual, recheck the slack and refit any split pin. If you have run out of adjustment, the chain has stretched too far and needs replacing."
+      },
+      {
+        "h": "Signs the chain and sprockets are worn"
+      },
+      {
+        "ul": [
+          "You can pull the chain away from the back of the rear sprocket and see daylight under it.",
+          "Some links are stiff or kinked and do not straighten as they go round.",
+          "The sprocket teeth look hooked, pointed or like a breaking wave instead of symmetrical.",
+          "The slack keeps changing, or you need to adjust it far more often than before.",
+          "The drive feels snatchy or the chain is noisy even when clean and lubed."
+        ]
+      },
+      {
+        "p": "Replace the chain and both sprockets together. A new chain on worn sprockets, or the other way round, wears out quickly. Depending on the bike and how well it is looked after, a set often lasts somewhere between 10,000 and 25,000 miles."
+      },
+      {
         "h": "How often?"
       },
       {
@@ -1367,6 +1446,7 @@
     "title": "Why you should track your motorcycle's mileage",
     "category": "Mileage",
     "date": "2026-10-03",
+    "updated": "2026-10-28",
     "read": 4,
     "image": "card-2",
     "alt": "Close-up of a motorcycle tachometer and instrument cluster",
@@ -1396,6 +1476,41 @@
         ]
       },
       {
+        "h": "What a mileage log tells you"
+      },
+      {
+        "p": "A list of odometer readings with dates is surprisingly powerful. From it you can work out your average distance per month, how far you are from each service, how fast you are wearing through tyres and chains, and whether your fuel economy is changing. It also gives you a believable record of the bike's history when you come to sell."
+      },
+      {
+        "h": "Running costs per mile"
+      },
+      {
+        "p": "Once you know how far you ride, you can put a real number on what the bike costs. Add up a year of fuel, services, tyres, chains and insurance, divide by the distance, and you have a cost per mile or kilometre. It is a useful figure when you are deciding whether to do a job yourself, change bikes or commute by motorcycle instead of car."
+      },
+      {
+        "h": "Fuel economy as an early warning"
+      },
+      {
+        "p": "If you note the distance at every fill-up, you can track your [fuel consumption](/blog/how-to-work-out-motorcycle-fuel-consumption) over time. A sudden drop is often the first sign that something needs attention: low tyre pressure, a dragging brake, a [clogged air filter](/blog/motorcycle-air-filter-when-to-clean-or-replace) or a tight chain. Our [fuel consumption calculator](/fuel-consumption-calculator) does the sums from one fill-up."
+      },
+      {
+        "h": "Mileage and resale"
+      },
+      {
+        "p": "When you sell, buyers look at the number on the odometer and ask whether it makes sense. A log that shows the mileage rising steadily between dated services is far more convincing than a single reading. It also helps you answer the question every buyer asks: is this [high mileage](/blog/what-counts-as-high-mileage-for-a-motorcycle) for this kind of bike? A clear record is one of the easiest ways to [add value to the sale](/blog/service-history-motorcycle-resale-value)."
+      },
+      {
+        "h": "How often to log"
+      },
+      {
+        "ul": [
+          "After every ride is ideal and takes a few seconds.",
+          "At every fill-up works well if you also want fuel economy.",
+          "Once a week is enough to keep service reminders accurate for most riders.",
+          "Always log the reading when you do a service, so the next interval starts from the right number."
+        ]
+      },
+      {
         "h": "Keep it simple"
       },
       {
@@ -1411,6 +1526,7 @@
     "title": "The 5-minute pre-ride check every rider should do",
     "category": "Safety",
     "date": "2026-10-02",
+    "updated": "2026-10-28",
     "read": 4,
     "image": "card-3",
     "alt": "A rider in a black helmet and leathers on a mountain road",
@@ -1449,6 +1565,36 @@
         ]
       },
       {
+        "h": "Use a simple memory aid"
+      },
+      {
+        "p": "Many rider training schemes teach a checklist called T-CLOCS: Tyres and wheels, Controls, Lights and electrics, Oil and other fluids, Chassis and chain, and Stands. The order does not matter much. What matters is that you check the same things in the same order every time, so nothing gets skipped when you are in a hurry."
+      },
+      {
+        "h": "What good looks like"
+      },
+      {
+        "ul": [
+          "Tyres: at the pressures in your manual, measured cold, with no cuts, bulges or nails, and tread above the legal minimum. See [how to read a tyre sidewall](/blog/how-to-read-a-motorcycle-tyre-sidewall) to check the age too.",
+          "Brakes: levers firm, not spongy, and the fluid in the reservoir window between the marks. Pads with visible friction material left.",
+          "Throttle: turns smoothly and snaps shut on its own with the bars turned fully left and right.",
+          "Chain: within the slack range on the swingarm sticker, and lightly lubed rather than dry or rusty.",
+          "Stands: the side stand springs back up fully, and the kill switch or side stand cut-out works."
+        ]
+      },
+      {
+        "h": "Before a longer ride, add these"
+      },
+      {
+        "p": "For a day out or a trip, spend a few extra minutes. Check that luggage mounts are tight and the load is balanced. Look at the coolant level in the expansion tank and the oil level properly on level ground. Make sure you have enough fuel for the first leg and know where the next fuel stop is. For multi-day trips, our guide on [getting your motorcycle ready for a long trip](/blog/get-your-motorcycle-ready-for-a-long-trip) goes further."
+      },
+      {
+        "h": "What to do if something fails the check"
+      },
+      {
+        "p": "Some things are quick fixes: add air, adjust the chain, tighten a mirror. Others mean the bike should not be ridden until they are sorted. Do not ride with a soft or sinking brake lever, a brake fluid leak, a tyre with a cut or bulge, a throttle that sticks, or a brake light that does not work. A dashboard light that stays on after start-up deserves a look too; see [what each warning light means](/blog/motorcycle-warning-lights-explained)."
+      },
+      {
         "h": "Make it a habit, then back it up"
       },
       {
@@ -1464,6 +1610,7 @@
     "title": "How to plan a motorcycle trip you will actually enjoy",
     "category": "Trips",
     "date": "2026-10-01",
+    "updated": "2026-10-28",
     "read": 6,
     "image": "hero",
     "alt": "A group of motorcyclists riding on a curving road lined with trees",
@@ -1499,6 +1646,42 @@
         ]
       },
       {
+        "h": "How far can you ride in a day?"
+      },
+      {
+        "p": "For most riders, 150 to 250 miles (250 to 400 km) a day on scenic roads is enjoyable, with time for stops and photos. Experienced touring riders on motorways or fast main roads may cover 300 to 400 miles, but that leaves little time to enjoy the places in between. Twisty mountain roads, towns and bad weather can halve your average speed. Plan on 30 to 40 mph (50 to 65 km/h) as a realistic average on back roads once stops are included."
+      },
+      {
+        "h": "Plan fuel with a margin"
+      },
+      {
+        "p": "Work out your real range from your [fuel consumption](/blog/how-to-work-out-motorcycle-fuel-consumption), not the brochure figure, and plan stops before the reserve light comes on. Fuel economy drops with luggage, a passenger, headwinds and fast riding, so allow at least 20 per cent less range than usual. In remote areas, fill up whenever you can. Our [fuel consumption calculator](/fuel-consumption-calculator) gives you a real figure from your last tank."
+      },
+      {
+        "h": "Weather and timing"
+      },
+      {
+        "p": "Check the forecast for the whole route, not just home and the destination, because mountains make their own weather. Avoid riding into a low sun at dawn and dusk if you can, and plan to arrive with daylight to spare on the first day, when everything takes longer. Pack waterproofs even if the forecast is good; [riding in the rain](/blog/how-to-ride-a-motorcycle-in-the-rain) is much easier when you are dry and warm."
+      },
+      {
+        "h": "Where to stay"
+      },
+      {
+        "p": "Booking the first and last nights gives a trip structure, while leaving the middle flexible lets you follow good weather or a great road. When you book, ask about secure or off-street parking for the bike, and check that the last few miles to the door are not a steep gravel track."
+      },
+      {
+        "h": "What to pack"
+      },
+      {
+        "p": "Pack light and keep the weight low and central. Bring a puncture repair kit and small compressor, the bike's tool kit, a spare key, phone charger and power bank, a basic first aid kit, copies of your documents and breakdown cover details. Our guide on [how to pack a motorcycle for a weekend trip](/blog/how-to-pack-a-motorcycle-for-a-weekend-trip) covers loading the bike, and [what to do if your motorcycle breaks down on a trip](/blog/what-to-do-if-your-motorcycle-breaks-down-on-a-trip) covers the plan B."
+      },
+      {
+        "h": "Riding with others"
+      },
+      {
+        "p": "Agree the route, the fuel stops and what happens if someone gets separated before you leave. Ride at the pace of the slowest rider and keep the group small. For more, see [how to ride in a group on a motorcycle trip](/blog/how-to-ride-in-a-group-on-a-motorcycle-trip)."
+      },
+      {
         "h": "Keep a record of the trip"
       },
       {
@@ -1514,6 +1697,7 @@
     "title": "A simple motorcycle maintenance schedule",
     "category": "Maintenance",
     "date": "2026-09-30",
+    "updated": "2026-10-28",
     "read": 6,
     "image": "card-1",
     "alt": "A rider working on a motorcycle in a garage with tools laid out beside the bike",
@@ -1554,6 +1738,37 @@
         "p": "Some things age even if the bike barely moves. [Brake fluid](/blog/motorcycle-brake-pads-and-fluid-when-to-replace) absorbs moisture over time, and coolant has a service life too. Manuals typically give these in years rather than miles, which is exactly the kind of thing that is easy to forget."
       },
       {
+        "h": "A typical schedule at a glance"
+      },
+      {
+        "p": "These ranges are typical for a modern road bike. Your manual has the exact figures for your model, and some bikes need certain jobs far sooner or later."
+      },
+      {
+        "ul": [
+          "Before every ride: tyres, brakes, lights, controls. See the [5-minute pre-ride check](/blog/five-minute-pre-ride-check).",
+          "Every week or two: tyre pressures with a gauge, oil level, chain slack.",
+          "Every 300 to 600 miles (500 to 1,000 km): clean and lube the chain, and after wet rides.",
+          "Every 3,000 to 8,000 miles or yearly: engine oil and filter. See [how often to change your oil](/blog/how-often-change-motorcycle-oil).",
+          "Every 6,000 to 12,000 miles: air filter inspection or replacement, and spark plugs on many bikes.",
+          "Every 1 to 2 years: brake fluid, and clutch fluid on hydraulic clutches.",
+          "Every 2 to 5 years: coolant on liquid-cooled bikes.",
+          "Every 12,000 to 30,000 miles: valve clearance check, depending heavily on the engine.",
+          "When worn: tyres, brake pads, chain and sprockets, and fork oil and seals."
+        ]
+      },
+      {
+        "h": "Seasonal jobs"
+      },
+      {
+        "p": "If you ride less in winter, two moments in the year are good times for a bigger check. In autumn, change the oil before storage so acids from old oil do not sit in the engine, and look after the battery; see [how to store your motorcycle for winter](/blog/how-to-store-your-motorcycle-for-winter) and [battery care](/blog/motorcycle-battery-care). In spring, check tyre pressures and age, brake fluid, chain, lights and fluid levels before the first ride."
+      },
+      {
+        "h": "What you can do at home"
+      },
+      {
+        "p": "With a [basic toolkit](/blog/basic-motorcycle-toolkit-every-rider-should-own) most riders can handle the frequent jobs: chain care, oil and filter changes, pressures, bulbs, air filters and battery care. Brake fluid changes and pad replacement are manageable with care and the right torque settings. Valve clearances, fork rebuilds and anything you are unsure about are best left to a workshop, especially on safety-critical parts."
+      },
+      {
         "h": "Bigger jobs"
       },
       {
@@ -1575,6 +1790,7 @@
     "title": "How a service history helps your motorcycle sell for more",
     "category": "Buying & Selling",
     "date": "2026-09-29",
+    "updated": "2026-10-28",
     "read": 4,
     "image": "card-2",
     "alt": "A dark green café racer motorcycle parked in front of a roller shutter",
@@ -1604,6 +1820,37 @@
         "p": "Receipts get lost and memories blur. A year or two later, you may struggle to say when [the chain](/blog/motorcycle-chain-maintenance) was last replaced or when the brake fluid was last changed. Recording each job at the time makes it simple to answer, and it makes it simple to show."
       },
       {
+        "h": "How much is a service history worth?"
+      },
+      {
+        "p": "There is no fixed figure, but the gap shows up in every negotiation. A buyer looking at a bike with no records will usually price in the cost of a full service, new fluids and a chain, plus some extra for the unknown. On a mid-size bike that can easily be several hundred in money. A bike with a complete history removes that guesswork, sells faster and gives the buyer fewer reasons to haggle."
+      },
+      {
+        "h": "What a complete record includes"
+      },
+      {
+        "ul": [
+          "The date and odometer reading for every service.",
+          "What was done: oil and filter, brake fluid, coolant, valves, chain and sprockets, tyres.",
+          "What was used, such as the oil grade or the tyre model.",
+          "Who did it: a dealer, an independent shop or you.",
+          "Receipts or photos of receipts, kept together.",
+          "Notes on anything unusual: a recall, a warranty repair, a crash and what was replaced."
+        ]
+      },
+      {
+        "h": "Does a home-serviced bike count?"
+      },
+      {
+        "p": "Yes, if it is documented. Many careful owners service their own bikes, and buyers know it. A dated log with odometer readings, receipts for oil, filters and parts, and photos of the work is convincing. What worries buyers is a gap with nothing to show for it. Our [printable maintenance log](/printable-motorcycle-maintenance-log) is a simple way to start a paper record."
+      },
+      {
+        "h": "Showing it to a buyer"
+      },
+      {
+        "p": "When you advertise the bike, say the history is available and mention the big items: \"full service history, chain and sprockets at 18,000 miles, new tyres last spring\". Have everything in one folder or on your phone when buyers visit. It answers their questions before they ask, and it sets the tone for the rest of the conversation. Our guide on [how to sell your motorcycle](/blog/how-to-sell-your-motorcycle) covers the rest of the sale."
+      },
+      {
         "h": "Good records help you ride, too"
       },
       {
@@ -1625,6 +1872,7 @@
     "title": "Buying a used motorcycle: the checklist to run before you pay",
     "category": "Buying & Selling",
     "date": "2026-09-28",
+    "updated": "2026-10-28",
     "read": 5,
     "alt": "A rider crouching beside a motorcycle in a garage, working on it with a toolkit open beside them",
     "excerpt": "A used bike is only a good deal if you know what you are buying. Here is what to ask, check and walk away from.",
@@ -1665,6 +1913,58 @@
         ]
       },
       {
+        "h": "Questions to ask before you travel"
+      },
+      {
+        "ul": [
+          "How long have you owned it, and why are you selling?",
+          "Does it have a service history, and when was the last service?",
+          "Has it ever been dropped or crashed? What was replaced?",
+          "Are there any modifications, such as an aftermarket exhaust or remapped engine?",
+          "Is there any outstanding finance on it?",
+          "When were the tyres, chain and brake fluid last changed?"
+        ]
+      },
+      {
+        "p": "Write the answers down. If the story changes when you arrive, that tells you something."
+      },
+      {
+        "h": "Signs of a crash"
+      },
+      {
+        "p": "Look along the bike from the front and back for anything bent. Check the bar ends, levers, footpegs, mirrors and indicators for scuffs or replacements, especially if they only appear on one side. Look at the frame and fork legs for scrapes, and check that the handlebars sit straight when the front wheel points forward. Minor drop damage is common and not a reason to walk away, but it should match what the seller told you."
+      },
+      {
+        "h": "Frame, forks and steering"
+      },
+      {
+        "p": "With the bike on a stand, turn the bars from lock to lock. They should move smoothly with no notches or clunks, which can mean worn steering head bearings. Push down on the front and the back. The suspension should rebound once, not bounce. Look for oil on the fork legs, which points to worn fork seals, and for pitting on the chrome tubes where the seals run."
+      },
+      {
+        "h": "Engine and electrics"
+      },
+      {
+        "p": "A cold engine should start without long cranking and settle to a steady idle. Listen for knocking, rattling from the top end or a squealing cam chain. Look for blue smoke, which can mean the engine is burning oil, and check the oil level and colour. Make sure every [warning light](/blog/motorcycle-warning-lights-explained) comes on at start-up and then goes out, and test lights, indicators, horn and the battery's strength on a restart."
+      },
+      {
+        "h": "Is the mileage high?"
+      },
+      {
+        "p": "Mileage matters less than how the miles were covered and how the bike was looked after. A big tourer with 40,000 well-serviced miles may have more life left than a small sports bike with 12,000 hard miles and no records. See [what counts as high mileage for a motorcycle](/blog/what-counts-as-high-mileage-for-a-motorcycle) for typical figures by type."
+      },
+      {
+        "h": "When to walk away"
+      },
+      {
+        "ul": [
+          "The frame number does not match the documents, or the seller cannot prove ownership.",
+          "The seller refuses a cold start or a test ride with no good reason.",
+          "There is frame damage, a cracked weld or a bent fork.",
+          "The price seems far too low, or the seller pressures you to pay now.",
+          "You are asked to pay a deposit before you have seen the bike in person."
+        ]
+      },
+      {
         "h": "Ride it before you decide"
       },
       {
@@ -1692,7 +1992,8 @@
     "title": "How to choose a motorcycle helmet that fits and lasts",
     "category": "Gear",
     "date": "2026-09-27",
-    "read": 4,
+    "updated": "2026-10-28",
+    "read": 5,
     "alt": "A motorcyclist checking their bike and gear before a ride",
     "excerpt": "The best helmet is the one that fits your head and gets worn every ride. Here is how to pick one and know when to replace it.",
     "body": [
@@ -1717,6 +2018,52 @@
       },
       {
         "p": "Helmets are tested to standards such as ECE 22.06, which is the current European one, or DOT in the United States. The sticker or label shows which one it meets. Check which standard applies where you ride, and be wary of helmets with no labelling at all."
+      },
+      {
+        "h": "How to measure your head"
+      },
+      {
+        "p": "Wrap a soft tape measure around the widest part of your head, about a finger's width above your eyebrows and ears, and around the back. Measure two or three times and use the largest number. Each brand has its own size chart, so a 57 cm head might be a medium in one and a small in another. Head shape matters too: helmets are made for round, intermediate oval or long oval heads, and the wrong shape gives pressure points no matter the size."
+      },
+      {
+        "h": "Signs the fit is wrong"
+      },
+      {
+        "ul": [
+          "A red mark or ache on your forehead after ten minutes means the shape is too round or too long for you.",
+          "You can fit a finger easily between your forehead and the liner.",
+          "The helmet moves when you shake your head, or the cheek pads do not touch your cheeks.",
+          "It is so tight it gives you a headache. New helmets bed in a little, but not that much."
+        ]
+      },
+      {
+        "h": "Shell materials and weight"
+      },
+      {
+        "p": "Shells are usually made from polycarbonate, fibreglass composite or carbon fibre. All can pass the same safety standards. Composites and carbon tend to be lighter, which you notice on long rides, but they cost more. Do not choose on weight alone; a light helmet that fits badly is worse than a heavier one that fits well."
+      },
+      {
+        "h": "Visors, vents and noise"
+      },
+      {
+        "ul": [
+          "An anti-fog insert, such as a Pinlock, makes cold or wet riding far safer. Check whether the visor comes ready for one.",
+          "A drop-down sun visor is handy for commuting, though some riders prefer a tinted visor or sunglasses.",
+          "Good vents keep you cool and help stop the visor misting, but more vents can mean more noise.",
+          "Every helmet is noisy at speed. Wear earplugs on longer rides to protect your hearing."
+        ]
+      },
+      {
+        "h": "Second-hand helmets"
+      },
+      {
+        "p": "Avoid them. You cannot tell whether a used helmet has been dropped or crashed, the liner has already moulded to someone else's head, and the materials may be older than they look. A new helmet from a known maker that fits you well will protect you better than a premium used one."
+      },
+      {
+        "h": "How much to spend"
+      },
+      {
+        "p": "Price is not a reliable guide to protection. Fit and a current safety standard matter most. Spending more usually buys lighter weight, better ventilation, less noise and more comfort, which matter if you ride a lot. Independent test programmes, such as SHARP in the UK, rate helmets on impact protection and are worth checking before you buy. The same thinking applies to [jackets](/blog/how-to-choose-a-motorcycle-jacket), [gloves](/blog/how-to-choose-motorcycle-gloves) and [boots](/blog/how-to-choose-motorcycle-boots)."
       },
       {
         "h": "Pick the style for how you ride"
@@ -1757,6 +2104,7 @@
     "title": "Five riding skills to practise in an empty car park",
     "category": "Riding Skills",
     "date": "2026-09-26",
+    "updated": "2026-10-28",
     "read": 5,
     "alt": "A motorcycle on an open road at the start of a journey",
     "excerpt": "You do not need a track day to ride better. A quiet car park and an hour is enough to build skills that matter on the road.",
@@ -1795,6 +2143,47 @@
         "p": "Practise rolling the throttle on and off gently and matching your shifts, so the bike never lurches. Smooth riding is safer and easier on [the chain](/blog/motorcycle-chain-maintenance), clutch and tyres."
       },
       {
+        "h": "Set up your practice area"
+      },
+      {
+        "p": "Look for a large, flat, clean surface with no traffic: an empty car park on a Sunday morning, an industrial estate after hours, or a training ground. Walk the area first and look for loose gravel, diesel spills, drain covers and painted lines, which are slippery when wet. A few tennis balls cut in half or small cones make good markers and will not hurt if you ride over them."
+      },
+      {
+        "h": "A one-hour session plan"
+      },
+      {
+        "ul": [
+          "10 minutes: warm up with slow, wide loops, getting a feel for the clutch friction zone.",
+          "15 minutes: progressive braking in a straight line, building speed gradually.",
+          "15 minutes: slow-speed figure of eights, then tightening into U-turns.",
+          "10 minutes: a short slalom through markers about four to five metres apart, looking ahead.",
+          "10 minutes: repeat whichever drill felt hardest, then finish on one you did well."
+        ]
+      },
+      {
+        "h": "Common mistakes to watch for"
+      },
+      {
+        "ul": [
+          "Looking down at the ground or the marker in front of you. Look where you want to go.",
+          "Using the front brake at walking pace in a tight turn, which can tip the bike over. Use the rear and the clutch instead.",
+          "Gripping the bars too hard. Relax your arms and steer with light pressure.",
+          "Practising when tired, cold or rushed. Stop while you are still riding well."
+        ]
+      },
+      {
+        "h": "Practise on wet days too"
+      },
+      {
+        "p": "A short session on a wet surface teaches you what the tyres and brakes feel like when grip is lower, so the first time is not on a real road. Keep speeds low and inputs smooth. Our guide to [riding in the rain](/blog/how-to-ride-a-motorcycle-in-the-rain) covers the road side of it."
+      },
+      {
+        "h": "Take it further"
+      },
+      {
+        "p": "Car park practice is a great start, but a trained instructor will spot habits you cannot see yourself. Advanced rider training courses, and organisations such as IAM RoadSmart in the UK or the MSF in the US, run post-test courses on roads and on closed training areas."
+      },
+      {
         "h": "Make it a habit"
       },
       {
@@ -1818,6 +2207,7 @@
     "title": "Motorcycle service intervals: a plain-English cheat sheet",
     "category": "Guides",
     "date": "2026-09-25",
+    "updated": "2026-10-28",
     "read": 6,
     "alt": "A motorcycle being serviced in a workshop",
     "excerpt": "How often does a motorcycle really need servicing? Typical intervals for common jobs, and why your owner's manual always has the last word.",
@@ -1856,6 +2246,42 @@
           "Commuters and scooters: lots of short trips and stop-start riding are hard on oil, so do not stretch intervals.",
           "Off-road bikes: often measured in hours of running time, not miles."
         ]
+      },
+      {
+        "h": "What happens at a minor and a major service"
+      },
+      {
+        "p": "Many manufacturers alternate between a smaller and a larger service. The exact list depends on the model, but this is the usual pattern."
+      },
+      {
+        "ul": [
+          "Minor service: engine oil and filter, chain adjustment and lube, brake pad and fluid check, tyre check, lights, controls, cables and a general safety check.",
+          "Major service: everything in the minor service, plus some of air filter, spark plugs, brake fluid, coolant, valve clearance check, throttle body balance, and steering and suspension checks."
+        ]
+      },
+      {
+        "h": "The first service"
+      },
+      {
+        "p": "New bikes usually have a first service after the running-in period, often around 600 miles (1,000 km). It typically includes an oil and filter change to remove the fine metal particles from new parts, plus checks on fixings and the chain. Do not skip it, because it is usually a condition of the warranty."
+      },
+      {
+        "h": "Belt and shaft drive"
+      },
+      {
+        "p": "Not every bike has a chain. Belt drives need inspecting for cracks, missing teeth and stones, and checking for tension, with replacement typically every 30,000 to 60,000 miles depending on the maker. Shaft drives need their final drive oil changed at the interval in the manual, often every 12,000 to 24,000 miles or every two years."
+      },
+      {
+        "h": "Hours instead of miles"
+      },
+      {
+        "p": "Off-road and competition bikes are usually serviced by engine hours, not distance, because a few miles of hard enduro riding can be far tougher than a long road ride. Some race engines need oil changes every few hours of use. If your bike has an hour meter, follow the hour-based schedule."
+      },
+      {
+        "h": "Work out what is due next"
+      },
+      {
+        "p": "Take the odometer reading and date from your last service, add the interval, and see which limit comes first. Our free [service due calculator](/service-due-calculator) does this for any job. If you prefer paper, our [printable maintenance log](/printable-motorcycle-maintenance-log) keeps every service in one place."
       },
       {
         "h": "Do not forget the time limit"
