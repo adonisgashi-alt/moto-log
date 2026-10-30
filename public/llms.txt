@@ -18,9 +18,9 @@
 
 ## Blog topics
 
+- [Motorcycle trip planning guides](https://www.moto-log.app/blog/trips): Planning routes, packing the bike, riding in a group and handling a breakdown far from home, so the trip is about the road.
 - [Motorcycle mileage and fuel guides](https://www.moto-log.app/blog/mileage): How to track your odometer, work out fuel consumption and read what a bike's mileage really tells you when you buy, sell or service it.
 - [Motorcycle guides](https://www.moto-log.app/blog/guides): Plain-English explainers for riders: service intervals, warning lights, tyre markings, fluids and more.
-- [Motorcycle trip planning guides](https://www.moto-log.app/blog/trips): Planning routes, packing the bike, riding in a group and handling a breakdown far from home, so the trip is about the road.
 - [Motorcycle gear and tools guides](https://www.moto-log.app/blog/gear): How to choose a helmet, jacket, gloves and boots that fit and protect you, plus the basic toolkit every rider should own.
 - [Buying and selling a motorcycle](https://www.moto-log.app/blog/buying-selling): What to check before you pay for a used bike, how to price and sell your own, and why a clear service history is worth real money.
 - [Motorcycle maintenance guides](https://www.moto-log.app/blog/maintenance): Oil, chains, tyres, brakes, batteries and storage: practical guides to the jobs that keep a motorcycle running well, and how often to do them.
@@ -29,6 +29,7 @@
 
 ## Blog articles
 
+- [How far can you ride a motorcycle in a day?](https://www.moto-log.app/blog/how-far-can-you-ride-a-motorcycle-in-a-day): Most riders are comfortable covering 300 to 500 km a day, and experienced tourers manage more. Here is how to work out a realistic daily distance for your bike, your roads and your body.
 - [What counts as high mileage for a motorcycle?](https://www.moto-log.app/blog/what-counts-as-high-mileage-for-a-motorcycle): A big number on the odometer is not always a bad sign. Here is what counts as high mileage for different types of motorcycle, and why how the miles were covered matters more than how many there are.
 - [Motorcycle fluids explained: what each one does and when to check it](https://www.moto-log.app/blog/motorcycle-fluids-explained): Oil, coolant, brake fluid, clutch fluid and fork oil all keep your motorcycle running safely. Here is what each fluid does, how to check it and roughly how often it needs changing.
 - [What to do if your motorcycle breaks down on a trip](https://www.moto-log.app/blog/what-to-do-if-your-motorcycle-breaks-down-on-a-trip): A breakdown far from home is stressful, but a calm plan makes it much easier to handle. Here is what to do if your motorcycle stops on a trip, from getting safe to simple roadside checks and calling for help.
