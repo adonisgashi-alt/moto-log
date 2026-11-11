@@ -1,5 +1,105 @@
 [
   {
+    "slug": "what-to-do-after-buying-a-used-motorcycle",
+    "title": "What to do after buying a used motorcycle",
+    "category": "Buying & Selling",
+    "date": "2026-11-11",
+    "read": 5,
+    "image": "what-to-do-after-buying-a-used-motorcycle",
+    "alt": "Rider sitting in a home garage holding a helmet next to a sports motorcycle, with tools on the wall behind",
+    "excerpt": "After buying a used motorcycle, sort the paperwork and insurance, then give it a baseline service so you know exactly where you stand. Here is a first-month plan.",
+    "meta": "Just bought a used motorcycle? Sort paperwork and insurance, do a baseline service and start a record. A first-month checklist with a worked example.",
+    "body": [
+      {
+        "p": "After buying a used motorcycle, first make it legal to ride by transferring ownership, insuring it and checking any roadworthiness certificate is valid, then give it a baseline service so you know the condition of the oil, brakes, chain and tyres for yourself. Record the date and mileage on the day you collect it, because that becomes the starting point for every service you do from now on."
+      },
+      {
+        "p": "Even a bike with a full service history has been looked after by someone else, to their standards. A few hours in the first month turns an unknown bike into one you understand, and often uncovers small jobs before they turn into big ones. This guide covers the first day, the first week and the first month, with a list of what to replace when the history is unclear."
+      },
+      {
+        "h": "On the day you collect it"
+      },
+      {
+        "ul": [
+          "Make sure the bike is insured in your name before you ride it away. Many policies can be set up the same day by phone or online.",
+          "Check you have the signed paperwork, both keys, the owner's manual and any service records the seller promised.",
+          "Write down the date and the exact odometer reading. Take a photo of the dash as proof.",
+          "Ask the seller for anything they forgot: spare parts, the original exhaust, the tool kit or the alarm fob.",
+          "Ride home gently. You do not yet know how the brakes, tyres or chain have been looked after."
+        ]
+      },
+      {
+        "p": "Our [used motorcycle buying checklist](/blog/buying-a-used-motorcycle-checklist) covers what to inspect before you pay. Once the money has changed hands, the jobs below make sure nothing was missed."
+      },
+      {
+        "h": "In the first week: paperwork and checks"
+      },
+      {
+        "p": "Complete the change of ownership with the registration authority if the seller has not already done it, and check the date of the next roadworthiness test if your country has one. If the bike has an immobiliser or tracker, register it in your name and change any app logins."
+      },
+      {
+        "p": "Then run through the basics with the bike cold and on level ground: tyre pressures and tread, chain tension and lubrication, oil level, coolant level, brake fluid level and colour, and every light. Note anything that looks low, worn or out of date. This also tells you whether what the seller said matches what you see."
+      },
+      {
+        "h": "In the first month: a baseline service"
+      },
+      {
+        "p": "A baseline service resets the clock so that you know exactly what was done and when. Whether you do it yourself or use a workshop, these are the jobs worth doing straight away when the history is unclear:"
+      },
+      {
+        "ul": [
+          "Engine oil and filter: cheap and quick, and you will know the grade and the date. Our guide on [how often to change motorcycle oil](/blog/how-often-change-motorcycle-oil) covers typical intervals.",
+          "Brake fluid: if there is no record of a change in the last two years, replace it. Dark fluid absorbs water and works less well.",
+          "Brake pads: measure the friction material and replace pads below about 2 mm. Our guide on [brake pads and fluid](/blog/motorcycle-brake-pads-and-fluid-when-to-replace) explains what to look for.",
+          "Chain and sprockets: clean, lube and adjust, and replace the kit if the chain has tight spots or the sprocket teeth are hooked. See our [chain maintenance guide](/blog/motorcycle-chain-maintenance).",
+          "Tyres: check the date code as well as the tread. Tyres over five years old are worth replacing even with tread left.",
+          "Air filter and spark plugs: check them and replace if they are dirty or due.",
+          "Coolant: if it is brown or there is no record of a change, replace it.",
+          "Battery: test it, especially if the bike has been stood for a while."
+        ]
+      },
+      {
+        "p": "If the seller's records show any of these were done recently, you can skip them. The point is to remove the guesswork, not to replace parts that are already fresh."
+      },
+      {
+        "h": "A worked example"
+      },
+      {
+        "p": "Say you collect a bike at 18,200 km. The seller says the oil was changed at 15,000 km but has no receipt, and the brake fluid has no date at all. The handbook lists a 6,000 km oil interval. If you trusted the seller, the next oil change would be due at 21,000 km. Because you cannot confirm it, you change the oil and filter now and replace the brake fluid at the same time. Your next oil change is then due at 24,200 km, and the brake fluid in two years. The [service due calculator](/service-due-calculator) works these dates out from the interval and your current mileage."
+      },
+      {
+        "h": "Start a record from day one"
+      },
+      {
+        "p": "Everything you do from now on adds value to the bike and saves you guessing later. Write down the date, mileage and work done for each job, keep the receipts in one folder, and note anything you are watching, such as a tyre with half its tread left. Our [printable maintenance log](/printable-motorcycle-maintenance-log) is a simple way to start, and when you come to sell, a clear record helps you get a better price."
+      },
+      {
+        "h": "Get to know the bike"
+      },
+      {
+        "p": "Take a few gentle rides before going far. Learn how the brakes bite, where the gears engage and how the bike behaves on different surfaces. Listen for new noises and look under it where you park for drips. If something feels wrong, such as the bike pulling to one side, a clunk over bumps or a vague front end, have it checked before a long ride. A short ride in quiet roads is also a good chance to set the levers, mirrors and controls to suit you."
+      },
+      {
+        "h": "Common mistakes"
+      },
+      {
+        "ul": [
+          "Trusting the seller's word on the last service without any proof.",
+          "Riding away before the insurance is active.",
+          "Skipping the brake fluid because the brakes feel fine.",
+          "Ignoring tyre age because the tread looks good.",
+          "Not writing down the mileage on day one, which makes every later interval a guess."
+        ]
+      },
+      {
+        "p": "For more advice on buying and selling, browse our [buying and selling guides](/blog/buying-selling)."
+      },
+      {
+        "p": "A used bike is easiest to look after when every service and kilometre is recorded from the day you buy it. [MotoLog](/motorcycle-maintenance-app) logs your mileage and services and reminds you when the next one is due soon or overdue. If you have just bought a bike, you can get the app below and start its record today."
+      }
+    ]
+  },
+  {
     "slug": "how-to-be-more-visible-on-a-motorcycle",
     "title": "How to be more visible on a motorcycle",
     "category": "Safety",
