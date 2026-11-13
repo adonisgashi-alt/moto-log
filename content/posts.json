@@ -1,5 +1,111 @@
 [
   {
+    "slug": "average-motorcycle-mileage-per-year",
+    "title": "How many miles a year is average on a motorcycle?",
+    "category": "Mileage",
+    "date": "2026-11-13",
+    "read": 5,
+    "image": "average-motorcycle-mileage-per-year",
+    "alt": "Rider's view over the handlebars and dashboard of a motorcycle on a tree-lined road",
+    "excerpt": "Most leisure riders cover somewhere around 3,000 to 5,000 km (2,000 to 3,000 miles) a year, while commuters often do three times that. Here is what is typical and why it matters for servicing.",
+    "meta": "Most riders cover 3,000 to 5,000 km (2,000 to 3,000 miles) a year, commuters far more. See typical figures and why low mileage changes your service dates.",
+    "body": [
+      {
+        "p": "For most leisure riders, somewhere around 3,000 to 5,000 km (roughly 2,000 to 3,000 miles) a year is typical, while year-round commuters and touring riders often cover 10,000 to 20,000 km (6,000 to 12,000 miles) or more. Motorcycles generally cover far fewer miles than cars, because many are ridden mainly in good weather and at weekends."
+      },
+      {
+        "p": "Those are rough ranges rather than official statistics, and your own figure matters far more than any average. Knowing how far you actually ride decides when services fall due, how your bike compares when you sell it, and whether time-based service limits will catch you out before the odometer does."
+      },
+      {
+        "h": "Typical yearly mileage by type of rider"
+      },
+      {
+        "ul": [
+          "Occasional weekend rider: 1,500 to 3,000 km (1,000 to 2,000 miles), mostly in spring and summer.",
+          "Regular leisure rider: 3,000 to 6,000 km (2,000 to 4,000 miles), with a few day rides and perhaps one trip.",
+          "Year-round commuter: 8,000 to 15,000 km (5,000 to 9,000 miles), often on the same route every day.",
+          "Touring rider: 10,000 to 20,000 km (6,000 to 12,000 miles) or more, with long trips each summer.",
+          "Delivery and courier riders: often 30,000 km (18,000 miles) or more."
+        ]
+      },
+      {
+        "p": "Where you fit depends on climate, how you use the bike and how many bikes you own. A rider in a mild climate who commutes all year can easily cover three times as much as someone who stores their bike over winter."
+      },
+      {
+        "h": "Why your yearly mileage matters"
+      },
+      {
+        "p": "Most service schedules give two limits: a distance and a time, such as every 6,000 km or 12 months, whichever comes first. If you ride less than average, the time limit usually arrives first. That catches out a lot of low-mileage riders, who look at the odometer, see they are well short of the distance, and skip a service that is actually due."
+      },
+      {
+        "p": "Oil ages even when the bike is not ridden, especially with short trips that never fully warm the engine. Brake fluid absorbs moisture over time, not distance. Tyres harden with age. So a bike ridden 2,000 km a year still needs its oil changed every year and its brake fluid every two, whatever the odometer says. Our guide on [how often to change motorcycle oil](/blog/how-often-change-motorcycle-oil) explains both limits in more detail."
+      },
+      {
+        "h": "A worked example"
+      },
+      {
+        "p": "Say your bike's handbook lists an oil change every 6,000 km or 12 months, and you ride about 4,000 km a year. You had it serviced in April at 12,000 km. By distance, the next service would be at 18,000 km, but at 4,000 km a year you would not reach that for about 18 months, around October of the following year. The 12-month limit comes first, so the service is due next April at around 16,000 km."
+      },
+      {
+        "p": "Now take a commuter on the same bike riding 15,000 km a year. They reach 18,000 km in under five months, by around September, long before the 12-month limit. Same bike, same schedule, completely different service dates. The [service due calculator](/service-due-calculator) works out which limit you will hit first from your yearly mileage."
+      },
+      {
+        "h": "How to work out your own yearly mileage"
+      },
+      {
+        "ul": [
+          "Find two odometer readings at least a few months apart, such as from service receipts, an MOT or roadworthiness certificate, or photos of your dashboard.",
+          "Subtract the earlier reading from the later one.",
+          "Divide by the number of months between them and multiply by 12.",
+          "If your riding is seasonal, use a full year of readings so a busy summer does not skew the figure.",
+          "Recheck once a year, since commuting changes, new routes or a second bike can shift it a lot."
+        ]
+      },
+      {
+        "p": "For example, 14,200 km in March and 17,800 km in November is 3,600 km over eight months, or about 5,400 km a year. If your figure is well below average, plan services by date. If it is well above, keep a close eye on distance-based items like chains, tyres and brake pads. Fuel receipts help too: our [fuel consumption calculator](/fuel-consumption-calculator) turns fill-ups into distance as well as economy."
+      },
+      {
+        "h": "What to watch at each end of the scale"
+      },
+      {
+        "p": "Your yearly mileage also changes which jobs need the most attention between services:"
+      },
+      {
+        "ul": [
+          "Low mileage riders: plan oil, brake fluid and coolant by date, keep the battery on a maintainer between rides, check tyre age as well as tread, and use the bike often enough to stop fuel going stale.",
+          "High mileage riders: check chain tension and lubrication every few hundred kilometres, measure tyre tread and brake pads regularly, and expect services to fall due several times a year.",
+          "Everyone: check tyre pressures every week or two, since tyres lose air whether the bike is ridden or not."
+        ]
+      },
+      {
+        "h": "Low mileage is not always good news"
+      },
+      {
+        "p": "Buyers often see low mileage as a plus, and it can be, but a bike that has barely moved for years can have its own problems. Fuel goes stale and gums up injectors or carburettors, seals dry out, batteries go flat and tyres harden. When you are buying, a bike with average mileage and a full history can be a safer bet than a very low mileage one that has sat unused. Our guide on [what counts as high mileage for a motorcycle](/blog/what-counts-as-high-mileage-for-a-motorcycle) covers the other end of the scale."
+      },
+      {
+        "p": "Mileage also affects value when you sell. A bike with below average mileage for its age can sit at the top of the price range, as we explain in [how much is my motorcycle worth](/blog/how-much-is-my-motorcycle-worth), but only if you can show the mileage is genuine. Records with dates and odometer readings are what make it believable."
+      },
+      {
+        "h": "Common mistakes"
+      },
+      {
+        "ul": [
+          "Waiting for the distance interval and ignoring the time limit on a low mileage bike.",
+          "Guessing yearly mileage instead of working it out from real readings.",
+          "Assuming low mileage means a bike needs less care, when stored bikes need attention too.",
+          "Not recording the odometer at each service, which makes mileage hard to prove when selling."
+        ]
+      },
+      {
+        "p": "If you are not sure how far you ride, start recording it today. Our guide on [why you should track your motorcycle's mileage](/blog/why-track-motorcycle-mileage) covers the benefits, and you can find more articles in our [mileage guides](/blog/mileage)."
+      },
+      {
+        "p": "A [motorcycle mileage log](/motorcycle-mileage-log) makes your yearly figure obvious at a glance. MotoLog logs your mileage and services and reminds you when a service is due soon or overdue, so the time limit never sneaks up on you. If that sounds useful, you can get the app below."
+      }
+    ]
+  },
+  {
     "slug": "what-to-do-after-buying-a-used-motorcycle",
     "title": "What to do after buying a used motorcycle",
     "category": "Buying & Selling",
