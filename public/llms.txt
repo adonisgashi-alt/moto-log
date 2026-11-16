@@ -18,9 +18,9 @@
 
 ## Blog topics
 
+- [Motorcycle safety checks](https://www.moto-log.app/blog/safety): Pre-ride checks, brakes and the small habits that catch problems before they turn into a breakdown or a crash.
 - [Motorcycle mileage and fuel guides](https://www.moto-log.app/blog/mileage): How to track your odometer, work out fuel consumption and read what a bike's mileage really tells you when you buy, sell or service it.
 - [Buying and selling a motorcycle](https://www.moto-log.app/blog/buying-selling): What to check before you pay for a used bike, how to price and sell your own, and why a clear service history is worth real money.
-- [Motorcycle safety checks](https://www.moto-log.app/blog/safety): Pre-ride checks, brakes and the small habits that catch problems before they turn into a breakdown or a crash.
 - [Motorcycle gear and tools guides](https://www.moto-log.app/blog/gear): How to choose a helmet, jacket, gloves and boots that fit and protect you, plus the basic toolkit every rider should own.
 - [Motorcycle trip planning guides](https://www.moto-log.app/blog/trips): Planning routes, packing the bike, riding in a group and handling a breakdown far from home, so the trip is about the road.
 - [Motorcycle guides](https://www.moto-log.app/blog/guides): Plain-English explainers for riders: service intervals, warning lights, tyre markings, fluids and more.
@@ -29,6 +29,7 @@
 
 ## Blog articles
 
+- [How long do motorcycle brake pads last?](https://www.moto-log.app/blog/how-long-do-motorcycle-brake-pads-last): Most motorcycle brake pads last somewhere between 10,000 and 30,000 km, but how you ride matters more than the number. Here is how to work out when yours will be due.
 - [How many miles a year is average on a motorcycle?](https://www.moto-log.app/blog/average-motorcycle-mileage-per-year): Most leisure riders cover somewhere around 3,000 to 5,000 km (2,000 to 3,000 miles) a year, while commuters often do three times that. Here is what is typical and why it matters for servicing.
 - [What to do after buying a used motorcycle](https://www.moto-log.app/blog/what-to-do-after-buying-a-used-motorcycle): After buying a used motorcycle, sort the paperwork and insurance, then give it a baseline service so you know exactly where you stand. Here is a first-month plan.
 - [How to be more visible on a motorcycle](https://www.moto-log.app/blog/how-to-be-more-visible-on-a-motorcycle): Being seen on a motorcycle comes down to three things: where you ride in the lane, what you wear, and keeping your lights working. Here is how to get all three right.
