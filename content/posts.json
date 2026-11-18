@@ -1,5 +1,124 @@
 [
   {
+    "slug": "how-accurate-is-a-motorcycle-odometer",
+    "title": "How accurate is a motorcycle odometer?",
+    "category": "Mileage",
+    "date": "2026-11-18",
+    "read": 7,
+    "image": "how-accurate-is-a-motorcycle-odometer",
+    "alt": "Motorcycle cockpit with a satnav mounted beside the digital dash on an open country road",
+    "excerpt": "A standard motorcycle odometer is usually within a few per cent of the real distance, and far closer than the speedometer. Here is how to check yours and when the error actually matters.",
+    "meta": "Most motorcycle odometers are within a few per cent of true distance. See how to check yours, what throws it off, and when the error matters for servicing.",
+    "body": [
+      {
+        "p": "On a standard bike with standard tyres and gearing, a motorcycle odometer is usually accurate to within a few per cent, and often to within one or two. It is far more trustworthy than the speedometer next to it, which is deliberately set to read high, so for logging mileage and planning services you can rely on it, as long as nothing has changed the gearing or wheel size."
+      },
+      {
+        "h": "Why the speedometer and odometer disagree"
+      },
+      {
+        "p": "Many riders notice that their speedo shows 70 when the satnav shows 65, and assume the odometer must be just as far out. It usually is not. In Europe and many other markets, speedometers are not allowed to show less than your true speed, so manufacturers build in a margin and the needle reads a little high, often by 5 to 10 per cent. That margin protects you from an accidental speeding ticket."
+      },
+      {
+        "p": "The odometer has no reason to carry the same margin, and most manufacturers calibrate it much closer to the real distance. Both usually take their signal from the same sensor, but the speed display gets an offset added on top. That is why a bike can over-read its speed by several per cent while its total distance is close to spot on."
+      },
+      {
+        "h": "What can make your odometer read wrong"
+      },
+      {
+        "p": "The odometer does not measure distance directly. It counts turns of a wheel, a gearbox shaft or a sprocket and multiplies by a fixed figure set at the factory. Anything that changes how far the bike travels per turn throws the reading off."
+      },
+      {
+        "ul": [
+          "Changing the front or rear sprocket, if the sensor is on the gearbox output rather than the wheel. Going from a 15-tooth to a 16-tooth front sprocket moves the bike about 6.7 per cent further per turn, so the odometer reads roughly 6 per cent low.",
+          "Fitting a different tyre size or profile, especially a taller or shorter rear on a bike that measures speed at the back wheel.",
+          "Tyre wear. A worn tyre has a slightly smaller rolling circumference, so a bike with a sensor at the wheel covers a little less ground per turn. The effect is small, usually around 1 to 2 per cent between new and worn.",
+          "Tyre pressure. A badly under-inflated tyre rolls on a slightly smaller radius. Another reason to keep pressures right, as covered in our [tyre care guide](/blog/motorcycle-tyre-care-pressure-tread-and-age).",
+          "A faulty or loose sensor, or a damaged cable on older bikes, which tends to show up as a jumpy speedo or a reading that sticks rather than a steady error.",
+          "A replacement dash or instrument cluster, which may start from a different total or be set up for a different model."
+        ]
+      },
+      {
+        "p": "If none of these apply to your bike, the factory calibration is almost certainly close enough for everyday use, and the rest of this guide is mainly useful as a one-off check."
+      },
+      {
+        "h": "How to check your odometer"
+      },
+      {
+        "p": "You need a known distance and your trip meter. Longer is better, because small rounding errors in the trip meter matter less over 50 km than over 5 km."
+      },
+      {
+        "ul": [
+          "Pick a route of at least 30 to 50 km that you can measure accurately. A GPS track from a phone or satnav works well, as do motorway distance markers where your country uses them.",
+          "Reset the trip meter at the exact start point, ride the route without detours, and note the trip reading at the exact end point.",
+          "Check the GPS distance for the same section. Use the recorded track, not the planned route, because a planned route ignores lane changes and fuel stops.",
+          "Divide the odometer distance by the true distance. A result of 1.03 means the odometer reads 3 per cent high; 0.97 means 3 per cent low.",
+          "Repeat on a second route if the first result surprises you. Two readings that agree are far more convincing than one."
+        ]
+      },
+      {
+        "p": "Phone GPS is not perfect either, particularly in cities, tunnels and tight mountain roads, where it can cut corners off the track. An open main road with long, gentle bends gives the cleanest comparison."
+      },
+      {
+        "h": "Worked example: putting a number on the error"
+      },
+      {
+        "p": "Say you ride a route that your GPS records as 50.0 km, and your trip meter shows 51.5 km at the end."
+      },
+      {
+        "ul": [
+          "Ratio: 51.5 divided by 50.0 is 1.03, so the odometer reads 3 per cent high.",
+          "Correction factor: 50.0 divided by 51.5 is about 0.971. Multiply any odometer distance by this to get the true distance.",
+          "Service intervals: a 6,000 km oil change by the odometer is about 5,825 km in reality. You are servicing a little early, which does no harm.",
+          "Fuel consumption: a tank that shows 300 km on the trip and takes 15 litres looks like 5.0 litres per 100 km. The true distance is about 291 km, so real consumption is about 5.15 litres per 100 km.",
+          "Yearly mileage: 8,000 km on the odometer is roughly 7,770 km of real riding."
+        ]
+      },
+      {
+        "p": "Now flip it round. If your odometer reads 3 per cent low, perhaps after a sprocket change, a 6,000 km interval by the odometer becomes about 6,190 km in reality. Still not dramatic for one service, but over a set of tyres, a chain and several oil changes, a consistent under-read means everything gets done later than the manual intends."
+      },
+      {
+        "h": "When the error actually matters"
+      },
+      {
+        "p": "For most riders, an odometer that is within 2 or 3 per cent is perfectly fine. The cases where it is worth checking and correcting are fairly specific."
+      },
+      {
+        "ul": [
+          "After changing sprockets for different gearing, especially going up at the front or down at the back, which makes the odometer under-read.",
+          "When you work out fuel consumption carefully, for example to compare two tyres or to spot an engine problem early. Our guide to [working out fuel consumption](/blog/how-to-work-out-motorcycle-fuel-consumption) explains the full-to-full method.",
+          "On long tours where you plan fuel stops close to the bike's range.",
+          "When you sell the bike, because a buyer will compare the odometer with your records, and an unexplained gap raises questions.",
+          "If your bike has had a replacement dash, in which case the total on the clock may not be the bike's true mileage at all."
+        ]
+      },
+      {
+        "h": "Common mistakes"
+      },
+      {
+        "ul": [
+          "Assuming the odometer is as far out as the speedometer, and adding a correction that makes your records less accurate, not more.",
+          "Checking over a short distance, where a 0.1 km rounding on the trip meter is a big share of the total.",
+          "Comparing with a planned route on a map instead of the track you actually rode.",
+          "Changing gearing and forgetting that the odometer has changed with it, so service reminders drift later and later.",
+          "Not recording a dash replacement, leaving a mileage history that does not add up when you come to sell."
+        ]
+      },
+      {
+        "h": "Keep your records consistent"
+      },
+      {
+        "p": "The good news is that for servicing, consistency matters more than absolute accuracy. If you always log the same odometer and service by the same odometer, your intervals stay evenly spaced even if the number is a few per cent off. The problems come from a change halfway through, such as new sprockets or a replacement dash, so note those changes alongside your readings. Our post on [why tracking mileage matters](/blog/why-track-motorcycle-mileage) covers what else a regular log tells you."
+      },
+      {
+        "p": "If you have changed your gearing, the simplest fix is to apply your correction factor when you work out the next service, or to bring the interval in slightly. The [service due calculator](/service-due-calculator) works from whatever odometer reading you give it, and the [fuel consumption calculator](/fuel-consumption-calculator) is handy for checking your corrected figures. There is more on using your odometer well in our [mileage guides](/blog/mileage)."
+      },
+      {
+        "p": "A [motorcycle mileage log](/motorcycle-mileage-log) like MotoLog keeps every reading in one place, with services flagged as due soon or overdue as the kilometres build up. If you would like your odometer readings to do that work for you, you can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-long-do-motorcycle-brake-pads-last",
     "title": "How long do motorcycle brake pads last?",
     "category": "Safety",
