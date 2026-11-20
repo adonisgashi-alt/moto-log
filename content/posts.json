@@ -1,5 +1,125 @@
 [
   {
+    "slug": "how-cold-is-too-cold-to-ride-a-motorcycle",
+    "title": "How cold is too cold to ride a motorcycle?",
+    "category": "Safety",
+    "date": "2026-11-20",
+    "read": 6,
+    "image": "how-cold-is-too-cold-to-ride-a-motorcycle",
+    "alt": "Blue motorcycle parked on a snow-covered street on a winter day",
+    "excerpt": "There is no single cut-off, but riding gets noticeably riskier below about 5°C and seriously risky near freezing, when ice becomes likely. Here is how to judge the day, the road and yourself.",
+    "meta": "Below about 5°C riding gets riskier, and near freezing ice makes it dangerous. See temperature bands, wind chill figures and a cold-day checklist.",
+    "body": [
+      {
+        "p": "There is no legal or universal cut-off, but for most riders the risk climbs noticeably below about 5°C (41°F), and at around 3°C (37°F) or lower you should assume there may be ice on the road. The air temperature matters less than two things it causes: cold tyres and roads with less grip, and a cold rider whose hands and reactions slow down long before they feel in danger."
+      },
+      {
+        "p": "So the real question is not just the number on the forecast, but whether the road surface, your bike and your body are all up to it on that day. This guide gives rough temperature bands, shows how much colder it feels at speed, and finishes with a checklist you can run through before a cold ride."
+      },
+      {
+        "h": "Rough temperature bands for riding"
+      },
+      {
+        "p": "These bands assume dry roads, daylight and a rider in proper winter kit. Rain, darkness or a long ride all shift each band towards the more cautious end."
+      },
+      {
+        "ul": [
+          "Above 10°C (50°F): normal riding for most people. Tyres warm up reasonably quickly and grip is good on dry roads.",
+          "5 to 10°C (41 to 50°F): comfortable with good layers, but tyres take longer to warm and grip is lower for the first few kilometres. Hands get cold on longer rides.",
+          "3 to 5°C (37 to 41°F): ride with extra care. Shaded corners, bridges and dips can be colder than the forecast, and damp patches may stay damp all day.",
+          "0 to 3°C (32 to 37°F): ice is possible, especially early in the morning, after a clear night and in shaded spots. Only ride if you know the roads are clear and treated.",
+          "Below 0°C (32°F): most experienced riders stay off the bike unless the roads are dry and gritted and the trip is short. Black ice can be invisible until you are on it."
+        ]
+      },
+      {
+        "h": "Why it feels so much colder on the bike"
+      },
+      {
+        "p": "Riding creates its own wind, and moving air pulls heat away from your body much faster than still air. The standard wind chill formula used by weather services gives a rough idea of how cold any exposed skin will feel, and it is a useful reminder of what your hands and neck are up against through gaps in your kit."
+      },
+      {
+        "h": "Worked example: wind chill at riding speeds"
+      },
+      {
+        "ul": [
+          "At 5°C and 50 km/h (about 30 mph), exposed skin feels roughly like -1°C.",
+          "At 5°C and 100 km/h (about 60 mph), it feels roughly like -3°C.",
+          "At 0°C and 100 km/h, it feels roughly like -11°C.",
+          "At 10°C and 100 km/h, it still feels close to 4°C, which is why even a mild autumn motorway ride can leave your fingers numb."
+        ]
+      },
+      {
+        "p": "Good kit cuts the wind, so your body will not actually be that cold. But your hands, wrists and neck are the hardest parts to seal, and they are exactly the parts you need for the throttle, brakes and shoulder checks. Numb fingers squeeze the brake lever more slowly and less precisely, and a cold, tired rider makes slower decisions. That is the hidden risk of cold riding: you lose sharpness gradually and rarely notice it happening."
+      },
+      {
+        "h": "What the cold does to your bike"
+      },
+      {
+        "ul": [
+          "Tyres: cold rubber grips less, and road-biased tyres can take a long time to reach working temperature in winter, if they get there at all. Ride the first few kilometres gently and avoid hard braking or sharp lean while they warm.",
+          "Tyre pressure: pressure drops as the temperature falls, commonly about 1 psi for every 5 to 6°C. A tyre set in a warm garage can be under-inflated outside, so check pressures cold and outdoors, as explained in our [tyre care guide](/blog/motorcycle-tyre-care-pressure-tread-and-age).",
+          "Battery: cold weather reduces a battery's ability to deliver current, so a battery that coped in summer may struggle to start the bike on a frosty morning. Our post on [motorcycle battery care](/blog/motorcycle-battery-care) covers testing and charging.",
+          "Brakes: discs and pads take longer to come up to temperature, so the first stops of the day can feel slightly wooden.",
+          "Road salt: gritted roads are safer to ride but salt eats chains, fasteners and alloy parts. Rinse the bike with cold water after a salty ride and re-lube the chain, as covered in our [chain maintenance guide](/blog/motorcycle-chain-maintenance)."
+        ]
+      },
+      {
+        "h": "Where to expect ice"
+      },
+      {
+        "p": "The forecast tells you the air temperature in the open, not the temperature of the road surface in every corner. Road surfaces can be colder than the air after a clear night, and some spots stay icy long after the rest of the road has thawed."
+      },
+      {
+        "ul": [
+          "Bridges and flyovers, which lose heat from above and below.",
+          "Shaded corners, tree-lined sections and the shady side of hills and buildings.",
+          "Dips and valley floors, where cold air settles overnight.",
+          "Damp patches, run-off from fields and anywhere a puddle has formed.",
+          "Quiet country lanes that gritters do not reach."
+        ]
+      },
+      {
+        "p": "If the road looks wet but it has not rained, treat it with suspicion. And if you see frost on grass, hedges or parked cars, assume there may be ice on any untreated road surface nearby."
+      },
+      {
+        "h": "A cold-day checklist before you set off"
+      },
+      {
+        "ul": [
+          "Check the forecast for the whole ride, including the time you plan to come home. Temperatures often drop sharply after sunset.",
+          "Look for frost on cars and grass. If it is there, wait until it has gone or leave the bike at home.",
+          "Check tyre pressures outdoors and top them up to the recommended cold figure.",
+          "Make sure the battery starts the bike easily. A slow crank in the cold is an early warning.",
+          "Wear a windproof layer, a neck tube and proper winter gloves. Heated grips or heated kit make a big difference to hand control.",
+          "Fit a visor insert or use an anti-fog treatment, because a fogged visor is a real hazard on cold mornings.",
+          "Plan a shorter route on main roads that are more likely to be gritted, with places to stop and warm up.",
+          "Run through the usual [five-minute pre-ride check](/blog/five-minute-pre-ride-check), paying extra attention to lights, since days are shorter."
+        ]
+      },
+      {
+        "h": "Common mistakes"
+      },
+      {
+        "ul": [
+          "Judging the day by the forecast high, when you will be riding in the colder morning or evening.",
+          "Setting off with cold tyres and riding the first bends as if it were summer.",
+          "Underestimating how quickly cold hands lose feel, and carrying on until they are numb.",
+          "Assuming a gritted main road means the side roads and car parks are safe too.",
+          "Forgetting to wash off road salt, then finding corroded fasteners and a rusty chain in spring."
+        ]
+      },
+      {
+        "h": "If in doubt, leave it"
+      },
+      {
+        "p": "The simplest rule is the one most experienced winter riders use: if you are asking whether it is too cold, it probably is for that ride. There is no shame in taking the car or bus on a frosty morning, and the bike will still be there when the roads are clear. If you do lay the bike up for the coldest weeks, our [safety guides](/blog/safety) and the [free tools](/tools) page have more help for keeping it ready for spring."
+      },
+      {
+        "p": "Winter is also a good time to catch up on maintenance. [MotoLog](/motorcycle-maintenance-app) lets you log your mileage and services and shows each job as due soon or overdue, so the bike is ready when the weather turns. If that would help, you can get the app just below."
+      }
+    ]
+  },
+  {
     "slug": "how-accurate-is-a-motorcycle-odometer",
     "title": "How accurate is a motorcycle odometer?",
     "category": "Mileage",

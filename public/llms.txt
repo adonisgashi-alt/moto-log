@@ -18,8 +18,8 @@
 
 ## Blog topics
 
-- [Motorcycle mileage and fuel guides](https://www.moto-log.app/blog/mileage): How to track your odometer, work out fuel consumption and read what a bike's mileage really tells you when you buy, sell or service it.
 - [Motorcycle safety checks](https://www.moto-log.app/blog/safety): Pre-ride checks, brakes and the small habits that catch problems before they turn into a breakdown or a crash.
+- [Motorcycle mileage and fuel guides](https://www.moto-log.app/blog/mileage): How to track your odometer, work out fuel consumption and read what a bike's mileage really tells you when you buy, sell or service it.
 - [Buying and selling a motorcycle](https://www.moto-log.app/blog/buying-selling): What to check before you pay for a used bike, how to price and sell your own, and why a clear service history is worth real money.
 - [Motorcycle gear and tools guides](https://www.moto-log.app/blog/gear): How to choose a helmet, jacket, gloves and boots that fit and protect you, plus the basic toolkit every rider should own.
 - [Motorcycle trip planning guides](https://www.moto-log.app/blog/trips): Planning routes, packing the bike, riding in a group and handling a breakdown far from home, so the trip is about the road.
@@ -29,6 +29,7 @@
 
 ## Blog articles
 
+- [How cold is too cold to ride a motorcycle?](https://www.moto-log.app/blog/how-cold-is-too-cold-to-ride-a-motorcycle): There is no single cut-off, but riding gets noticeably riskier below about 5°C and seriously risky near freezing, when ice becomes likely. Here is how to judge the day, the road and yourself.
 - [How accurate is a motorcycle odometer?](https://www.moto-log.app/blog/how-accurate-is-a-motorcycle-odometer): A standard motorcycle odometer is usually within a few per cent of the real distance, and far closer than the speedometer. Here is how to check yours and when the error actually matters.
 - [How long do motorcycle brake pads last?](https://www.moto-log.app/blog/how-long-do-motorcycle-brake-pads-last): Most motorcycle brake pads last somewhere between 10,000 and 30,000 km, but how you ride matters more than the number. Here is how to work out when yours will be due.
 - [How many miles a year is average on a motorcycle?](https://www.moto-log.app/blog/average-motorcycle-mileage-per-year): Most leisure riders cover somewhere around 3,000 to 5,000 km (2,000 to 3,000 miles) a year, while commuters often do three times that. Here is what is typical and why it matters for servicing.
